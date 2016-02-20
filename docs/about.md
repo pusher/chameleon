@@ -1,6 +1,6 @@
 # About
 
-### <a id="introduction"></a>Introduction
+### Introduction
 
 Chameleon is a collection of patterns and front-end files that are used across the front-end of Pusher's products. The long-term goal, is to slowly migrate our existing repos (splash, dash, blog etc), to use one code base.
 
@@ -36,7 +36,7 @@ In order to compile a usable `.button` class, the class should be written to inh
 
 ```scss
 .button {
-  @extend %button
+  @extend %button;
 }
 ```
 
