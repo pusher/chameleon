@@ -12,7 +12,7 @@ CSS is a super easy language to write, which makes it very hard to manage. Chame
 
 ------
 
-## Sass Layout
+## Sass
 ### General layout of the repo
 
 Patterns are developed using placeholder selectors (which aren't compiled). The benefit of this, is that when the library is included in a project, only selective components will be compiled.
@@ -38,4 +38,20 @@ In order to compile a usable `.button` class, the class should be written to inh
 .button {
   @extend %button
 }
+```
+
+### Variables
+
+In order to avoid confusion with project specific variables, Chameleon variables have been prefixed with `PUSHER`.
+
+```scss
+$PUSHER-font-weight-light: 200;
+...
+$PUSHER-color-primary: #6EC8FB;
+```
+
+Pattern specific patterns are then namespaced with `PUSHER` and the pattern name:
+
+```
+$PUSHERmodal-max-width: 640px;
 ```
