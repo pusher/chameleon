@@ -55,3 +55,29 @@ Pattern specific patterns are then namespaced with `PUSHER` and the pattern name
 ```
 $PUSHERmodal-max-width: 640px;
 ```
+
+## Adding patterns
+### What should be added?
+
+If a pattern is, or is likely to be, repeated across several projects (splash, dash, blog, demos etc.), then it's probably worth adding it here. Only the highlevel pattern should be added.
+
+### Format
+
+As patterns are likely to be used across platforms, only the very base styles should be added. Where possible, margins and transforms shouldn't be used. Moving a pattern up by `10px` here, will affect it everywhere where it is referenced.
+
+Project level changes to patterns should be made in the project itself.
+
+### BEM
+Patterns should inherit the [BEM](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/) methodology. Likewise, the pattern scope class should be free of any context bias. For example:
+
+```scss
+// Bad - The pattern name shouldn't reference the context in which the pattern is used.
+.sidebar-widget-navigation {
+  ...
+}
+
+// Good
+.secondary-nav-block {
+  ...
+}
+```
