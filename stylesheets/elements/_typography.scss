@@ -1,0 +1,9 @@
+%h1 {
+  @extend %PUSHER-font-weight-bold;
+  font-size: 30px;
+}
+
+%h2 {
+  @extend %PUSHER-font-weight-medium;
+  font-size: 24px;
+}

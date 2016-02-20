@@ -1,0 +1,37 @@
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+// Typography
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+// Font Weights
+
+$PUSHER-font-weight-extra-light: 100;
+$PUSHER-font-weight-thin: 200;
+$PUSHER-font-weight-light: 300;
+$PUSHER-font-weight-regular: 400;
+$PUSHER-font-weight-medium: 500;
+$PUSHER-font-weight-bold: 600;
+
+%PUSHER-font-weight-extra-light {
+  font-weight: $PUSHER-font-weight-extra-light;
+}
+
+%PUSHER-font-weight-thin {
+  font-weight: $PUSHER-font-weight-thin;
+}
+
+%PUSHER-font-weight-light {
+  font-weight: $PUSHER-font-weight-light;
+}
+
+%PUSHER-font-weight-regular {
+  font-weight: $PUSHER-font-weight-regular;
+}
+
+%PUSHER-font-weight-medium {
+  font-weight: $PUSHER-font-weight-medium;
+}
+
+%PUSHER-font-weight-bold {
+  font-weight: $PUSHER-font-weight-bold;
+}

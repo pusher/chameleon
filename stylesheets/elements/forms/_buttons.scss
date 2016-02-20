@@ -1,0 +1,49 @@
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+// Buttons
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%button {
+  @extend %PUSHER-font-weight-light;
+
+  border-radius: 3px;
+  box-shadow: none;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 15px;
+  margin: 0;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+  transition: all .2s ease-in-out;
+}
+
+%button--primary {
+  background: $PUSHER-color-primary;
+  border: 1px solid darken($PUSHER-color-primary, 10%);
+}
+
+%button--secondary {
+  background: $PUSHER-color-secondary;
+  border: 1px solid darken($PUSHER-color-secondary, 10%);
+}
+
+%button--delete {
+  background: $PUSHER-color-delete;
+  border: 1px solid darken($PUSHER-color-delete, 10%);
+}
+
+%button--success {
+  background: $PUSHER-color-success;
+  border: 1px solid darken($PUSHER-color-success, 10%);
+}
+
+// .button {
+//   @extend %button;
+
+//   &--primary {
+//     @extend %button--primary;
+//   }
+// }

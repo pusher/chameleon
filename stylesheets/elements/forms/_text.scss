@@ -1,0 +1,17 @@
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+// Form Text Input
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%form__text {
+  width: 100%;
+  height: 35px;
+  background: #fff;
+  border: 1px solid #d4d4d4;
+  padding: 5px 20px;
+  font-size: 15px;
+  border-radius: 3px;
+}
+
+// .form__text {
+//   @extend %form__text;
+// }
