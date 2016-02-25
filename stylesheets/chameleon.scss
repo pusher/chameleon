@@ -11,12 +11,20 @@
 @import 'modules/utilities';
 
 @import 'modules/normalize';
-
+@import 'modules/base';
 
 @import 'components/demo';
 @import 'components/boards';
+
+// Form Elements
 @import 'elements/forms/buttons';
+@import 'elements/forms/field';
 @import 'elements/forms/text';
+@import 'elements/forms/select';
+
+// Other
+@import 'elements/code';
+// Typography
 @import 'elements/typography';
 
 // FOR DEVELOPMENT TESTING ONLY
