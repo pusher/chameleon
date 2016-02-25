@@ -12,6 +12,11 @@
 
 
 @import 'components/demo';
+@import 'components/boards';
 @import 'elements/forms/buttons';
 @import 'elements/forms/text';
 @import 'elements/typography';
+
+// FOR DEVELOPMENT TESTING ONLY
+// DO NOT COMMIT WITH THIS IMPORT OPEN
+// @import 'test_patterns/test';

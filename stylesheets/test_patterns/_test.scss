@@ -1,0 +1,24 @@
+.board {
+  @extend %board;
+
+  &--double-padding {
+    @extend %board--double-padding;
+  }
+}
+
+
+h1 {
+  @extend %h1;
+}
+
+h2 {
+  @extend %h2;
+}
+
+.button {
+  @extend %button;
+
+  &--google {
+    @extend %button--google;
+  }
+}
