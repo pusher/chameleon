@@ -2,10 +2,15 @@
 // Typography
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
+// Base
 $PUSHER-base-font-size: 16px;
+$PUSHER-font-smoothing: true;
+
+// Font Families
+$PUSHER-font-family-primary: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$PUSHER-font-family-code: Consolas, Monaco, 'Andale Mono', monospace;
 
 // Font Weights
-
 $PUSHER-font-weight-extra-light: 100;
 $PUSHER-font-weight-thin: 200;
 $PUSHER-font-weight-light: 300;
@@ -36,8 +41,3 @@ $PUSHER-font-weight-bold: 600;
 %PUSHER-font-weight-bold {
   font-weight: $PUSHER-font-weight-bold;
 }
-
-
-// Font Smoothing
-
-$PUSHER-font-smoothing: true;

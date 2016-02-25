@@ -1,0 +1,22 @@
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+// Code Snippet
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%code {
+  background: #f4f7f9;
+  border-radius: 3px;
+  color: #000;
+  direction: ltr;
+  font-family: $PUSHER-font-family-code;
+  hyphens: none;
+  max-width: 100%;
+  overflow: auto;
+  padding: 12px;
+  position: relative;
+  tab-size: 4;
+  text-align: left;
+  text-shadow: 0 1px #fff;
+  white-space: pre;
+  word-break: normal;
+  word-spacing: normal;
+}
