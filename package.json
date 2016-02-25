@@ -1,6 +1,6 @@
 {
   "name": "pusher_chameleon",
-  "repository": "https://github.com/pusher/pusher_chameleon",
+  "repository": "https://github.com/pusher/chameleon",
   "version": "0.1.1",
   "main": "index.js",
   "devDependencies": {
