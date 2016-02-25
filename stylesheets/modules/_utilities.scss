@@ -7,5 +7,17 @@
 }
 
 .u-pull-right {
-  float: leftl
+  float: right;
+}
+
+%clearfix {
+  &:before,
+  &:after {
+    content: ' ';
+    display: table;
+  }
+
+  &:after {
+    clear: both;
+  }
 }
