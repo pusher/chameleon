@@ -1,0 +1,15 @@
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+// Call-to-action Stripe
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+
+%cta-stripe {
+  background-color: #27343d;
+  background-image: file-url('cta-stripe.png');
+  background-position: center top;
+  background-repeat: no-repeat;
+  color: #f0f5f6;
+  min-height: 270px;
+  width: 100%;
+  padding: 60px 0 0;
+  text-align: center;
+}
