@@ -9,37 +9,37 @@
 $PUSHERboard-padding: 20px;
 $PUSHERboard-background-color-primary: #fff;
 
-%board {
+.board {
   background: $PUSHERboard-background-color-primary;
   padding: $PUSHERboard-padding 0;
   position: relative;
   width: 100%;
 }
 
-%board--double-padding {
+.board--double-padding {
   padding-top: ($PUSHERboard-padding * 2);
   padding-bottom: ($PUSHERboard-padding * 2);
 }
 
-%board--half-padding {
+.board--half-padding {
   padding-top: ($PUSHERboard-padding / 2);
   padding-bottom: ($PUSHERboard-padding / 2);
 }
 
-%board--no-padding {
+.board--no-padding {
   padding: 0;
 }
 
-%board--no-bottom-padding {
+.board--no-bottom-padding {
   padding-top: $PUSHERboard-padding;
   padding-bottom: 0;
 }
 `
-%board--no-top-padding {
+.board--no-top-padding {
   padding-top: 0;
   padding-bottom: $PUSHERboard-padding;
 }
 
-%board--100vh {
+.board--100vh {
   height: 100vh;
 }
