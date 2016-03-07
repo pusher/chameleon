@@ -21,4 +21,8 @@ h2 {
   &--google {
     @extend %button--google;
   }
+
+  &--primary {
+    @extend %button--primary;
+  }
 }
