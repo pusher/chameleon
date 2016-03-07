@@ -7,37 +7,62 @@ $PUSHER-base-font-size: 16px;
 $PUSHER-font-smoothing: true;
 
 // Font Families
-$PUSHER-font-family-primary: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$PUSHER-font-family-primary: 'Rajdhani', Helvetica, Arial, sans-serif;
+$PUSHER-font-family-secondary: 'PT Mono', monospace;
 $PUSHER-font-family-code: Consolas, Monaco, 'Andale Mono', monospace;
 
+%PUSHER-font-family-primary {
+  font-family: $PUSHER-font-family-primary;
+}
+
+%PUSHER-font-family-secondary {
+  font-family: $PUSHER-font-family-secondary;
+}
+
 // Font Weights
-$PUSHER-font-weight-extra-light: 100;
-$PUSHER-font-weight-thin: 200;
-$PUSHER-font-weight-light: 300;
-$PUSHER-font-weight-regular: 400;
-$PUSHER-font-weight-medium: 500;
-$PUSHER-font-weight-bold: 600;
+$PUSHER-font-weight-primary-extra-light: 100;
+$PUSHER-font-weight-primary-thin: 200;
+$PUSHER-font-weight-primary-light: 300;
+$PUSHER-font-weight-primary-regular: 400;
+$PUSHER-font-weight-primary-medium: 500;
+$PUSHER-font-weight-primary-bold: 600;
 
-%PUSHER-font-weight-extra-light {
-  font-weight: $PUSHER-font-weight-extra-light;
+%PUSHER-font-weight-primary-extra-light {
+  font-weight: $PUSHER-font-weight-primary-extra-light;
 }
 
-%PUSHER-font-weight-thin {
-  font-weight: $PUSHER-font-weight-thin;
+%PUSHER-font-weight-primary-thin {
+  font-weight: $PUSHER-font-weight-primary-thin;
 }
 
-%PUSHER-font-weight-light {
-  font-weight: $PUSHER-font-weight-light;
+%PUSHER-font-weight-primary-light {
+  font-weight: $PUSHER-font-weight-primary-light;
 }
 
-%PUSHER-font-weight-regular {
-  font-weight: $PUSHER-font-weight-regular;
+%PUSHER-font-weight-primary-regular {
+  font-weight: $PUSHER-font-weight-primary-regular;
 }
 
-%PUSHER-font-weight-medium {
-  font-weight: $PUSHER-font-weight-medium;
+%PUSHER-font-weight-primary-medium {
+  font-weight: $PUSHER-font-weight-primary-medium;
 }
 
-%PUSHER-font-weight-bold {
-  font-weight: $PUSHER-font-weight-bold;
+%PUSHER-font-weight-primary-bold {
+  font-weight: $PUSHER-font-weight-primary-bold;
+}
+
+$PUSHER-font-weight-secondary-light: 300;
+$PUSHER-font-weight-secondary-regular: 400;
+$PUSHER-font-weight-secondary-bold: 600;
+
+%PUSHER-font-weight-secondary-light {
+  font-weight: $PUSHER-font-weight-secondary-light;
+}
+
+%PUSHER-font-weight-secondary-regular {
+  font-weight: $PUSHER-font-weight-secondary-regular;
+}
+
+%PUSHER-font-weight-secondary-bold {
+  font-weight: $PUSHER-font-weight-secondary-bold;
 }

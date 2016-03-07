@@ -2,25 +2,24 @@
 // Buttons
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
-$PUSHERbutton-padding-top-bottom: 10px;
-$PUSHERbutton-padding-left-right: 30px;
-
 %button {
-  @extend %PUSHER-font-weight-light;
+  @extend %PUSHER-font-weight-secondary-bold;
+  @extend %PUSHER-font-family-secondary;
 
-  border-radius: 3px;
   box-shadow: none;
   color: #fff;
+  border: 0;
   cursor: pointer;
+  height: 35px;
   display: inline-block;
-  font-size: 12px;
-  line-height: 15px;
+  font-size: 14px;
+  line-height: 1em;
   margin: 0;
-  padding: $PUSHERbutton-padding-top-bottom $PUSHERbutton-padding-left-right;
+  padding: 10px 30px;
   position: relative;
   text-align: center;
   text-decoration: none;
-  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+  text-shadow: 0 1px 0 rgba(0, 0, 0, .1);
   transition: all .2s ease-in-out;
   user-select: none;
   appearance: none;
@@ -32,7 +31,14 @@ $PUSHERbutton-padding-left-right: 30px;
 
 %button--primary {
   background: $PUSHER-color-primary;
-  border: 1px solid darken($PUSHER-color-primary, 10%);
+
+  &:hover {
+    background: lighten($PUSHER-color-primary, 2%);
+  }
+
+  &:active {
+    background: darken($PUSHER-color-primary, 2%);
+  }
 }
 
 %button--secondary {
@@ -50,10 +56,12 @@ $PUSHERbutton-padding-left-right: 30px;
   border: 1px solid darken($PUSHER-color-success, 10%);
 }
 
+
 %button--with-icon {
-  padding-left: ($PUSHERbutton-padding-left-right + 20px);
+  padding-left: 50px;
 
   &:before {
+    content: "";
     width: 16px;
     height: 16px;
     display: inline-block;

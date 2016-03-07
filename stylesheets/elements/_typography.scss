@@ -1,14 +1,23 @@
 %h1 {
-  @extend %PUSHER-font-weight-bold;
-  font-size: rem-calc(30px);
+  @extend %PUSHER-font-family-primary;
+  @extend %PUSHER-font-weight-primary-regular;
+  font-size: rem-calc(50px);
+  line-height: 1.2em;
+
+  strong {
+    @extend %PUSHER-font-weight-primary-bold;
+  }
 }
 
 %h2 {
-  @extend %PUSHER-font-weight-medium;
-  font-size: rem-calc(24px);
+  @extend %PUSHER-font-family-primary;
+  @extend %PUSHER-font-weight-primary-medium;
+  font-size: rem-calc(28px);
+  line-height: 1.15em;
 }
 
 p {
-  @extend %PUSHER-font-weight-regular;
+  @extend %PUSHER-font-weight-primary-regular;
   font-size: rem-calc(16px);
+  line-height: 1.4em;
 }
