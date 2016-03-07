@@ -10,36 +10,41 @@ $PUSHERboard-padding: 20px;
 $PUSHERboard-background-color-primary: #fff;
 
 .board {
-  background: $PUSHERboard-background-color-primary;
+  background-color: $PUSHERboard-background-color-primary;
   padding: $PUSHERboard-padding 0;
   position: relative;
   width: 100%;
+
+  &--double-padding {
+    padding-top: ($PUSHERboard-padding * 2);
+    padding-bottom: ($PUSHERboard-padding * 2);
+  }
+
+  &--half-padding {
+    padding-top: ($PUSHERboard-padding / 2);
+    padding-bottom: ($PUSHERboard-padding / 2);
+  }
+
+  &--no-padding {
+    padding: 0;
+  }
+
+  &--no-bottom-padding {
+    padding-top: $PUSHERboard-padding;
+    padding-bottom: 0;
+  }
+
+  &--no-top-padding {
+    padding-top: 0;
+    padding-bottom: $PUSHERboard-padding;
+  }
+
+  &--100vh {
+    height: 100vh;
+  }
+
+  &--black {
+    background-color: $PUSHER-color-black;
+  }
 }
 
-.board--double-padding {
-  padding-top: ($PUSHERboard-padding * 2);
-  padding-bottom: ($PUSHERboard-padding * 2);
-}
-
-.board--half-padding {
-  padding-top: ($PUSHERboard-padding / 2);
-  padding-bottom: ($PUSHERboard-padding / 2);
-}
-
-.board--no-padding {
-  padding: 0;
-}
-
-.board--no-bottom-padding {
-  padding-top: $PUSHERboard-padding;
-  padding-bottom: 0;
-}
-
-.board--no-top-padding {
-  padding-top: 0;
-  padding-bottom: $PUSHERboard-padding;
-}
-
-.board--100vh {
-  height: 100vh;
-}
