@@ -1,0 +1,37 @@
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+// Stat Box
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+
+.statistic {
+  position: relative;
+  width: 100%;
+
+  &__subtitle,
+  &__stat,
+  &__copy {
+    @extend %PUSHER-font-family-secondary;
+  }
+
+  &__subtitle {
+    font-size: rem-calc(14px);
+    color: #fff;
+    display: block;
+  }
+
+  &__stat,
+  &__copy {
+    display: inline-block;
+  }
+
+  &__stat {
+    @extend %PUSHER-font-weight-secondary-regular;
+    color: $PUSHER-color-primary;
+    font-size: rem-calc(64px);
+  }
+
+  &__copy {
+    @extend %PUSHER-font-weight-secondary-bold;
+    color: #fff;
+    font-size: rem-calc(14px);
+  }
+}
