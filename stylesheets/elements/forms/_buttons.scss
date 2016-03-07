@@ -2,7 +2,7 @@
 // Buttons
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
-%button {
+.button {
   @extend %PUSHER-font-weight-secondary-bold;
   @extend %PUSHER-font-family-secondary;
 
@@ -29,7 +29,7 @@
   }
 }
 
-%button--primary {
+.button--primary {
   background: $PUSHER-color-primary;
 
   &:hover {
@@ -41,23 +41,23 @@
   }
 }
 
-%button--secondary {
+.button--secondary {
   background: $PUSHER-color-secondary;
   border: 1px solid darken($PUSHER-color-secondary, 10%);
 }
 
-%button--delete {
+.button--delete {
   background: $PUSHER-color-delete;
   border: 1px solid darken($PUSHER-color-delete, 10%);
 }
 
-%button--success {
+.button--success {
   background: $PUSHER-color-success;
   border: 1px solid darken($PUSHER-color-success, 10%);
 }
 
 
-%button--with-icon {
+.button--with-icon {
   padding-left: 50px;
 
   &:before {
@@ -73,7 +73,7 @@
   }
 }
 
-%button--google {
+.button--google {
   @extend %button--with-icon;
 
   &:before {
