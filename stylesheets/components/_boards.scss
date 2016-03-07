@@ -34,8 +34,27 @@ $PUSHERboard-background-color-primary: #fff;
   padding-top: $PUSHERboard-padding;
   padding-bottom: 0;
 }
-
+`
 %board--no-top-padding {
   padding-top: 0;
   padding-bottom: $PUSHERboard-padding;
+}
+
+%board--100vh {
+  height: 100vh;
+}
+
+%board--black {
+  background: $PUSHER-color-black;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  span,
+  p {
+    color: $PUSHER-color-white;
+  }
 }
