@@ -1,0 +1,17 @@
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+// Form Groups
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+
+.fieldset {
+  overflow: auto;
+  border: 0;
+  padding: 0;
+  margin: 0;
+
+  .form__select,
+  .form__text,
+  .form__button {
+    float: left;
+    width: auto;
+  }
+}

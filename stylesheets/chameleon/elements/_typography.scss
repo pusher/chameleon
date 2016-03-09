@@ -16,8 +16,29 @@
   line-height: 1.15em;
 }
 
-p {
+.title-shoutout {
+  @extend %PUSHER-font-family-primary;
   @extend %PUSHER-font-weight-primary-regular;
-  font-size: rem-calc(16px);
+  font-size: rem-calc(36px);
+  line-height: 1.3em;
+}
+
+p {
+  @extend %PUSHER-font-family-primary;
+  @extend %PUSHER-font-weight-primary-medium;
+  font-size: rem-calc(18px);
   line-height: 1.4em;
+}
+
+a {
+  color: $PUSHER-color-primary;
+}
+
+.title-block {
+  padding: 20px 0;
+}
+
+.faked-link {
+  @extend %PUSHER-font-family-secondary;
+  @extend %PUSHER-font-weight-secondary-bold;
 }

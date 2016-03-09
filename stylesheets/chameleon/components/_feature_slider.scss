@@ -1,0 +1,46 @@
+.feature-slider {
+  position: relative;
+
+  &__nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+    height: 50px;
+
+    li {
+      @extend %PUSHER-font-family-primary;
+      @extend %PUSHER-font-weight-primary-bold;
+      float: left;
+      padding: 0 10px;
+      font-size: rem-calc(18px);
+      color: #8898b3;
+
+      &.current {
+        text-decoration: underline;
+        color: #fff;
+      }
+
+      &:hover {
+        color: #fff;
+      }
+
+      &:first-of-type {
+        padding-left: 0;
+      }
+    }
+  }
+
+  &__content {
+    width: 100%;
+
+    &__container {
+      display: none;
+      position: relative;
+
+      &.current {
+        display: block;
+      }
+    }
+  }
+}

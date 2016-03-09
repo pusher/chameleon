@@ -46,6 +46,11 @@
   border: 1px solid darken($PUSHER-color-secondary, 10%);
 }
 
+.button--ghosted {
+  background: transparent;
+  border: 1px solid $PUSHER-color-white;
+}
+
 .button--delete {
   background: $PUSHER-color-delete;
   border: 1px solid darken($PUSHER-color-delete, 10%);

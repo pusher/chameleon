@@ -21,3 +21,12 @@
     clear: both;
   }
 }
+
+.va-contents {
+  display: flex;
+  align-items: center;
+}
+
+.dev-branding {
+  background-color: $PUSHER-color-developer-primary;
+}

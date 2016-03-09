@@ -5,6 +5,7 @@
 .statistic {
   position: relative;
   width: 100%;
+  overflow: auto;
 
   &__subtitle,
   &__stat,
@@ -27,11 +28,14 @@
     @extend %PUSHER-font-weight-secondary-regular;
     color: $PUSHER-color-primary;
     font-size: rem-calc(64px);
+    letter-spacing: -3px;
   }
 
   &__copy {
     @extend %PUSHER-font-weight-secondary-bold;
     color: #fff;
     font-size: rem-calc(14px);
+    line-height: 1.4em;
+    padding-left: 10px;
   }
 }

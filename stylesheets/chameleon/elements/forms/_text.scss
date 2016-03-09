@@ -3,15 +3,18 @@
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
 .form__text {
+  @extend %PUSHER-font-family-primary;
   width: 100%;
   height: 35px;
-  background: #fff;
-  border: 1px solid #d4d4d4;
-  padding: 5px 20px;
-  font-size: 15px;
-  border-radius: 3px;
-}
+  background: transparent;
+  border: 1px solid #444b4e;
+  padding: 8px 20px;
+  font-size: rem-calc(13px);
+  color: #fff;
+  transition: border 200ms ease-in-out;
 
-// .form__text {
-//   @extend %form__text;
-// }
+  &:focus {
+    outline: 0;
+    border: 1px solid $PUSHER-color-primary;
+  }
+}

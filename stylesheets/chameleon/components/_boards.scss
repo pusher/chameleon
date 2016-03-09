@@ -6,7 +6,7 @@
 // padding and margins can be added globally.
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
-$PUSHERboard-padding: 20px;
+$PUSHERboard-padding: 80px;
 $PUSHERboard-background-color-primary: #fff;
 
 .board {
@@ -41,6 +41,7 @@ $PUSHERboard-background-color-primary: #fff;
 
   &--100vh {
     height: 100vh;
+    max-height: 800px;
   }
 
   &--black {
