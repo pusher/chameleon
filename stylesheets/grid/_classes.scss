@@ -20,7 +20,8 @@
   $uncollapse: 'uncollapse',
   $offset: 'offset',
   $end: 'end',
-  $expanded: 'expanded'
+  $expanded: 'expanded',
+  $class-prefix: 'grid__'
 ) {
   // Row
   .#{$row} {
@@ -82,17 +83,17 @@
   @include -zf-each-breakpoint {
     @for $i from 1 through $grid-column-count {
       // Column width
-      .#{$-zf-size}-#{$i} {
+      .#{$class-prefix}#{$-zf-size}-#{$i} {
         @include grid-col-size($i);
       }
 
       // Source ordering
       @if $i < $grid-column-count {
-        .#{$-zf-size}-#{$push}-#{$i} {
+        .#{$class-prefix}#{$-zf-size}-#{$push}-#{$i} {
           @include grid-col-pos($i);
         }
 
-        .#{$-zf-size}-#{$pull}-#{$i} {
+        .#{$class-prefix}#{$-zf-size}-#{$pull}-#{$i} {
           @include grid-col-pos(-$i);
         }
       }
@@ -100,20 +101,20 @@
       // Offsets
       $o: $i - 1;
 
-      .#{$-zf-size}-#{$offset}-#{$o} {
+      .#{$class-prefix}#{$-zf-size}-#{$offset}-#{$o} {
         @include grid-col-off($o);
       }
     }
 
     // Block grid
     @for $i from 1 through $block-grid-max {
-      .#{$-zf-size}-up-#{$i} {
+      .#{$class-prefix}#{$-zf-size}-up-#{$i} {
         @include grid-layout($i, ".#{$column}");
       }
     }
 
     // Responsive collapsing
-    .#{$-zf-size}-#{$collapse} {
+    .#{$class-prefix}#{$-zf-size}-#{$collapse} {
       > .#{$column} { @include grid-col-collapse; }
 
       .#{$row} {
@@ -122,21 +123,21 @@
       }
     }
 
-    .#{$-zf-size}-#{$uncollapse} {
+    .#{$class-prefix}#{$-zf-size}-#{$uncollapse} {
       $gutter: -zf-get-bp-val($grid-column-gutter, $-zf-size);
 
       > .#{$column} { @include grid-col-uncollapse($gutter); }
     }
 
     // Positioning
-    .#{$-zf-size}-#{$center} {
+    .#{$class-prefix}#{$-zf-size}-#{$center} {
       @include grid-col-pos(center);
     }
 
     // Gutter adjustment
-    .#{$-zf-size}-#{$uncenter},
-    .#{$-zf-size}-#{$push}-0,
-    .#{$-zf-size}-#{$pull}-0 {
+    .#{$class-prefix}#{$-zf-size}-#{$uncenter},
+    .#{$class-prefix}#{$-zf-size}-#{$push}-0,
+    .#{$class-prefix}#{$-zf-size}-#{$pull}-0 {
       @include grid-col-unpos;
     }
   }
