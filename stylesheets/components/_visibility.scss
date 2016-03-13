@@ -57,7 +57,7 @@
   }
 }
 
-@mixin foundation-visibility-classes {
+@mixin CHAMELEON-visibility-classes {
   // Basic hiding classes
   .hide {
     display: none !important;
@@ -85,21 +85,6 @@
 
     .show-for-#{$size}-only {
       @include show-for-only($size);
-    }
-  }
-
-  // Screen reader visibility classes
-  // Need a "hide-for-sr" class? Add aria-hidden='true' to the element
-  .show-for-sr,
-  .show-on-focus {
-    @include element-invisible;
-  }
-
-  // Only display the element when it's focused
-  .show-on-focus {
-    &:active,
-    &:focus {
-      @include element-invisible-off;
     }
   }
 
