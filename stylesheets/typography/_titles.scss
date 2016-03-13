@@ -4,25 +4,37 @@
   }
 
   .title-primary {
-    font-size: rem-calc(50px);
+    font-size: rem-calc(38px);
     font-weight: 500;
     line-height: 1.2em;
 
     strong {
       font-weight: 600;
     }
+
+    @media #{$medium-up} {
+      font-size: rem-calc(50px);
+    }
   }
 
   .title-secondary {
-    font-size: rem-calc(28px);
+    font-size: rem-calc(24px);
     line-height: 1.15em;
     font-weight: 500;
+
+    @media #{$medium-up} {
+      font-size: rem-calc(28px);
+    }
   }
 
   .title-shoutout {
-    font-size: rem-calc(36px);
+    font-size: rem-calc(31px);
     font-weight: 400;
     line-height: 1.3em;
     text-align: center;
+
+    @media #{$medium-up} {
+      font-size: rem-calc(36px);
+    }
   }
 }
