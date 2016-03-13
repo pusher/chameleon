@@ -1,0 +1,17 @@
+@mixin chameleon-typography-helpers {
+  .color-dark {
+    color: $color-black;
+  }
+
+  .color-light {
+    color: $color-white;
+  }
+
+  .text-align-center {
+    text-align: center;
+  }
+
+  .text-align-right {
+    text-align: right;
+  }
+}

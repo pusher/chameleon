@@ -1,0 +1,20 @@
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+// Form Select Input
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+
+@mixin CHAMELEON-forms-select {
+  .form__select {
+    appearance: none !important;
+    background-color: #fff;
+    background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxzdmcgd2lkdGg9IjEwcHgiIGhlaWdodD0iNnB4IiB2aWV3Qm94PSIwIDAgMTAgNiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWxuczpza2V0Y2g9Imh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaC9ucyI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDMuNC4xICgxNTY4MSkgLSBodHRwOi8vd3d3LmJvaGVtaWFuY29kaW5nLmNvbS9za2V0Y2ggLS0+CiAgICA8dGl0bGU+YW5nbGU8L3RpdGxlPgogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+CiAgICA8ZGVmcz48L2RlZnM+CiAgICA8ZyBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIiBza2V0Y2g6dHlwZT0iTVNQYWdlIj4KICAgICAgICA8ZyBpZD0iYW5nbGUiIHNrZXRjaDp0eXBlPSJNU0xheWVyR3JvdXAiIGZpbGw9IiMwMDAwMDAiPgogICAgICAgICAgICA8cmVjdCBpZD0iUmVjdGFuZ2xlLTEiIHNrZXRjaDp0eXBlPSJNU1NoYXBlR3JvdXAiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDYuODYxOTE1LCAyLjg2MTkxNSkgcm90YXRlKC00NS4wMDAwMDApIHRyYW5zbGF0ZSgtNi44NjE5MTUsIC0yLjg2MTkxNSkgIiB4PSIzLjQ0MjE4ODEiIHk9IjIuMjM0MjgyOSIgd2lkdGg9IjYuODM5NDUzODEiIGhlaWdodD0iMS4yNTUyNjQyMSI+PC9yZWN0PgogICAgICAgICAgICA8cmVjdCBpZD0iUmVjdGFuZ2xlLTEtQ29weS0yIiBza2V0Y2g6dHlwZT0iTVNTaGFwZUdyb3VwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyLjg2MTkxNSwgMi44NjE5MTUpIHJvdGF0ZSgtMzE1LjAwMDAwMCkgdHJhbnNsYXRlKC0yLjg2MTkxNSwgLTIuODYxOTE1KSAiIHg9Ii0wLjU1NzgxMTkwNCIgeT0iMi4yMzQyODI5IiB3aWR0aD0iNi44Mzk0NTM4MSIgaGVpZ2h0PSIxLjI1NTI2NDIxIj48L3JlY3Q+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4=");
+    background-position: calc(100% - 10px) center;
+    background-repeat: no-repeat;
+    border-radius: 3px;
+    border: 1px solid #d4d4d4;
+    font-size: 15px;
+    height: 35px;
+    padding: 5px 20px 5px 10px;
+    text-transform: none;
+    width: 100%;
+  }
+}

@@ -1,0 +1,43 @@
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+// Stat Box
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+
+@mixin CHAMELEON-stat-box {
+  .c-statistic {
+    position: relative;
+    width: 100%;
+    overflow: auto;
+
+    &__subtitle,
+    &__stat,
+    &__copy {
+      @extend %font-family-secondary;
+    }
+
+    &__subtitle {
+      font-size: rem-calc(14px);
+      color: #fff;
+      display: block;
+    }
+
+    &__stat,
+    &__copy {
+      display: inline-block;
+    }
+
+    &__stat {
+      color: $color-primary;
+      font-size: rem-calc(64px);
+      font-weight: 500;
+      letter-spacing: -3px;
+    }
+
+    &__copy {
+      color: #fff;
+      font-size: rem-calc(14px);
+      font-weight: 600;
+      line-height: 1.4em;
+      padding-left: 10px;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+// Form Text Field
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+
+@mixin CHAMELEON-forms-field {
+  .form__field {
+    width: 100%;
+    position: relative;
+  }
+}

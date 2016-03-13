@@ -5,7 +5,7 @@ require "pusher_chameleon/version"
 Gem::Specification.new do |s|
   s.name         = "pusher_chameleon"
   s.version      = PusherChameleon::VERSION
-  s.summary      = 'Gem wrapper around Chameleon to integrate with Rails'
+  s.summary      = 'Chameleon Core - Pusher front-end asset library'
   s.authors      = ['Alex Pate']
   s.email        = 'alex.pate@pusher.com'
   s.homepage     = 'https://github.com/pusher/chameleon'

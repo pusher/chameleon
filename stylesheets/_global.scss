@@ -1,0 +1,63 @@
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+// Global Variables & Styles
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+
+$global-font-size: 100% !default;
+
+$global-font-smoothing: true !default;
+
+$global-width: 1400px !default;
+$global-left: left;
+$global-right: right;
+
+$color-palette: (
+  primary: #549eff,
+  secondary: #977fda,
+  developer: #ff914b,
+  success: #43ac6a,
+  warning: #ffae00,
+  alert: #b74a48,
+) !default;
+
+$color-white: #ffffff !default;
+$color-black: #2b303b!default;
+
+$color-primary: map-get($color-palette, primary);
+$color-secondary: map-get($color-palette, secondary);
+$color-developer: map-get($color-palette, developer);
+$color-success: map-get($color-palette, success);
+$color-warning: map-get($color-palette, warning);
+$color-alert: map-get($color-palette, alert);
+
+$font-family-primary: 'Rajdhani', Helvetica, Arial, sans-serif !default;
+$font-family-secondary: 'PT Mono', monospace !default;
+$font-family-monospace: 'Consolas', Monaco, 'Andale Mono', monospace !default;
+
+%font-family-primary {
+  font-family: $font-family-primary;
+}
+
+%font-family-secondary {
+  font-family: $font-family-secondary;
+}
+
+
+$breakpoints: (
+  grid__small: 0,
+  grid__medium: 640px,
+  grid__large: 1024px,
+  grid__xlarge: 1200px,
+  grid__xxlarge: 1440px,
+);
+
+$breakpoint-classes: (grid__small grid__medium grid__large);
+
+$grid-row-width: $global-width;
+$grid-column-count: 12;
+$grid-column-gutter: (
+  grid__small: 20px,
+  grid__medium: 30px,
+);
+
+$grid-column-align-edge: true;
+$block-grid-max: 8;

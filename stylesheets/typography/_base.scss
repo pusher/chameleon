@@ -1,0 +1,54 @@
+@mixin chameleon-typography-base {
+  div,
+  dl,
+  dt,
+  dd,
+  ul,
+  ol,
+  li,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  pre,
+  form,
+  p,
+  blockquote,
+  th,
+  td {
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    color: $color-primary;
+  }
+
+  p,
+  ul li {
+    font-size: rem-calc(18px);
+    line-height: 1.4em;
+  }
+
+  .faked-link {
+    @extend %font-family-secondary;
+    font-weight: 600;
+    position: relative;
+    padding-right: 10px;
+
+    &:after {
+      content: '»';
+      color: inherit;
+      right: -5px;
+      transform: translateX(0);
+      transition: transform 200ms ease-in-out;
+      position: absolute;
+    }
+
+    &:hover:after {
+      transform: translateX(5px);
+    }
+  }
+}

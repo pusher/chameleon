@@ -1,0 +1,69 @@
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+// Signpost
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+
+@mixin CHAMELEON-signpost {
+  .c-signpost {
+    position: relative;
+    width: 100%;
+
+    &__left,
+    &__right {
+      height: 400px;
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+
+    &__left:before,
+    &__right:after {
+      position: absolute;
+      top: 0;
+      width: 100px;
+      height: 100%;
+      content: "";
+    }
+
+    &__left {
+      background: $color-primary;
+      z-index: 4;
+      padding: 50px 200px 50px 0 !important;
+
+      &:before {
+        transform: translateX(-100px);
+        background: $color-primary;
+        left: 0;
+      }
+
+      &:after {
+        display: block;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 20px 30px 0 0;
+        border-color: darken($color-primary, 15%) transparent transparent transparent;
+        content: "";
+        bottom: -20px;
+        right: 0;
+        position: absolute;
+      }
+    }
+
+    &__right {
+      background: $color-white;
+      transform: translate3d(-30px, 20px, 0);
+      z-index: 3;
+      padding: 50px 200px 50px 90px !important;
+
+      &:after {
+        background: $color-white;
+        right: 0;
+        transform: translateX(100px);
+      }
+    }
+
+    p {
+      margin: 20px 0;
+    }
+  }
+}

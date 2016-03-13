@@ -1,5 +1,4 @@
 node_modules/
 .sass-cache
 dist/
-testing_ground/
 stylesheets/test_patterns/

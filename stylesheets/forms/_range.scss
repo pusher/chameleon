@@ -1,0 +1,110 @@
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+// Form Range Field
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+
+@mixin CHAMELEON-forms-range {
+  .form__range {
+    -webkit-appearance: none;
+    width: 100%;
+
+    &:focus {
+      outline: none;
+    }
+
+    %track {
+      background-color: darken(#f4f7f9, 25%);
+      border-radius: 5px;
+      cursor: pointer;
+      height: 6px;
+      transition: all 200ms ease-in-out;
+      width: 100%;
+    }
+
+    %thumb {
+      background: #fff;
+      border-radius: 50%;
+      border: 1px solid darken(#f4f7f9, 20%);
+      cursor: pointer;
+      height: 20px;
+      width: 20px;
+    }
+
+    &::-moz-range-track {
+      background-color: darken(#fff, 25%);
+      border-radius: 5px;
+      cursor: pointer;
+      height: 6px;
+      transition: all 200ms ease-in-out;
+      width: 100%;
+    }
+
+    &::-webkit-slider-runnable-track {
+      background-color: darken(#fff, 25%);
+      border-radius: 5px;
+      cursor: pointer;
+      height: 6px;
+      transition: all 200ms ease-in-out;
+      width: 100%;
+    }
+
+    &:focus::-webkit-slider-runnable-track {
+      background: darken(#a1b4c2, 5%);
+    }
+
+    &::-ms-track {
+      background: transparent;
+      border-color: transparent;
+      border-width: 30px 0;
+      color: transparent;
+      cursor: pointer;
+      height: 10px;
+      transition: all 200ms ease-in-out;
+      width: 100%;
+    }
+
+    &::-ms-fill-lower,
+    &::-ms-fill-upper {
+      box-shadow: 2px 2px 2px #222;
+      background: darken(#424242, 5%);
+      border: 1px solid #000;
+      border-radius: 5px * 2;
+    }
+
+    &::-ms-thumb {
+      background: #fff;
+      border-radius: 50%;
+      border: 1px solid darken(#f4f7f9, 20%);
+      cursor: pointer;
+      height: 20px;
+      width: 20px;
+    }
+
+    &::-moz-range-thumb {
+      background: #fff;
+      border-radius: 50%;
+      border: 1px solid darken(#f4f7f9, 20%);
+      cursor: pointer;
+      height: 20px;
+      width: 20px;
+    }
+
+    &::-webkit-slider-thumb {
+      background: #fff;
+      border-radius: 50%;
+      border: 1px solid darken(#f4f7f9, 20%);
+      cursor: pointer;
+      height: 20px;
+      width: 20px;
+      -webkit-appearance: none;
+      margin-top: -8px;
+    }
+
+    &:focus::-ms-fill-lower {
+      background: #424242;
+    }
+
+    &:focus::-ms-fill-upper {
+      background: lighten(#424242, 5%);
+    }
+  }
+}

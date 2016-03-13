@@ -1,0 +1,15 @@
+@import 'buttons';
+@import 'field';
+@import 'fieldset';
+@import 'range';
+@import 'select';
+@import 'text';
+
+@mixin CHAMELEON-forms {
+  @include CHAMELEON-forms-buttons;
+  @include CHAMELEON-forms-field;
+  @include CHAMELEON-forms-fieldset;
+  @include CHAMELEON-forms-range;
+  @include CHAMELEON-forms-select;
+  @include CHAMELEON-forms-text;
+}
