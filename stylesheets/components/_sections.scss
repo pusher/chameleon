@@ -44,14 +44,27 @@ $section-background-color-primary: #fff;
     &--100vh {
       height: 100vh;
       max-height: 800px;
-      background: linear-gradient(to top, rgba(darken($color-black, 10%), .8), $color-black),url("home/landing_page/pattern_test.png");
-      // background: url('home/landing_page/pattern_test.png');
-      // background-size: 50%;
-      // background-size: cover;
     }
 
     &--black {
       background-color: $color-black;
+    }
+
+    &--feature {
+      height: 100vh;
+      max-height: 600px;
+      background: linear-gradient(to top, rgba(darken($color-black, 10%), .8), $color-black),url("home/landing_page/pattern_test.png");
+      // background: url('home/landing_page/pattern_test.png');
+      // background-size: 50%;
+      // background-size: cover;
+      text-align: left;
+
+      @media #{$medium-up} {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        max-height: 800px;
+      }
     }
   }
 }
