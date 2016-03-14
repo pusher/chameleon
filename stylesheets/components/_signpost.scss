@@ -9,10 +9,16 @@
 
     &__left,
     &__right {
-      height: 400px;
+      height: 300px;
       position: relative;
       display: flex;
       align-items: center;
+      padding: 40px 20px;
+
+      @media #{$large-up} {
+        height: 400px;
+      }
+
     }
 
     &__left:before,
@@ -22,12 +28,16 @@
       width: 100px;
       height: 100%;
       content: "";
+      display: none;
+
+      @media #{$large-up} {
+        display: block;
+      }
     }
 
     &__left {
       background: $color-primary;
       z-index: 4;
-      padding: 50px 200px 50px 0 !important;
 
       &:before {
         transform: translateX(-100px);
@@ -36,7 +46,7 @@
       }
 
       &:after {
-        display: block;
+        display: none;
         width: 0;
         height: 0;
         border-style: solid;
@@ -46,14 +56,22 @@
         bottom: -20px;
         right: 0;
         position: absolute;
+
+        @media #{$large-up} {
+          display: inline;
+        }
       }
     }
 
     &__right {
       background: $color-white;
-      transform: translate3d(-30px, 20px, 0);
       z-index: 3;
-      padding: 50px 200px 50px 90px !important;
+
+      @media #{$large-up} {
+        transform: translate3d(-30px, 20px, 0);
+        padding: 50px 200px 50px 90px !important;
+      }
+
 
       &:after {
         background: $color-white;
