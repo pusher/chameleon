@@ -37,6 +37,8 @@
     font-weight: 600;
     position: relative;
     padding-right: 10px;
+    margin: 10px 0;
+    display: inline-block;
 
     &:after {
       content: '»';
