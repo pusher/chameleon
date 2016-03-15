@@ -2,11 +2,16 @@
 // Stat Box
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
-@mixin CHAMELEON-stat-box {
+@mixin CHAMELEON-statistic {
   .c-statistic {
     position: relative;
     width: 100%;
     overflow: auto;
+    padding: 20px 0;
+
+    @media #{$medium-up} {
+      padding: 0;
+    }
 
     &__subtitle,
     &__stat,
@@ -14,10 +19,16 @@
       @extend %font-family-secondary;
     }
 
-    &__subtitle {
-      font-size: rem-calc(14px);
+
+    &__subtitle,
+    &__copy {
+      font-size: rem-calc(12px);
       color: #fff;
       display: block;
+
+      @media #{$medium-up} {
+        font-size: rem-calc(14px);
+      }
     }
 
     &__stat,
@@ -25,16 +36,22 @@
       display: inline-block;
     }
 
+    &__subtitle {
+      display: block;
+    }
+
     &__stat {
       color: $color-primary;
-      font-size: rem-calc(64px);
+      font-size: rem-calc(44px);
       font-weight: 500;
       letter-spacing: -3px;
+
+      @media #{$medium-up} {
+        font-size: rem-calc(64px);
+      }
     }
 
     &__copy {
-      color: #fff;
-      font-size: rem-calc(14px);
       font-weight: 600;
       line-height: 1.4em;
       padding-left: 10px;

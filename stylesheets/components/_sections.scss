@@ -51,12 +51,10 @@ $section-background-color-primary: #fff;
     }
 
     &--feature {
-      height: 100vh;
+      height: calc(100vh - 200px);
       max-height: 600px;
+      min-height: 400px;
       background: linear-gradient(to top, rgba(darken($color-black, 10%), .8), $color-black),url("home/landing_page/pattern_test.png");
-      // background: url('home/landing_page/pattern_test.png');
-      // background-size: 50%;
-      // background-size: cover;
       text-align: left;
 
       @media #{$medium-up} {

@@ -9,7 +9,7 @@
     self.defaults = {
       speed: 100,
       // baseClass: 'js-cycle',
-      baseClass: 'feature-slider'
+      baseClass: 'c-feature-slider'
     }
 
     self.$context = self;
@@ -22,7 +22,7 @@
     }
     
     self.handlers = function() {
-      self.navList.find('li').on("click", function() {
+      self.navList.find('li[data-cycle]').on("click", function() {
         self.changeCycle($(this).data("cycle"));
       });
     }
