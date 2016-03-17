@@ -3,7 +3,7 @@
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
 @mixin CHAMELEON-forms-range {
-  .form__range {
+  input[type="range"] {
     -webkit-appearance: none;
     width: 100%;
 

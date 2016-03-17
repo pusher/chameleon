@@ -26,8 +26,13 @@
   //   }
   // }
 
-  .align-vertical-center {
+  .u-vertical-align {
     display: flex;
     align-items: center;
+  }
+
+  .u-horizontal-align {
+    display: flex;
+    justify-content: center;
   }
 }

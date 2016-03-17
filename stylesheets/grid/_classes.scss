@@ -21,7 +21,8 @@
   $offset: 'offset',
   $end: 'end',
   $expanded: 'expanded',
-  $class-prefix: 'grid__'
+  $class-prefix: 'grid__',
+  $class-modifier: 'grid--'
 ) {
   // Row
   .#{$row} {
@@ -38,14 +39,14 @@
     & & {
       @include grid-row-nest($grid-column-gutter);
 
-      &.#{$collapse} {
+      &.#{$class-modifier}#{$collapse} {
         margin-left: 0;
         margin-right: 0;
       }
     }
 
     // Expanded (full-width) row
-    &.#{$expanded} {
+    &.#{$class-modifier}#{$expanded} {
       max-width: none;
 
       .#{$row} {
@@ -60,7 +61,7 @@
     @include grid-col;
 
     @if $grid-column-align-edge {
-      &.#{$end} {
+      &.#{$class-modifier}#{$end} {
         @include grid-col-end;
       }
     }

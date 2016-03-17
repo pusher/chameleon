@@ -6,10 +6,24 @@
 // padding and margins can be added globally.
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
-$section-padding: 80px;
+$section-padding: 40px;
 $section-background-color-primary: #fff;
 
 @mixin CHAMELEON-sections {
+
+  %content-light {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    span,
+    p {
+      color: $color-white;
+    }
+  }
+
   .c-section {
     background-color: $section-background-color-primary;
     padding: $section-padding 0;
@@ -47,14 +61,15 @@ $section-background-color-primary: #fff;
     }
 
     &--black {
+      @extend %content-light;
       background-color: $color-black;
     }
 
     &--feature {
       height: calc(100vh - 200px);
-      max-height: 600px;
-      min-height: 400px;
-      background: linear-gradient(to top, rgba(darken($color-black, 10%), .8), $color-black),url("home/landing_page/pattern_test.png");
+      max-height: 700px;
+      min-height: 600px;
+      background: linear-gradient(to top, rgba(darken($color-black, 10%), .6), $color-black),url("home/landing_page/pattern_test.png");
       text-align: left;
 
       @media #{$medium-up} {

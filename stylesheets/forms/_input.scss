@@ -2,8 +2,9 @@
 // Form Text Input
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
-@mixin CHAMELEON-forms-text {
-  .form__text {
+@mixin CHAMELEON-forms-input {
+  input[type="text"],
+  input[type="email"] {
     @extend %font-family-primary;
     width: 100%;
     height: 35px;
@@ -17,6 +18,11 @@
     &:focus {
       outline: 0;
       border: 1px solid $color-primary;
+    }
+
+    &.error {
+      border-color: $color-alert;
+      border-width: 1px;
     }
   }
 }

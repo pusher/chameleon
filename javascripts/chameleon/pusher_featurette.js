@@ -23,17 +23,31 @@
     
     self.handlers = function() {
       self.navList.find('li[data-cycle]').on("click", function() {
-        self.changeCycle($(this).data("cycle"));
+        self.removeCurrent();
+        self.addCurrent($(this).data("cycle"));
       });
     }
-    
-    self.changeCycle = function(nextItemToShow) {
-      self.$context.find("." + self.options.baseClass + "__content ." + self.options.baseClass + "__content__container.current").removeClass('current');
-      self.$context.find("." + self.options.baseClass + "__nav li.current").removeClass('current');
-      self.$context.find("." + self.options.baseClass + "__content ." + self.options.baseClass + "__content__container[data-cycle='" + nextItemToShow + "']").addClass("current");
-      self.$context.find("." + self.options.baseClass + "__nav li[data-cycle='" + nextItemToShow + "']").addClass("current");
+
+    self.removeCurrent = function() {
+      self.$context
+      .find("." + self.options.baseClass + "__content ." + self.options.baseClass + "__content__container.current")
+      .removeClass('current animating-out');
+
+      self.$context
+      .find("." + self.options.baseClass + "__nav li.current")
+      .removeClass('current');
     }
     
+    self.addCurrent = function(nextItemToShow) {
+      self.$context
+      .find("." + self.options.baseClass + "__content ." + self.options.baseClass + "__content__container[data-cycle='" + nextItemToShow + "']")
+      .addClass("current");
+
+      self.$context
+      .find("." + self.options.baseClass + "__nav li[data-cycle='" + nextItemToShow + "']")
+      .addClass("current");
+    }
+
     return self.init();
   }
 

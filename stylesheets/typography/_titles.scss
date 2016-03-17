@@ -3,10 +3,11 @@
     padding: 20px 0;
   }
 
-  .title-primary {
+  h1 {
     font-size: rem-calc(38px);
     font-weight: 500;
-    line-height: 1.2em;
+    line-height: 1em;
+    margin-bottom: 5px;
 
     strong {
       font-weight: 600;
@@ -17,7 +18,7 @@
     }
   }
 
-  .title-secondary {
+  h2 {
     font-size: rem-calc(24px);
     line-height: 1.15em;
     font-weight: 500;
@@ -27,14 +28,16 @@
     }
   }
 
-  .title-shoutout {
+  .shoutout {
     font-size: rem-calc(31px);
     font-weight: 400;
     line-height: 1.3em;
-    text-align: center;
+    text-align: left;
 
     @media #{$medium-up} {
       font-size: rem-calc(36px);
+      text-align: center;
+      
     }
   }
 }

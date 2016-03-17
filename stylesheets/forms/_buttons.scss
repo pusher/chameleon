@@ -3,19 +3,20 @@
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
 @mixin CHAMELEON-forms-buttons {
-  .c-btn {
+  .e-btn {
     @extend %font-family-secondary;
 
     box-shadow: none;
     color: #fff;
     border: 0;
     cursor: pointer;
-    height: 35px;
+    height: 40px;
     display: inline-block;
     font-size: 14px;
+    font-weight: 600;
     line-height: 1em;
     margin: 0;
-    padding: 10px 30px;
+    padding: 12px 35px;
     position: relative;
     text-align: center;
     text-decoration: none;
@@ -28,6 +29,39 @@
       outline: 0;
     }
 
+    &--tertiary {
+      font-weight: 400;
+      color: inherit;
+      padding-right: 10px;
+
+      @media #{$medium-up} {
+        font-size: rem-calc(14px);
+      }
+
+      &:after {
+        content: '»';
+        color: inherit;
+        right: -5px;
+        transform: translateX(0) scale(.8);
+        transition: transform 300ms cubic-bezier(0.155, 1.105, 0.295, 1.12);
+        position: absolute;
+      }
+
+      &:hover:after {
+        transform: translateX(5px) scale(1);
+      }
+    }
+
+    &--disabled {
+      cursor: default;
+      opacity: .7;
+      background: #d4d4d4;
+      border: 1px solid darken(#d4d4d4, 10%);
+      color: #444444;
+      text-shadow: none;
+    }
+
+
     @each $name, $color in $color-palette {
       &--#{$name} {
         background-color: $color;
@@ -38,7 +72,7 @@
         }
 
         &:active {
-          background-color: darken($color-primary, 2%);
+          background-color: darken($color, 2%);
         }
 
         @if $name == primary {
@@ -71,7 +105,7 @@
     }
   }
 
-  .c-btn--google {
+  .e-btn--google {
     @extend %btn--with-icon;
     background: #fff;
     color: #898989;
@@ -86,5 +120,26 @@
       border-color: darken($color-primary, 4%);
       color: #fff;
     }
+  }
+
+  .e-btn--with-loading {
+    padding-right: 50px;
+
+    &:after {
+      display: block; 
+      content: "";
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPiAgPGNpcmNsZSBjbGFzcz0icGF0aCIgY3g9IjEwIiBjeT0iMTAiIHI9IjgiIGZpbGw9Im5vbmUiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjciIHN0cm9rZS1kYXNoYXJyYXk9IjQwIiBzdHJva2U9IiNmZmZmZmYiLz48L3N2Zz4=);
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      right: 10px;
+      top: 6px;
+      animation: spin 500ms linear infinite;
+    }
+  }
+
+  @keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
   }
 }

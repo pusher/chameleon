@@ -6,6 +6,11 @@
   .c-code {
     width: 100%;
     position: relative;
+    margin-bottom: 20px;
+    
+    @media #{$medium-up} {
+      margin-bottom: 0;
+    }
 
     &__nav {
       width: 100%;
@@ -33,10 +38,9 @@
 
         li {
           color: #fff;
-          font-size: rem-calc(11px);
+          font-size: rem-calc(13px);
           font-weight: 600;
           text-align: center;
-          text-transform: uppercase;
           text-shadow: 0 0 1px rgba(0, 0, 0, .05);
           width: auto;
           float: right;
@@ -51,6 +55,7 @@
 
           &.current {
             background-color: darken($color-black, 5%);
+            border-top: 2px solid $color-developer;
           }
         }
       }

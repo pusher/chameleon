@@ -3,7 +3,7 @@
 @import 'fieldset';
 @import 'range';
 @import 'select';
-@import 'text';
+@import 'input';
 
 @mixin CHAMELEON-forms {
   @include CHAMELEON-forms-buttons;
@@ -11,5 +11,5 @@
   @include CHAMELEON-forms-fieldset;
   @include CHAMELEON-forms-range;
   @include CHAMELEON-forms-select;
-  @include CHAMELEON-forms-text;
+  @include CHAMELEON-forms-input;
 }

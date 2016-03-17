@@ -11,21 +11,30 @@
       padding: 0;
       list-style: none;
       display: block;
-      height: 50px;
-      text-align: center;
+      overflow: auto;
+      text-align: left;
       // Placed on the parent to stop selection of white-space.
       user-select: none;
+
+      @media #{$medium-up} {
+        text-align: center;
+      }
 
       li {
         @extend %font-family-primary;
         float: none;
-        padding: 0 10px;
+        padding: 5px 0;
         font-size: rem-calc(17px);
         color: #8898b3;
         cursor: pointer;
-        display: inline;
+        display: block;
         position: relative;
         font-weight: 600;
+
+        @media #{$medium-up} {
+          display: inline;
+          padding: 0 10px;
+        }
 
         &:after {
           width: 0%;
@@ -34,9 +43,13 @@
           content: "";
           bottom: -4px;
           left: 10px;
-          display: block;
+          display: none;
           position: absolute;
           transition: width 250ms cubic-bezier(0.155, 1.0, 0.295, 1.0);
+
+          @media #{$medium-up} {
+            display: block;
+          }
         }
 
         &.current {
@@ -78,9 +91,14 @@
         display: none;
         position: relative;
         min-height: 400px;
+        transform: translateX(70px);
+        opacity: 0;
+        transition: all 400ms ease-in-out;
 
         &.current {
           display: block;
+          opacity: 1;
+          transform: translateX(0);
           
           .grid .grid__columns:first-of-type {
             display: flex;
