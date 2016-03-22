@@ -2,14 +2,32 @@
 // Global Variables & Styles
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
-$global-font-size: 100% !default;
-
-$global-font-smoothing: true !default;
-
+// Layout & Grid
 $global-width: 1200px !default;
 $global-left: left;
 $global-right: right;
 
+$breakpoints: (
+  small: 0,
+  medium: 640px,
+  large: 1024px,
+  xlarge: 1200px,
+  xxlarge: 1440px,
+) !default;
+
+$breakpoint-classes: (small medium large) !default;
+
+$grid-row-width: $global-width;
+$grid-column-count: 12 !default;
+$grid-column-gutter: (
+  small: 20px,
+  medium: 30px,
+) !default;
+
+$grid-column-align-edge: true;
+$block-grid-max: 8;
+
+// Colours
 $color-palette: (
   primary: #549eff,
   secondary: #977fda,
@@ -20,7 +38,7 @@ $color-palette: (
 ) !default;
 
 $color-white: #ffffff !default;
-$color-black: #2b303b!default;
+$color-black: #2b303b !default;
 
 $color-primary: map-get($color-palette, primary);
 $color-secondary: map-get($color-palette, secondary);
@@ -28,6 +46,10 @@ $color-developer: map-get($color-palette, developer);
 $color-success: map-get($color-palette, success);
 $color-warning: map-get($color-palette, warning);
 $color-alert: map-get($color-palette, alert);
+
+// Typography
+$global-font-size: 100% !default;
+$global-font-smoothing: true !default;
 
 $font-family-primary: 'Rajdhani', Helvetica, Arial, sans-serif !default;
 $font-family-secondary: 'PT Mono', monospace !default;
@@ -42,22 +64,3 @@ $font-family-monospace: 'Consolas', Monaco, 'Andale Mono', monospace !default;
 }
 
 
-$breakpoints: (
-  small: 0,
-  medium: 640px,
-  large: 1024px,
-  xlarge: 1200px,
-  xxlarge: 1440px,
-);
-
-$breakpoint-classes: (small medium large);
-
-$grid-row-width: $global-width;
-$grid-column-count: 12;
-$grid-column-gutter: (
-  small: 20px,
-  medium: 30px,
-);
-
-$grid-column-align-edge: true;
-$block-grid-max: 8;

@@ -1,12 +1,12 @@
 // - - - - - - - - - - - - - - - - - - - - - - - - -
-// Sections (previously boards)
+// Sections
 //
 // Sections are a way of splitting content into
 // horizontal slabs. The benefit of this, is that
 // padding and margins can be added globally.
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
-$section-padding: 40px;
+$section-padding: 50px;
 $section-background-color-primary: #fff;
 
 @mixin CHAMELEON-sections {
@@ -30,6 +30,7 @@ $section-background-color-primary: #fff;
     position: relative;
     width: 100%;
     overflow: auto;
+    overflow-x: hidden;
 
     &--double-padding {
       padding-top: ($section-padding * 2);

@@ -31,34 +31,4 @@
     font-size: rem-calc(18px);
     line-height: 1.4em;
   }
-
-  .faked-link {
-    @extend %font-family-secondary;
-    font-weight: 400;
-    color: inherit;
-    font-size: rem-calc(14px);
-    position: relative;
-    padding-right: 10px;
-    margin: 10px 0;
-    display: inline-block;
-    text-decoration: none;
-
-    @media #{$medium-up} {
-      font-size: rem-calc(14px);
-    }
-
-    &:after {
-      content: '»';
-      color: inherit;
-      right: -5px;
-      transform: translateX(0) scale(.8);
-      transition: transform 300ms cubic-bezier(0.155, 1.105, 0.295, 1.12);
-      position: absolute;
-    }
-
-    &:hover:after {
-      transform: translateX(5px) scale(1);
-    }
-
-  }
 }

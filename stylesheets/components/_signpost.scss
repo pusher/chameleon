@@ -9,7 +9,6 @@
 
     &__left,
     &__right {
-      height: 300px;
       position: relative;
       display: flex;
       align-items: center;
@@ -91,12 +90,8 @@
 
     &__square {
       @media #{$large-up} {
-        padding: 50px 60px 50px 90px !important;
+        padding: 50px 20px 50px 90px !important;
       }
-    }
-
-    p {
-      margin: 20px 0;
     }
 
     &__color-white {
@@ -108,9 +103,15 @@
 
     &__color-developer {
       background-color: $color-developer;
+      background-image: image-url('pattern_1.png');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
 
       &:after {
         border-color: darken($color-developer, 16%) transparent transparent transparent;
+        background-position: calc(100% - 44px) center;
+        background-size: cover;
       }
     }
 
