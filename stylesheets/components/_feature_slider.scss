@@ -27,14 +27,12 @@
         font-size: rem-calc(17px);
         color: #8898b3;
         cursor: pointer;
-        display: block;
+        display: inline;
         position: relative;
-        font-weight: 600;
+        font-weight: 400;
+        display: inline;
+        padding: 0 10px;
 
-        @media #{$medium-up} {
-          display: inline;
-          padding: 0 10px;
-        }
 
         &:after {
           width: 0%;
@@ -54,6 +52,7 @@
 
         &.current {
           color: #fff;
+          font-weight: 600;
 
           &:after {
             width: 100%;
@@ -94,6 +93,7 @@
         transform: translateX(70px);
         opacity: 0;
         transition: all 400ms ease-in-out;
+        padding-top: 60px;
 
         &.current {
           display: block;
@@ -101,8 +101,14 @@
           transform: translateX(0);
           
           .grid .grid__columns:first-of-type {
-            display: flex;
-            align-items: center;
+            display: block;
+            height: auto;
+
+            @media #{$medium-up} {
+              display: flex;
+              align-items: center;
+              height: 420px;
+            }
           }
         }
       }

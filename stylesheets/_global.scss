@@ -49,7 +49,7 @@ $color-alert: map-get($color-palette, alert);
 
 // Typography
 $global-font-size: 100% !default;
-$global-font-smoothing: true !default;
+$global-font-smoothing: false !default;
 
 $font-family-primary: 'Rajdhani', Helvetica, Arial, sans-serif !default;
 $font-family-secondary: 'PT Mono', monospace !default;

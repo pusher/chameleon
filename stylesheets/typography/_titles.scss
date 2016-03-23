@@ -5,12 +5,12 @@
 
   h1 {
     font-size: rem-calc(38px);
-    font-weight: 500;
+    font-weight: 400;
     line-height: 1em;
     margin-bottom: 5px;
 
     strong {
-      font-weight: 600;
+      font-weight: 500;
     }
 
     @media #{$medium-up} {
@@ -21,7 +21,7 @@
   h2 {
     font-size: rem-calc(24px);
     line-height: 1.15em;
-    font-weight: 500;
+    font-weight: 400;
 
     @media #{$medium-up} {
       font-size: rem-calc(28px);
