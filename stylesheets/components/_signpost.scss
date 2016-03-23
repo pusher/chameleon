@@ -102,15 +102,16 @@
     }
 
     &__color-developer {
-      background-color: $color-developer;
-      background-image: image-url('pattern_1.png');
+      background-color: #23D2C3;
+      background-image: image-url('test_developer_bg2.jpg');
       background-repeat: no-repeat;
       background-position: center center;
       background-size: cover;
 
+
       &:after {
         border-color: darken($color-developer, 16%) transparent transparent transparent;
-        background-position: calc(100% - 44px) center;
+        background-position: calc(100% + 78px) center;
         background-size: cover;
       }
     }
