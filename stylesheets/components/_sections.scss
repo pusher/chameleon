@@ -65,21 +65,5 @@ $section-background-color-primary: #fff;
       @extend %content-light;
       background-color: $color-black;
     }
-
-    &--feature {
-      height: calc(100vh - 200px);
-      max-height: 700px;
-      min-height: 600px;
-      background: linear-gradient(to top, rgba(darken($color-black, 10%), .6), $color-black), file-url("home/landing_page/grid-pattern.png");
-      text-align: left;
-
-      @media #{$medium-up} {
-        text-align: center;
-        display: flex;
-        align-items: center;
-        max-height: 800px;
-        overflow: hidden;
-      }
-    }
   }
 }
