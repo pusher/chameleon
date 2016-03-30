@@ -32,11 +32,10 @@
         display: inline;
         padding: 0 10px;
 
-
         &:after {
           width: 0%;
           background: rgba(255, 255, 255, .6);
-          height: 2px;
+          height: 1px;
           content: "";
           bottom: -4px;
           left: 10px;
@@ -56,6 +55,7 @@
           &:after {
             width: 100%;
             width: calc(100% - 20px);
+            height: 2px;
           }
 
           &:first-of-type:after {
@@ -63,8 +63,15 @@
           }
         }
 
-        &:hover {
-          color: #fff;
+        &:hover:not(.link-out) {
+          &:after {
+            width: 100%;
+            width: calc(100% - 20px);
+          }
+
+          &:first-of-type:after {
+            width: calc(100% - 10px);
+          }
         }
 
         &:first-of-type {
