@@ -5,7 +5,7 @@ require "jekyll"
 
 
 # Change your GitHub reponame
-GITHUB_REPONAME = "pusher/chameleon-docs"
+GITHUB_REPONAME = "pusher/chameleon"
 
 
 namespace :site do
