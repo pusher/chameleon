@@ -7,27 +7,8 @@ environment: production
 # Base
 # ==================
 url: "https://pusher.github.io/chameleon-docs"
-title: Pusher Chameleon
-gitrepo: https://github.com/pusher/chameleon
 
 # Build settings
-markdown: kramdown
-
-gems: [jekyll-assets, rouge, autoprefixer-rails, kramdown]
-
-exclude: [
-  "Gemfile",
-  "Gemfile.lock",
-  "Rakefile"
-]
-
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-  css_class: highlight
-
-pygments:
-  options: ['startinline']
 
 assets:
   baseurl: https://pusher.github.io/chameleon-docs

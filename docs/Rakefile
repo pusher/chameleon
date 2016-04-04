@@ -14,7 +14,7 @@ namespace :site do
     Jekyll::Site.new(Jekyll.configuration({
       "source"      => ".",
       "destination" => "_site",
-      "config"     => "_config.production.yml"
+      "config"     => ["_config.yml","_config.production.yml"]
     })).process
   end
 
