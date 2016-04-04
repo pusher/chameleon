@@ -1,0 +1,20 @@
+{% for category in site.categories %}
+  <h5>{{ category | first | capitalize }}</h5>
+    <ul>
+    {% for posts in category %}
+      {% for post in posts %}
+        {% if page.url == post.url %}
+          <li class="current"><a href="{{ post.url | prepend: site.url }}">{{ post.title }}</a></li>
+        {% else %}
+          <li><a href="{{ post.url | prepend: site.url }}">{{ post.title }}</a></li>
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+    </ul>
+  </li>
+{% endfor %}
+<a href="{{ site.gitrepo }}">
+  <span class="icon">
+    {% include icon-github.svg %}
+  </span>Chameleon v1.3
+</a>

@@ -1,0 +1,141 @@
+.docs {
+  margin-top: 80px;
+  padding-bottom: 50px;
+
+  &__aside {
+
+    margin-top: 80px;
+
+    h5 {
+      font-size: 17px;
+      font-weight: 600;
+      color: #232323;
+      margin-bottom: 5px;
+    }
+
+    ul {
+      list-style: none;
+      margin: 0 0 20px;
+      padding: 0;
+
+      li {
+        font-size: 17px;
+        font-weight: 400;
+        color: #8a8a8a;
+        line-height: 1.2em;
+        margin-bottom: 5px;
+        border-left: 0;
+        transition: all 100ms ease-in-out;
+        padding-left: 0;
+
+        &:hover:not(.current) {
+          padding-left: 7px;
+        }
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .current {
+        border-left: 2px solid $color-primary;
+        padding-left: 5px;
+      }
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .icon {
+      width: 20px;
+      height: 20px;
+      display: inline;
+
+      svg {
+        fill: #828282;
+      }
+
+      &:hover {
+        fill: #212121;
+      }
+    }
+  }
+}
+
+.pattern {
+  margin: 20px 0;
+
+  .grid {
+    margin-bottom: 20px;    
+  }
+
+  .grid__columns > .grid-block {
+    min-height: 50px;
+    background-color: #eee;
+    text-align: center;
+    padding: 18px 4px;
+    font-size: 14px;
+    line-height: 1.2em;
+  }
+
+  .cb-color {
+    position: relative;
+    min-height: 80px;
+    padding: 40px 0;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.2em;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+
+  .cb-var {
+    width: 100%;
+    height: 40px;
+    border: 1px dashed #ccc;
+    border-top: 0;
+    text-align: center;
+    font-size: 15px;
+    padding: 12px 0;
+  }
+  
+  .cb-primary {
+    background-color: $color-primary;
+  }
+
+  .cb-secondary {
+    background-color: $color-secondary;
+  }
+
+
+  .cb-developer {
+    background-color: $color-developer;
+  }
+
+  .cb-white {
+    background-color: $color-white;
+    color: $color-black;
+  }
+
+  .cb-off-white {
+    background-color: $color-off-white;
+    color: $color-black;
+  }
+
+  .cb-black {
+    background-color: $color-black;
+  }
+
+  .flex-block {
+    width: 100%;
+    height: 220px;
+    background-color: #eee;
+  }
+}
+
+.post-header {
+  height: 60px;
+  margin-bottom: 20px;
+}
