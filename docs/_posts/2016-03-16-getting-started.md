@@ -13,9 +13,10 @@ Create a new `chameleon_and_globals.scss` file in your sass directory, and add t
 
 ```scss
 @import 'chameleon';
+@include CHAMELEON-base;
 ```
 
-This will bring in the core chameleon file. However to reduce bloat, not all patterns are included by default. You can now include the relevant mixins required for your project.
+This will bring in the core chameleon file, and the base styles (reset and box model). However to reduce bloat, not all patterns are included by default. You can now include the relevant mixins required for your project.
 
 For example, if you only required the grid, typography, and form patterns:
 
