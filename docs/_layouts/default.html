@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+<body>
+
+  <div class="docs grid">
+    <aside class="docs__aside grid__medium-3 grid__columns">
+      {% include sidebar.html %}
+    </aside>
+    <main class="docs__content grid__medium-9 grid__columns">
+      {{ content }}
+    </main>
+
+</body>
+
+</html>

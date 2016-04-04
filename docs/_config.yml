@@ -1,0 +1,34 @@
+# ==================
+# Environment
+# ==================
+environment: development
+
+# Site settings
+title: Pusher Chameleon
+gitrepo: https://github.com/pusher/chameleon
+
+# Build settings
+markdown: kramdown
+
+gems: [jekyll-assets, rouge, autoprefixer-rails, kramdown]
+
+exclude: [
+  "Gemfile",
+  "Gemfile.lock"
+]
+
+kramdown:
+    input: GFM
+    syntax_highlighter: rouge
+    css_class: highlight
+
+highlighter:
+    options: ['startinline']
+
+assets:
+  baseurl: http://127.0.0.1:4000/
+  cache: false
+  cachebust: none
+  css_compressor: sass
+  js_compressor: uglifier
+  debug: true
