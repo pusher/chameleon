@@ -6,7 +6,7 @@ environment: production
 # ==================
 # Base
 # ==================
-url: "http://pusher.github.io/chameleon-docs"
+url: "https://pusher.github.io/chameleon-docs"
 title: Pusher Chameleon
 gitrepo: https://github.com/pusher/chameleon
 
@@ -17,7 +17,8 @@ gems: [jekyll-assets, rouge, autoprefixer-rails, kramdown]
 
 exclude: [
   "Gemfile",
-  "Gemfile.lock"
+  "Gemfile.lock",
+  "Rakefile"
 ]
 
 kramdown:
@@ -29,7 +30,7 @@ pygments:
   options: ['startinline']
 
 assets:
-  baseurl: http://pusher.github.io/chameleon-docs
+  baseurl: https://pusher.github.io/chameleon-docs
   cachebust: hard
   debug: false
   css_compressor: sass

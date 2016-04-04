@@ -14,7 +14,8 @@ gems: [jekyll-assets, rouge, autoprefixer-rails, kramdown]
 
 exclude: [
   "Gemfile",
-  "Gemfile.lock"
+  "Gemfile.lock",
+  "Rakefile"
 ]
 
 kramdown:
