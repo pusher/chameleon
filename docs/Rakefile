@@ -1,7 +1,6 @@
 require "rubygems"
 require "tmpdir"
 
-require "bundler/setup"
 require "jekyll"
 
 
