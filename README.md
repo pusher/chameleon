@@ -1,7 +1,8 @@
 # Pusher Chameleon
 
 Chameleon is a library of front-end assets that can be used across Pusher.
-It is heavily based on Foundation for Sites by ZURB.
+
+*Grid and Core taken from Foundation for Sites - Zurb Foundation 2016*
 
 
-### [About](docs/about.md)
+### [Docs](https://pusher.github.io/chameleon)
