@@ -14,10 +14,12 @@
         font-family: $font-family-monospace;
         text-shadow: 0 1px rgba(0, 0, 0, .75);
         font-size: rem-calc(12px);
+        color: $color-off-white;
     }
 
     &--light {
       background: $color-off-white;
+      color: $color-black;
 
       code,
       pre {
