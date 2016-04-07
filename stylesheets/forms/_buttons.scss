@@ -9,6 +9,7 @@
     box-shadow: none;
     color: #fff;
     border: 0;
+    border-radius: 0;
     cursor: pointer;
     height: 40px;
     display: inline-block;
@@ -62,7 +63,6 @@
       text-shadow: none;
     }
 
-
     @each $name, $color in $color-palette {
       &--#{$name} {
         background-color: $color;
@@ -77,6 +77,10 @@
         }
 
         @if $name == primary {
+          &:hover {
+            color: #fff;
+          }
+          
           &.ghosted {
             border: 1px solid #fff;
             background-color: rgba(255, 255, 255, 0);
@@ -89,6 +93,19 @@
             }
           }
         }
+      }
+    }
+
+     &--secondary {
+      background-color: #fff;
+      border: 1px solid #fff;
+      color: $color-primary;
+      text-shadow: none;
+
+      &:hover {
+        background-color: $color-primary;
+        color: #fff;
+        border: 1px solid #fff;
       }
     }
   }
