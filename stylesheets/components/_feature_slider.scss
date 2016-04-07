@@ -91,31 +91,34 @@
 
     &__content {
       width: 100%;
+      position: relative;
+      min-height: 500px;
 
       &__container {
-        display: none;
-        position: relative;
-        min-height: 400px;
-        transform: translateX(70px);
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-height: 500px;
         opacity: 0;
-        transition: all 400ms ease-in-out;
+        visibility: hidden;
+        transition: opacity 350ms ease-in-out, visibility 350ms ease-in-out;
         padding-top: 60px;
 
-        &.current {
-          display: block;
-          opacity: 1;
-          transform: translateX(0);
-          
-          .grid .grid__columns:first-of-type {
-            display: block;
-            height: auto;
+        .grid .grid__columns:first-of-type {
+          height: auto;
 
-            @media #{$medium-up} {
-              display: flex;
-              align-items: center;
-              height: 420px;
-            }
+          @media #{$medium-up} {
+            display: flex;
+            align-items: center;
+            height: 420px;
           }
+        }
+
+        &.current {
+          opacity: 1;
+          visibility: visible;
+           
         }
       }
     }

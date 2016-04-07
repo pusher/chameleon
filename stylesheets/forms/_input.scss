@@ -4,14 +4,18 @@
 
 @mixin CHAMELEON-forms-input {
   input[type="text"],
-  input[type="email"] {
+  input[type="email"],
+  input[type="password"],
+  input[type="phone"] {
     @extend %font-family-primary;
     width: 100%;
     height: 40px;
     background: transparent;
-    border: 1px solid rgba(255, 255, 255, .2);
-    padding: 10px 20px;
-    font-size: rem-calc(13px);
+    border-radius: 0;
+    border: 1px solid rgba(#ddd, .2);
+    padding: 4px 20px;
+    font-size: rem-calc(15px);
+    line-height: 2em;
     color: #fff;
     transition: border 200ms ease-in-out;
 
@@ -23,6 +27,11 @@
     &.error {
       border-color: $color-alert;
       border-width: 1px;
+    }
+
+    &.input--light {
+      border: 1px solid #ccc;
+      color: $color-black;
     }
   }
 }
