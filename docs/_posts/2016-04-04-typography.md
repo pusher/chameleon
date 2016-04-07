@@ -12,25 +12,21 @@ Radjhani is used for titles and copy, whereas PT Mono is used for highlight elem
 There are no base typography classes. Everything is inherited through the heading tags.
 
 <div class="pattern">
-  <h1>H1 - Feature title</h1>
-</div>
-
-``` html
-<h1>H1 - Feature title</h1>
-```
-
-<div class="pattern">
+  <h1>H1 - Page title</h1>
+  <br>
   <h2>H2 - Section title</h2>
-</div>
-
-``` html
-<h2>H2 - Section title</h2>
-```
-
-<div class="pattern">
+  <br>
   <h3>H3 - Section sub-title</h3>
+  <br>
+  <h4>H4 - Paragraph title</h4>
+  <br>
+  <h6>H6 - Heading</h6>
 </div>
 
 ``` html
+<h1>H1 - Page title</h1>
+<h2>H2 - Section title</h2>
 <h3>H3 - Section sub-title</h3>
+<h4>H4 - Paragraph title</h4>
+<h6>H6 - Heading</h6>
 ```
