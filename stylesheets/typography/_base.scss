@@ -27,9 +27,11 @@
   }
 
   p,
-  ul li {
+  ul li,
+  ol li {
     font-size: rem-calc(18px);
     line-height: 1.4em;
+    font-weight: 400;
   }
 
   .p-boosted {
