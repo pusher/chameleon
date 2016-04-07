@@ -29,10 +29,12 @@ For example, if you only required the grid, typography, and form patterns:
 ***
 
 ## Rails
-Add chameleon to your `Gemfile`. (An auth key is required as chameleon is a private repo. Feel free to use the one below).
+Add chameleon to your `Gemfile`.
 
 ```ruby
-gem "pusher_chameleon", :git => "https://d053890360120494d39eae185e62fb33d36263c6:x-oauth-basic@github.com/pusher/chameleon.git"
+source "https://5bb9182f739a0ef54d5c67f760d83a2e087684e86532a0ec:@packagecloud.io/pusher/product" do
+  gem 'pusher_chameleon'
+end"
 ```
 
 ## Jekyll
@@ -40,7 +42,9 @@ gem "pusher_chameleon", :git => "https://d053890360120494d39eae185e62fb33d36263c
 Add chameleon to your `Gemfile`, and to your `config.yml`
 
 ```ruby
-gem "pusher_chameleon", :git => "https://d053890360120494d39eae185e62fb33d36263c6:x-oauth-basic@github.com/pusher/chameleon.git"
+source "https://5bb9182f739a0ef54d5c67f760d83a2e087684e86532a0ec:@packagecloud.io/pusher/product" do
+  gem 'pusher_chameleon'
+end
 ```
 
 ```yaml
