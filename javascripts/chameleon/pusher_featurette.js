@@ -7,15 +7,13 @@
     self._ = 'pusherFeaturette';
 
     self.defaults = {
-      speed: 100,
-      // baseClass: 'js-cycle',
-      baseClass: 'c-feature-slider'
+      speed: 100
     }
 
     self.$context = self;
     self.options = {};
     self.options = $.extend({}, self.defaults, options);
-    self.navList = self.$context.find('.' + self.options.baseClass + "__nav");
+    self.navList = self.$context.find('[data-cycle-nav]');
 
     self.init = function() {
       self.handlers();
@@ -30,21 +28,21 @@
 
     self.removeCurrent = function() {
       self.$context
-      .find("." + self.options.baseClass + "__content ." + self.options.baseClass + "__content__container.current")
-      .removeClass('current animating-out');
+      .find("[data-cycle-container].current")
+      .removeClass('current');
 
-      self.$context
-      .find("." + self.options.baseClass + "__nav li.current")
+      self.navList
+      .find("[data-cycle].current")
       .removeClass('current');
     }
     
     self.addCurrent = function(nextItemToShow) {
       self.$context
-      .find("." + self.options.baseClass + "__content ." + self.options.baseClass + "__content__container[data-cycle='" + nextItemToShow + "']")
+      .find("[data-cycle-container][data-cycle='" + nextItemToShow + "']")
       .addClass("current");
 
-      self.$context
-      .find("." + self.options.baseClass + "__nav li[data-cycle='" + nextItemToShow + "']")
+      self.navList
+      .find("[data-cycle='" + nextItemToShow + "']")
       .addClass("current");
     }
 
