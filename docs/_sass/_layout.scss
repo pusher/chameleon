@@ -89,6 +89,15 @@
     line-height: 1.2em;
     text-align: center;
     border: 1px solid #ddd;
+
+    &:after {
+      position: absolute;
+      width: 100%;
+      height: 20px;
+      text-align: center;
+      left: 0;
+      top: 30px;
+    }
   }
 
   .cb-var {
@@ -103,29 +112,53 @@
   
   .cb-primary {
     background-color: $color-primary;
+
+    &:after {
+      content: "#{$color-primary}";
+    }
   }
 
   .cb-secondary {
     background-color: $color-secondary;
+
+    &:after {
+      content: "#{$color-secondary}";
+    }
   }
 
 
   .cb-developer {
     background-color: $color-developer;
+
+    &:after {
+      content: "#{$color-developer}";
+    }
   }
 
   .cb-white {
     background-color: $color-white;
     color: $color-black;
+
+    &:after {
+      content: "#{$color-white}";
+    }
   }
 
   .cb-off-white {
     background-color: $color-off-white;
     color: $color-black;
+
+    &:after {
+      content: "#{$color-off-white}";
+    }
   }
 
   .cb-black {
     background-color: $color-black;
+
+    &:after {
+      content: "#{$color-black}";
+    }
   }
 
   .flex-block {
