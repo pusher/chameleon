@@ -34,8 +34,13 @@
     font-weight: 400;
   }
 
-  .p-boosted {
-    font-size: rem-calc(20px);
+  .p-boosted,
+  .p-max {
+    font-size: rem-calc(18px);
+  }
+
+  .p-min {
+    font-size: rem-calc(14px);
   }
 
   strong {

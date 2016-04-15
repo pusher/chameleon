@@ -38,8 +38,9 @@ $color-palette: (
 ) !default;
 
 $color-white: #ffffff !default;
-$color-off-white: #f4f7f9 !default;
+$color-off-white: #f4f8fb !default;
 $color-black: #2b303b !default;
+$color-grey-one: #e2e3e5 !default;
 
 $color-primary: map-get($color-palette, primary);
 $color-secondary: map-get($color-palette, secondary);

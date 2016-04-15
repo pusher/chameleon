@@ -51,6 +51,10 @@ $section-background-color-primary: #fff;
       padding-bottom: 0;
     }
 
+    &--double-bottom-padding {
+      padding-bottom: ($section-padding * 2);
+    }
+
     &--no-top-padding {
       padding-top: 0;
       padding-bottom: $section-padding;
