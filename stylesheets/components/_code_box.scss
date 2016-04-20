@@ -22,7 +22,7 @@
       }
 
       &__title {
-        @extend %font-family-secondary;
+        @extend %font-family-primary;
         display: block;
         height: 30px;
         width: 100%;
@@ -49,6 +49,7 @@
         }
 
         li {
+          @extend %font-family-primary;
           color: #fff;
           font-size: rem-calc(13px);
           font-weight: 500;
