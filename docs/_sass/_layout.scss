@@ -66,6 +66,12 @@
 
 .pattern {
   margin: 20px 0;
+  padding: 5px;
+  border-radius: 3px;
+
+  &--dark {
+    background-color: #eee;
+  }
 
   .grid {
     margin-bottom: 20px;    

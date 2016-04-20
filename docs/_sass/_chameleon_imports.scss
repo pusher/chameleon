@@ -1,4 +1,5 @@
 @import '../../stylesheets/chameleon';
+$global-font-smoothing: true;
 
 @include CHAMELEON-base;
 @include CHAMELEON-grid;
