@@ -3,25 +3,36 @@
     padding: 20px 0;
   }
 
+  h1,
+  h2,
+  h3 {
+    @extend %font-family-primary;
+  }
+
   h1 {
     font-size: rem-calc(28px);
-    line-height: 1.2em;
+    line-height: 1.1em;
     font-weight: 400;
+    letter-spacing: -1.4px;
+
+    // Allows page titles to be responsively wrapped with <wbr>
+    white-space: nowrap;
 
     strong {
       font-weight: 500;
     }
 
     @media #{$medium-up} {
-      font-size: rem-calc(40px);
+      font-size: rem-calc(34px);
     }
   }
 
   .feature-title {
     font-size: rem-calc(38px);
-    font-weight: 400;
+    font-weight: 300;
     line-height: 1em;
     margin-bottom: 5px;
+    letter-spacing: -1px;
 
     strong {
       font-weight: 500;
@@ -29,15 +40,17 @@
 
     @media #{$medium-up} {
       font-size: rem-calc(58px);
-      letter-spacing: -1px;
+      letter-spacing: -2px;
     }
   }
 
   h2 {
     font-size: rem-calc(24px);
-    line-height: 1.15em;
+    line-height: 1.25em;
     font-weight: 400;
     color: $color-black;
+    letter-spacing: -2px;
+    white-space: nowrap;
 
     @media #{$medium-up} {
       font-size: rem-calc(28px);
@@ -51,18 +64,27 @@
   }
 
   h4 {
-    font-size: rem-calc(20px);
+    @extend %font-family-secondary;
+    font-size: rem-calc(18px);
     font-weight: 400;
-    line-height: 1.2em;
+    line-height: 1.4em;
+    text-transform: none;
+  }
+
+  h5 {
+    @extend %font-family-primary;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.1em;
   }
 
 
   h6 {
     text-transform: uppercase;
-    font-size: rem-calc(16px);
-    font-weight: 600;
+    font-size: rem-calc(12px);
+    font-weight: 700;
     color: $color-black;
-    line-height: 1.3em;
+    line-height: 1.1em;
   }
 
   .shoutout {

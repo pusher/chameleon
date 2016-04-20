@@ -21,6 +21,9 @@ module PusherChameleon
       File.join assets_path, 'stylesheets'
     end
 
+    def fonts_path
+      File.join assets_path, 'fonts'
+    end
 
     def javascripts_path
       File.join assets_path, 'javascripts'
@@ -60,6 +63,7 @@ module PusherChameleon
     def register_sprockets
       Sprockets.append_path(stylesheets_path)
       Sprockets.append_path(javascripts_path)
+      Sprockets.append_path(fonts_path)
     end
   end
 end

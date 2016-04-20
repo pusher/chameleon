@@ -4,7 +4,7 @@
 
 @mixin CHAMELEON-forms-buttons {
   .e-btn {
-    @extend %font-family-secondary;
+    @extend %font-family-primary;
 
     box-shadow: none;
     color: #fff;
@@ -13,7 +13,7 @@
     cursor: pointer;
     height: 40px;
     display: inline-block;
-    font-size: 14px;
+    font-size: rem-calc(15px);
     font-weight: 600;
     line-height: 1em;
     margin: 0;
@@ -26,6 +26,10 @@
     user-select: none;
     appearance: none;
 
+    &:hover {
+      text-decoration: none;
+    }
+
     &:focus {
       outline: 0;
     }
@@ -37,7 +41,7 @@
       padding-left: 0;
 
       @media #{$medium-up} {
-        font-size: rem-calc(14px);
+        font-size: rem-calc(15px);
       }
 
       &:after {
