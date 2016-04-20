@@ -1,4 +1,5 @@
 $url-helper-path: false !default;
+$font-url-helper-path: false !default;
 
 // A function which can either output a image-url to be used with the Rails
 // Asset Pipeline or Compass or a plain url which is prefixed with a defined
@@ -9,6 +10,16 @@ $url-helper-path: false !default;
     $url: url($path + $file);
   } @else {
     $url: asset-url($file);
+  }
+  @return $url;
+}
+
+@function font-url-helper($file) {
+  $url: '';
+  @if $font-url-helper-path {
+    $url: font-url($file);
+  } @else {
+    $url: url($file);
   }
   @return $url;
 }
