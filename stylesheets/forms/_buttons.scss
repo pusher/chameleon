@@ -67,35 +67,65 @@
       text-shadow: none;
     }
 
-    @each $name, $color in $color-palette {
-      &--#{$name} {
-        background-color: $color;
-        border: 1px solid darken($color, 10%);
+    // @each $name, $color in $color-palette {
+    //   &--#{$name} {
+    //     background-color: $color;
+    //     border: 1px solid darken($color, 10%);
+
+    //     &:hover {
+    //       background-color: lighten($color, 2%);
+    //     }
+
+    //     &:active {
+    //       background-color: darken($color, 2%);
+    //     }
+
+    //     @if $name == primary {
+    //       &:hover {
+    //         color: #fff;
+    //       }
+          
+    //       &.ghosted {
+    //         border: 1px solid #fff;
+    //         background-color: rgba(255, 255, 255, 0);
+
+    //         &:hover {
+    //           background-color: #fff;
+    //           color: $color-primary;
+    //           border-color: transparent;
+    //           text-shadow: none;
+    //         }
+    //       }
+    //     }
+    //   }
+    // }
+
+    &--primary {
+      background-color: $color-primary;
+      border: 1px solid $color-primary;
+      color: #fff;
+
+      &:hover {
+        background-color: lighten($color-primary, 5%);
+      }
+
+      &:active {
+        background-color: darken($color-primary, 5%);
+      }
+
+      &.ghosted {
+        border: 1px solid $color-primary;
+        color: $color-primary;
+        background-color: transparent;
+        text-shadow: none;
 
         &:hover {
-          background-color: lighten($color, 2%);
+          background-color: $color-primary;
+          color: #fff;
         }
 
         &:active {
-          background-color: darken($color, 2%);
-        }
-
-        @if $name == primary {
-          &:hover {
-            color: #fff;
-          }
-          
-          &.ghosted {
-            border: 1px solid #fff;
-            background-color: rgba(255, 255, 255, 0);
-
-            &:hover {
-              background-color: #fff;
-              color: $color-primary;
-              border-color: transparent;
-              text-shadow: none;
-            }
-          }
+          background-color: darken($color-primary, 5%);
         }
       }
     }
@@ -109,7 +139,7 @@
       &:hover {
         background-color: $color-primary;
         color: #fff;
-        border: 1px solid #fff;
+        border: 1px solid $color-primary;
       }
     }
   }
