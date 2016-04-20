@@ -1,5 +1,6 @@
 $url-helper-path: false !default;
 $font-url-helper-path: false !default;
+$font-url-path: "/fonts/" !default;
 
 // A function which can either output a image-url to be used with the Rails
 // Asset Pipeline or Compass or a plain url which is prefixed with a defined
@@ -19,7 +20,7 @@ $font-url-helper-path: false !default;
   @if $font-url-helper-path {
     $url: font-url($file);
   } @else {
-    $url: url($file);
+    $url: url($font-url-path + $file);
   }
   @return $url;
 }
