@@ -24,14 +24,16 @@
 
   a {
     color: $color-primary;
+    font-weight: 500;
   }
 
   p,
   ul li,
   ol li {
-    font-size: rem-calc(18px);
+    @extend %font-family-secondary;
+    font-size: rem-calc(16px);
     line-height: 1.4em;
-    font-weight: 400;
+    font-weight: 300;
   }
 
   .p-boosted,

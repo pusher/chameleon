@@ -53,9 +53,10 @@ $color-alert: map-get($color-palette, alert);
 $global-font-size: 100% !default;
 $global-font-smoothing: false !default;
 
-$font-family-primary: 'Rajdhani', Helvetica, Arial, sans-serif !default;
-$font-family-secondary: 'PT Mono', monospace !default;
+$font-family-primary: 'Realtime Text', Helmet, Freesans, sans-serif !default;
+$font-family-secondary: 'proxima-nova', Helmet, Freesans, sans-serif !default;
 $font-family-monospace: 'Consolas', Monaco, 'Andale Mono', monospace !default;
+
 
 %font-family-primary {
   font-family: $font-family-primary;
