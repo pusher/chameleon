@@ -12,10 +12,13 @@
       padding: 0;
     }
 
-    &__subtitle,
+    &__subtitle {
+      @extend %font-family-secondary;
+    }
+
     &__stat,
     &__copy {
-      @extend %font-family-secondary;
+      @extend %font-family-primary;
     }
 
 
@@ -42,7 +45,7 @@
     &__stat {
       color: $color-primary !important;
       font-size: rem-calc(44px);
-      font-weight: 500;
+      font-weight: 400;
       letter-spacing: -3px;
 
       @media #{$medium-up} {
@@ -52,7 +55,7 @@
 
     &__copy {
       font-weight: 600;
-      line-height: 1.4em;
+      line-height: 1.1em;
       padding-left: 10px;
     }
   }
