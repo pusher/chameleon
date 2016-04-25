@@ -92,6 +92,7 @@
     font-weight: 400;
     line-height: 1.3em;
     text-align: left;
+    letter-spacing: -1.4px;
 
     @media #{$medium-up} {
       font-size: rem-calc(36px);
