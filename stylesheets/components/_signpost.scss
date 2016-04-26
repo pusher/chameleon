@@ -128,5 +128,18 @@
         border-color: darken($color-primary, 16%) transparent transparent transparent;
       }
     }
+
+    &__signup {
+      background: #549eff file-url('pattern_1_faded.png') no-repeat left center;
+      background-color: #549eff;
+
+      &:before {
+        background-position: 20% center;
+      }
+
+      &:after {
+        border-color: darken(#549eff, 10%) transparent transparent;
+      }
+    }
   }
 }
