@@ -5,11 +5,13 @@ categories: layout
 permalink: /typography/
 ---
 
-We have two core fonts that we use: `Radjhani` and `PT Mono`.
+We have two core fonts: `Realtime Text` and `Proxima Nova`.
 
-Radjhani is used for titles and copy, whereas PT Mono is used for highlight elements such as buttons and spans.
+Realtime Text is used for titles and elements (such as buttons), whereas proxima nova is used for paragraph text.
 
 There are no base typography classes. Everything is inherited through the heading tags.
+
+For the most part header styles should be inherited through the appropriate semantic tag, however where this doesn't make sense, corresponding classes are also available (`.h1` == `<h1>`)
 
 <div class="pattern">
   <h1>H1 - Page title</h1>

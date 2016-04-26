@@ -9,7 +9,8 @@
     @extend %font-family-primary;
   }
 
-  h1 {
+  h1,
+  .h1 {
     font-size: rem-calc(28px);
     line-height: 1.1em;
     font-weight: 400;
@@ -44,7 +45,8 @@
     }
   }
 
-  h2 {
+  h2,
+  .h2 {
     font-size: rem-calc(24px);
     line-height: 1.25em;
     font-weight: 400;
@@ -57,13 +59,15 @@
     }
   }
 
-  h3 {
+  h3,
+  .h3 {
     font-size: rem-calc(22px);
     font-weight: 400;
     line-height: 1.15em;
   }
 
-  h4 {
+  h4,
+  .h4 {
     @extend %font-family-secondary;
     font-size: rem-calc(18px);
     font-weight: 400;
@@ -71,7 +75,8 @@
     text-transform: none;
   }
 
-  h5 {
+  h5,
+  .h5 {
     @extend %font-family-primary;
     font-size: 16px;
     font-weight: 500;
@@ -79,7 +84,8 @@
   }
 
 
-  h6 {
+  h6,
+  .h6 {
     text-transform: uppercase;
     font-size: rem-calc(12px);
     font-weight: 700;
