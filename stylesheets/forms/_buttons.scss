@@ -193,4 +193,16 @@
       color: #fff;
     }
   }
+
+  .button-group {
+    .e-btn {
+      margin-right: 10px;
+      margin-bottom: 10px;
+
+      &:last-of-type {
+        margin-right: 0;
+        margin-bottom: 0;
+      }
+    }
+  }
 }
