@@ -3,7 +3,6 @@
   padding-bottom: 50px;
 
   &__aside {
-
     margin-top: 80px;
 
     h5 {
@@ -65,12 +64,20 @@
 }
 
 .pattern {
-  margin: 20px 0;
-  padding: 5px;
-  border-radius: 3px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-bottom: 0;
+  border-radius: 3px 3px 0 0;
+
+  + .highlighter-rouge .highlight {
+    margin: 0 0 40px;
+    border-radius: 0 0 3px 3px;
+  }
 
   &--dark {
-    background-color: #eee;
+    background-color: $color-black;
+    border: 1px solid $color-black;
   }
 
   .grid {
@@ -86,86 +93,7 @@
     line-height: 1.2em;
   }
 
-  .cb-color {
-    position: relative;
-    min-height: 80px;
-    padding: 40px 0;
-    color: #fff;
-    font-size: 16px;
-    line-height: 1.2em;
-    text-align: center;
-    border: 1px solid #ddd;
 
-    &:after {
-      position: absolute;
-      width: 100%;
-      height: 20px;
-      text-align: center;
-      left: 0;
-      top: 30px;
-    }
-  }
-
-  .cb-var {
-    width: 100%;
-    height: 40px;
-    border: 1px dashed #ccc;
-    border-top: 0;
-    text-align: center;
-    font-size: 15px;
-    padding: 12px 0;
-  }
-  
-  .cb-primary {
-    background-color: $color-primary;
-
-    &:after {
-      content: "#{$color-primary}";
-    }
-  }
-
-  .cb-secondary {
-    background-color: $color-secondary;
-
-    &:after {
-      content: "#{$color-secondary}";
-    }
-  }
-
-
-  .cb-developer {
-    background-color: $color-developer;
-
-    &:after {
-      content: "#{$color-developer}";
-    }
-  }
-
-  .cb-white {
-    background-color: $color-white;
-    color: $color-black;
-
-    &:after {
-      content: "#{$color-white}";
-    }
-  }
-
-  .cb-off-white {
-    background-color: $color-off-white;
-    color: $color-black;
-
-    &:after {
-      content: "#{$color-off-white}";
-    }
-  }
-
-  .cb-black {
-    background-color: $color-black;
-
-    &:after {
-      content: "#{$color-black}";
-    }
-  }
 
   .flex-block {
     width: 100%;
@@ -174,7 +102,77 @@
   }
 }
 
+
+.cb-var {
+  width: 100%;
+  height: 40px;
+  border: 1px dashed #ccc;
+  border-top: 0;
+  text-align: center;
+  font-size: 15px;
+  padding: 12px 0;
+}
+
+.cb-primary,
+.cb-secondary,
+.cb-developer,
+.cb-black {
+  color: #fff;
+}
+
+.cb-white,
+.cb-off-white {
+  color: $color-black;
+}
+
+.cb-primary {
+  background-color: $color-primary;
+}
+
+.cb-secondary {
+  background-color: $color-secondary;
+}
+
+.cb-developer {
+  background-color: $color-developer;
+}
+
+.cb-white {
+  background-color: $color-white;
+}
+
+.cb-off-white {
+  background-color: $color-off-white;
+}
+
+.cb-black {
+  background-color: $color-black;
+}
+
+
 .post-header {
   height: 60px;
   margin-bottom: 20px;
+}
+
+
+.color-block {
+  width: 100%;
+  height: 120px;
+  border-radius: $border-radius;
+  padding: 40px 20px;
+  text-align: center;
+  margin-bottom: 20px;
+
+  span {
+    @extend %font-family-secondary;
+    font-size: rem-calc(16px);
+    font-weight: 400;
+
+    &:last-of-type {
+      opacity: .8;
+      display: block;
+      font-size: rem-calc(14px);
+    }
+  }
 }

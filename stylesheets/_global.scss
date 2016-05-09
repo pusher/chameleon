@@ -35,6 +35,7 @@ $color-palette: (
   success: #43ac6a,
   warning: #ffae00,
   alert: #b74a48,
+  information: #34495e
 ) !default;
 
 $color-white: #ffffff !default;
@@ -48,6 +49,7 @@ $color-developer: map-get($color-palette, developer);
 $color-success: map-get($color-palette, success);
 $color-warning: map-get($color-palette, warning);
 $color-alert: map-get($color-palette, alert);
+$color-information: map-get($color-palette, information);
 
 // Typography
 $global-font-size: 100% !default;
@@ -66,4 +68,5 @@ $font-family-monospace: 'Consolas', Monaco, 'Andale Mono', monospace !default;
   font-family: $font-family-secondary;
 }
 
-
+// Misc
+$border-radius: 3px;

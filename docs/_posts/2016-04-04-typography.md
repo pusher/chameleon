@@ -22,7 +22,7 @@ For the most part header styles should be inherited through the appropriate sema
   <br>
   <h4>H4 - Paragraph title</h4>
   <br>
-  <h6>H6 - Heading</h6>
+  <h6>H6 - Paragraph Heading</h6>
 </div>
 
 ``` html
@@ -30,5 +30,5 @@ For the most part header styles should be inherited through the appropriate sema
 <h2>H2 - Section title</h2>
 <h3>H3 - Section sub-title</h3>
 <h4>H4 - Paragraph title</h4>
-<h6>H6 - Heading</h6>
+<h6>H6 - Paragraph Heading</h6>
 ```

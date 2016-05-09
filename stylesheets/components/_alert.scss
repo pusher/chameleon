@@ -1,0 +1,45 @@
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+// Alerts
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+
+@mixin CHAMELEON-alert {
+  .alert {
+    border-radius: $border-radius;
+    display: block;
+    margin: rem-calc(10px) 0;
+    max-width: 100%;
+    padding: 12px 30px;
+    text-align: left;
+    width: auto;
+
+    &__title {
+      font-size: rem-calc(14px);
+      display: block;
+      color: inherit;
+    }
+
+    &__copy {
+      font-size: rem-calc(14px);
+      color: inherit;
+    }
+
+    &--danger,
+    &--error {
+      background-color: #f2dede;
+      border-color: #ebccd1;
+      color: #a94442;
+    }
+
+    &--success {
+      background-color: $color-success;
+      border-color: darken($color-success, 5%);
+      color: #fff;
+    }
+
+    &--information {
+      background-color: $color-information;
+      color: #fff;
+      border: 1px solid darken($color-information, 6%);
+    }
+  }
+}
