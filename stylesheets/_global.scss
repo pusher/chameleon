@@ -34,7 +34,7 @@ $color-palette: (
   developer: #21D3C1,
   success: #43ac6a,
   warning: #ffae00,
-  alert: #b74a48,
+  danger: #b74a48,
   information: #34495e
 ) !default;
 
@@ -48,7 +48,7 @@ $color-secondary: map-get($color-palette, secondary);
 $color-developer: map-get($color-palette, developer);
 $color-success: map-get($color-palette, success);
 $color-warning: map-get($color-palette, warning);
-$color-alert: map-get($color-palette, alert);
+$color-danger: map-get($color-palette, danger);
 $color-information: map-get($color-palette, information);
 
 // Typography
