@@ -27,7 +27,7 @@ $grid-column-gutter: (
 $grid-column-align-edge: true;
 $block-grid-max: 8;
 
-// Colours
+// Base Colour Palette
 $color-palette: (
   primary: #549eff,
   secondary: #977fda,
@@ -35,13 +35,9 @@ $color-palette: (
   success: #43ac6a,
   warning: #ffae00,
   danger: #b74a48,
-  information: #34495e
+  information: #34495e,
+  alert: #b74a48,
 ) !default;
-
-$color-white: #ffffff !default;
-$color-off-white: #f4f8fb !default;
-$color-black: #2b303b !default;
-$color-grey-one: #e2e3e5 !default;
 
 $color-primary: map-get($color-palette, primary);
 $color-secondary: map-get($color-palette, secondary);
@@ -50,6 +46,25 @@ $color-success: map-get($color-palette, success);
 $color-warning: map-get($color-palette, warning);
 $color-danger: map-get($color-palette, danger);
 $color-information: map-get($color-palette, information);
+
+// Neutrals Colour Palette
+$color-neutrals: (
+  white: #ffffff,
+  black: #2b303b,
+  slate: #414859,
+  silver: #8690a6,
+  snow: #f4f8fb
+) !default;
+
+$color-white: map-get($color-neutrals, white);
+$color-black: map-get($color-neutrals, black);
+$color-slate: map-get($color-neutrals, slate);
+$color-silver: map-get($color-neutrals, silver);
+$color-snow: map-get($color-neutrals, snow);
+// Legacy
+$color-off-white: $color-snow;
+$color-grey-one: $color-silver;
+
 
 // Typography
 $global-font-size: 100% !default;
