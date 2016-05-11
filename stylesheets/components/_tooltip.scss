@@ -1,0 +1,65 @@
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+// Tooltips
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+
+@mixin CHAMELEON-tooltips {
+  .tooltip {
+    position: relative;
+
+    &:before,
+    &:after {
+      z-index: 600;
+    }
+
+    &:before {
+      background-color: #fff;
+      border-radius: 3px;
+      color: $color-black;
+      content: attr(data-tooltip-title);
+      display: none;
+      font-size: 11px;
+      font-weight: 500;
+      left: 50%;
+      line-height: 1.4;
+      margin-top: 5px;
+      padding: 7px 9px;
+      position: absolute;
+      top: 100%; 
+      max-width: 400px;
+      transform-origin: 50% 50%;
+      transform: translateX(-50%);
+      text-align: left;
+      min-width: 120px;
+    }
+
+    &:after {
+      border: 5px solid transparent;
+      border-bottom-color: #fff;
+      content: "";
+      display: none;
+      left: 50%;
+      margin-left: -5px;
+      margin-top: -5px;
+      position: absolute;
+      top: 100%;
+    }
+
+    &:hover {
+      &:after,
+      &:before {
+        display: block;
+      }
+    }
+
+    &.dark {
+      &:before {
+        background-color: $color-black;
+        color: #fff;
+      }
+
+      &:after {
+        border-bottom-color: #fff;
+      }
+    }
+  }
+}
