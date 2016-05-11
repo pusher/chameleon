@@ -8,9 +8,10 @@
   @extend %font-family-secondary;
   background: transparent;
   border-radius: $border-radius;
-  border: 1px solid $color-silver;
+  border: 1px solid $color-smoke;
   color: $color-black;
   font-size: rem-calc(15px);
+  font-weight: 400;
   height: 40px;
   line-height: 2em;
   padding: 4px 20px;

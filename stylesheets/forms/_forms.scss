@@ -6,6 +6,7 @@
 @import 'range';
 @import 'select';
 @import 'input';
+@import 'textarea';
 
 @mixin CHAMELEON-forms {
   @include CHAMELEON-forms-buttons;
@@ -14,4 +15,5 @@
   @include CHAMELEON-forms-range;
   @include CHAMELEON-forms-select;
   @include CHAMELEON-forms-input;
+  @include CHAMELEON-forms-textarea;
 }

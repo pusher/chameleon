@@ -1,0 +1,11 @@
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+// Form Textarea
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+
+@mixin CHAMELEON-forms-textarea {
+  textarea {
+    @include base-input();
+    height: auto;
+    min-height: 240px;
+  }
+}
