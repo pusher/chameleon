@@ -53,6 +53,7 @@ $color-neutrals: (
   black: #2b303b,
   slate: #414859,
   silver: #8690a6,
+  smoke: #d3dce7,
   snow: #f4f8fb
 ) !default;
 
@@ -60,6 +61,7 @@ $color-white: map-get($color-neutrals, white);
 $color-black: map-get($color-neutrals, black);
 $color-slate: map-get($color-neutrals, slate);
 $color-silver: map-get($color-neutrals, silver);
+$color-smoke: map-get($color-neutrals, smoke);
 $color-snow: map-get($color-neutrals, snow);
 // Legacy
 $color-off-white: $color-snow;
