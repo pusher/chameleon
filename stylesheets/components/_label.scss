@@ -1,0 +1,33 @@
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+// Labels
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+
+@mixin CHAMELEON-labels {
+  .label {
+    display: inline-block;
+    width: auto;
+    height: 30px;
+    border-radius: $border-radius;
+    padding: 2px 10px;
+    text-align: center;
+    font-size: rem-calc(12px);
+    font-weight: 600;
+    color: #fff;
+
+    &--success {
+      background-color: $color-success;
+    }
+
+    &--warning {
+      background-color: $color-warning;
+    }
+
+    &--danger {
+      background-color: $color-danger;
+    }
+
+    &--information {
+      background-color: $color-information;
+    }
+  }
+}
