@@ -21,9 +21,6 @@
     font-weight: 400;
     letter-spacing: -1.4px;
 
-    // Allows page titles to be responsively wrapped with <wbr>
-    white-space: nowrap;
-
     strong {
       font-weight: 500;
     }
@@ -57,7 +54,6 @@
     font-weight: 400;
     color: $color-black;
     letter-spacing: -2px;
-    white-space: nowrap;
 
     @media #{$medium-up} {
       font-size: rem-calc(28px);
