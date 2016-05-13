@@ -12,9 +12,9 @@
     }
 
     &:before {
-      background-color: #fff;
+      background-color: $color-black;
       border-radius: 3px;
-      color: $color-black;
+      color: #fff;
       content: attr(data-tooltip-title);
       display: none;
       font-size: 11px;
@@ -34,7 +34,7 @@
 
     &:after {
       border: 5px solid transparent;
-      border-bottom-color: #fff;
+      border-bottom-color: $color-black;
       content: "";
       display: none;
       left: 50%;
@@ -51,10 +51,10 @@
       }
     }
 
-    &.dark {
+    &--light {
       &:before {
-        background-color: $color-black;
-        color: #fff;
+        background-color: #fff;
+        color: $color-black;
       }
 
       &:after {
