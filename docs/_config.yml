@@ -22,11 +22,14 @@ exclude: [
 kramdown:
   input: GFM
   syntax_highlighter: rouge
-  css_class: 'highlight'
 
-highlighter:
-  options: ['startinline']
-  css_class: "hello world"
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
 
 assets:
   baseurl: http://127.0.0.1:4000/

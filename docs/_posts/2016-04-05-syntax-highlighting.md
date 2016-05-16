@@ -7,19 +7,10 @@ permalink: /syntax-highlighting/
 
 For code snippets, a pygments typography mixin is included to highlight different languages. These styles are being used on this page to highlight the following code blocks:
 
-### HTML
-``` html
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Hello World</title>
-  </head>
-</html>
-```
-
 ***
 
-### Ruby
+**Ruby**
+
 ``` ruby
 Pusher.trigger('my-channel', 'my-event', {
   message: 'hello world'
@@ -28,7 +19,8 @@ Pusher.trigger('my-channel', 'my-event', {
 
 ***
 
-### JavaScipt
+**JavaScript**
+
 ``` javascript
 var channel = pusher.subscribe('my-channel');
 channel.bind('my-event', function(data) {
