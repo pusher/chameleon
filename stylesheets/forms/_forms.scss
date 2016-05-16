@@ -7,6 +7,7 @@
 @import 'select';
 @import 'input';
 @import 'textarea';
+@import 'checkbox';
 
 @mixin CHAMELEON-forms {
   @include CHAMELEON-forms-buttons;
@@ -16,4 +17,5 @@
   @include CHAMELEON-forms-select;
   @include CHAMELEON-forms-input;
   @include CHAMELEON-forms-textarea;
+  @include CHAMELEON-forms-checkbox;
 }
