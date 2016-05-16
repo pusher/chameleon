@@ -3,7 +3,7 @@
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
 @mixin CHAMELEON-forms-buttons {
-  .e-btn {
+  .#{$button-namespace} {
     @extend %font-family-primary;
 
     box-shadow: none;
@@ -177,7 +177,7 @@
     }
   }
 
-  .e-btn--google {
+  .#{$button-namespace}--google {
     @extend %btn--with-icon;
     background: #fff;
     color: #898989;
