@@ -34,6 +34,12 @@
       outline: 0;
     }
 
+    &--small {
+      padding: 7px 20px;
+      font-size: rem-calc(12px);
+      height: 30px;
+    }
+
     &--primary {
       background-color: $color-primary;
       border: 1px solid $color-primary;
@@ -130,39 +136,6 @@
       color: #444444;
       text-shadow: none;
     }
-
-    // @each $name, $color in $color-palette {
-    //   &--#{$name} {
-    //     background-color: $color;
-    //     border: 1px solid darken($color, 10%);
-
-    //     &:hover {
-    //       background-color: lighten($color, 2%);
-    //     }
-
-    //     &:active {
-    //       background-color: darken($color, 2%);
-    //     }
-
-    //     @if $name == primary {
-    //       &:hover {
-    //         color: #fff;
-    //       }
-          
-    //       &.ghosted {
-    //         border: 1px solid #fff;
-    //         background-color: rgba(255, 255, 255, 0);
-
-    //         &:hover {
-    //           background-color: #fff;
-    //           color: $color-primary;
-    //           border-color: transparent;
-    //           text-shadow: none;
-    //         }
-    //       }
-    //     }
-    //   }
-    // }
   }
 
   %btn--with-icon {
