@@ -24,13 +24,16 @@ $section-background-color-primary: #fff;
     }
   }
 
-  .c-section {
-    background-color: $section-background-color-primary;
-    padding: $section-padding 0;
+  .section {
+    padding: ($section-padding / 2) 0;
     position: relative;
     width: 100%;
     overflow: auto;
     overflow-x: hidden;
+
+    @media #{$medium-up} {
+      padding: $section-padding 0;
+    }
 
     &--double-padding {
       padding-top: ($section-padding * 2);
@@ -82,6 +85,14 @@ $section-background-color-primary: #fff;
 
     &--off-white {
       background-color: $color-off-white;
+    }
+
+    &--white {
+      background-color: #fff;
+    }
+
+    &--snow {
+      background-color: $color-snow;
     }
   }
 }

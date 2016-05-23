@@ -3,7 +3,7 @@
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
 @mixin CHAMELEON-signpost {
-  .c-signpost {
+  .signpost {
     position: relative;
     width: 100%;
 
@@ -99,8 +99,17 @@
       }
     }
 
+    &__enterprise {
+      background-color: $color-white;
+
+      &:after {
+        border-color: darken($color-white, 16%) transparent transparent transparent;
+      }
+    }
+
     &__color-white {
       background-color: $color-white;
+
       &:after {
         border-color: darken($color-white, 16%) transparent transparent transparent;
       }
@@ -125,15 +134,15 @@
     }
 
     &__signup {
-      background: #549eff file-url('pattern_1_faded.png') no-repeat left center;
-      background-color: #549eff;
+      background: $color-primary file-url('pattern_1_faded.png') no-repeat left center;
+      background-color: $color-primary;
 
       &:before {
         background-position: 20% center;
       }
 
       &:after {
-        border-color: darken(#549eff, 10%) transparent transparent;
+        border-color: darken($color-primary, 10%) transparent transparent;
       }
     }
   }
