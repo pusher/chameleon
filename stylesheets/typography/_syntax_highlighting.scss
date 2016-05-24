@@ -11,6 +11,7 @@
 
     @if($light) {
       background: $color-snow;
+      border: 1px solid darken($color-snow, 5%);
     } @else {
       background: darken($color-black, 5%);
     }
