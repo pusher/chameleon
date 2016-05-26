@@ -171,14 +171,28 @@
     }
   }
 
-  .button-group {
-    .e-btn {
-      margin-right: 10px;
-      margin-bottom: 10px;
+  .btn-group {
+    .#{$button-namespace} {
+      display: table;
 
-      &:last-of-type {
-        margin-right: 0;
-        margin-bottom: 0;
+      @media #{$medium-up} {
+        display: inline-block;
+      }
+
+      + .#{$button-namespace} {
+        margin-top: 5px;
+
+        @media #{$medium-up} {
+          margin-top: 0;
+        }
+      }
+    }
+
+    .#{$button-namespace} + .#{$button-namespace} {
+      margin-left: 0;
+
+      @media #{$medium-up} {
+        margin-left: 10px;
       }
     }
   }
