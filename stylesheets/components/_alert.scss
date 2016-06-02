@@ -21,6 +21,15 @@
     &__copy {
       font-size: rem-calc(14px);
       color: inherit;
+
+      ul {
+        margin-left: 16px;
+
+        li {
+          font-size: rem-calc(14px) !important;          
+        }
+      }
+
     }
 
     &--danger,
