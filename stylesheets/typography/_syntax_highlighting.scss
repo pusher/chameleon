@@ -17,7 +17,9 @@
     }
 
     code {
-      background: none;
+      background-color: transparent;
+      border-radius: $border-radius;
+      padding: 0;
     }
 
     code,

@@ -48,4 +48,13 @@
   strong {
     font-weight: 600;
   }
+
+  code {
+    font-family: $font-family-monospace;
+    font-size: rem-calc(14px);
+    font-feature-settings: normal;
+    background-color: $color-snow;
+    padding: 4px 4px;
+    border-radius: 3px;
+  }
 }
