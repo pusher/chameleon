@@ -1,7 +1,7 @@
 {
   "name": "pusher_chameleon",
   "repository": "https://github.com/pusher/chameleon",
-  "version": "0.4.5",
+  "version": "0.4.7",
   "main": "index.js",
   "devDependencies": {
     "gulp": "^3.9.0",
