@@ -29,6 +29,10 @@ module PusherChameleon
       File.join assets_path, 'javascripts'
     end
 
+    def images_path
+      File.join assets_path, 'images'
+    end
+
     def assets_path
       @assets_path ||= File.join gem_path, ''
     end
@@ -64,6 +68,7 @@ module PusherChameleon
       Sprockets.append_path(stylesheets_path)
       Sprockets.append_path(javascripts_path)
       Sprockets.append_path(fonts_path)
+      Sprockets.append_path(images_path)
     end
   end
 end
