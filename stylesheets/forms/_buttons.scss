@@ -157,6 +157,7 @@
       left: 2px;
     }
 
+    &--active,
     &:hover {
       background-color: $color-primary;
       border-color: darken($color-primary, 5%);
