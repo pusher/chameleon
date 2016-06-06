@@ -1,5 +1,8 @@
 @import '../../stylesheets/chameleon';
+
 $global-font-smoothing: true;
+$file-url-helper-path: true;
+$file-url-path: "/images/";
 
 @include CHAMELEON-base;
 @include CHAMELEON-grid;

@@ -1,4 +1,8 @@
-$url-helper-path: false !default;
+// File URL Helpers - Used for loading in images
+$file-url-helper-path: false !default;
+$file-url-path: "/images/" !default;
+
+// Font URL Helpers
 $font-url-helper-path: false !default;
 $font-url-path: "/fonts/" !default;
 
@@ -7,8 +11,8 @@ $font-url-path: "/fonts/" !default;
 // path variable.
 @function file-url($file) {
   $url: '';
-  @if $url-helper-path {
-    $url: url($path + $file);
+  @if $file-url-helper-path {
+    $url: url($file-url-path + $file);
   } @else {
     $url: asset-url($file);
   }
