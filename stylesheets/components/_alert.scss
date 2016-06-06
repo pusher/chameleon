@@ -47,8 +47,12 @@
 
     &--information {
       background-color: $color-information;
+      background-image: file-url('ui_icons/info.svg');
+      background-repeat: no-repeat;
+      background-position: 20px 14px;
       color: #fff;
       border: 1px solid darken($color-information, 6%);
+      padding-left: 50px;
     }
   }
 }
