@@ -1,17 +1,17 @@
 @mixin chameleon-typography-titles {
-  h1,
-  h2,
-  h3,
-  h4,
-  .h1,
-  .h2,
-  .h3,
-  .h4 {
+  .title--alpha,
+  .title--beta,
+  .title--gamma,
+  .title--epsilon,
+  .title--zeta {
     @extend %font-family-primary;
   }
 
-  h1,
-  .h1 {
+  .title--delta {
+    @extend %font-family-secondary;
+  }
+
+  .title--alpha {
     font-size: rem-calc(28px);
     line-height: 1.1em;
     font-weight: 400;
@@ -26,25 +26,7 @@
     }
   }
 
-  .feature-title {
-    font-size: rem-calc(38px);
-    font-weight: 300;
-    line-height: 1em;
-    margin-bottom: 5px;
-    letter-spacing: -1px;
-
-    strong {
-      font-weight: 500;
-    }
-
-    @media #{$medium-up} {
-      font-size: rem-calc(58px);
-      letter-spacing: -2px;
-    }
-  }
-
-  h2,
-  .h2 {
+  .title--beta {
     font-size: rem-calc(24px);
     line-height: 1.25em;
     font-weight: 400;
@@ -56,15 +38,13 @@
     }
   }
 
-  h3,
-  .h3 {
+  .title--gamma {
     font-size: rem-calc(22px);
     font-weight: 400;
     line-height: 1.15em;
   }
 
-  h4,
-  .h4 {
+  .title--delta {
     @extend %font-family-secondary;
     font-size: rem-calc(18px);
     font-weight: 400;
@@ -72,35 +52,18 @@
     text-transform: none;
   }
 
-  h5,
-  .h5 {
+  .title--epsilon {
     @extend %font-family-primary;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.1em;
   }
 
-
-  h6,
-  .h6 {
+  .title--zeta {
     text-transform: uppercase;
     font-size: rem-calc(12px);
     font-weight: 700;
     color: $color-black;
     line-height: 1.1em;
-  }
-
-  .shoutout {
-    font-size: rem-calc(31px);
-    font-weight: 400;
-    line-height: 1.3em;
-    text-align: left;
-    letter-spacing: -1.4px;
-
-    @media #{$medium-up} {
-      font-size: rem-calc(36px);
-      text-align: center;
-      
-    }
   }
 }
