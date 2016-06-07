@@ -1,20 +1,33 @@
-{% for category in site.categories %}
-  <h5>{{ category | first | capitalize }}</h5>
-    <ul>
-    {% for posts in category %}
-      {% for post in posts %}
-        {% if page.url == post.url %}
-          <li class="current"><a href="{{ post.url | prepend: site.url }}">{{ post.title }}</a></li>
-        {% else %}
-          <li><a href="{{ post.url | prepend: site.url }}">{{ post.title }}</a></li>
-        {% endif %}
-      {% endfor %}
-    {% endfor %}
-    </ul>
-  </li>
-{% endfor %}
-<a href="{{ site.gitrepo }}">
-  <span class="icon">
-    {% include icon-github.svg %}
-  </span>Chameleon {{ site.data.chameleon_version }}
-</a>
+<div class="docs__logo">
+  <div>
+    <span class="docs__logo__title">Chameleon</span>
+    <a href="{{ site.gitrepo }}" class="docs__logo__version">{% include icon-github.svg %} Version {{ site.data.chameleon_version }}</a>
+  </div>
+</div>
+<nav class="docs__nav">
+  {% for category in site.categories %}
+    {% assign category_title = category | first %}
+    {% if page.url contains category_title %}
+      <div class="docs__nav__item is-active">
+    {% elsif page.url == '/' and forloop.first == true %}
+      <div class="docs__nav__item is-active">
+    {% else %}
+      <div class="docs__nav__item">
+    {% endif %}
+      <div class="docs__nav__item__title">{{ category | first | capitalize }}</div>
+      <div class="docs__nav__item__content">
+        <ul>
+          {% for posts in category %}
+            {% for post in posts %}
+              {% if page.url == post.url %}
+                <li class="is-active"><a href="{{ post.url | prepend: site.url }}">{{ post.title }}</a></li>
+              {% else %}
+                <li><a href="{{ post.url | prepend: site.url }}">{{ post.title }}</a></li>
+              {% endif %}
+            {% endfor %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  {% endfor %}
+</nav>

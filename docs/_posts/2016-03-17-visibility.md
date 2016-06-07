@@ -2,7 +2,7 @@
 layout: post
 title:  "Visibility"
 categories: layout
-permalink: /visibility/
+permalink: /layout/visibility/
 ---
 
 There are a number of utility classes, including a set of visibility classes. These allow content to be hidden under certain circumstances (for example at differing screen sizes).

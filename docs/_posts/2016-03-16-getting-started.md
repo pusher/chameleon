@@ -2,7 +2,7 @@
 layout: post
 title:  "Getting Started"
 categories: chameleon
-permalink: /getting-started
+permalink: /chameleon/getting-started
 ---
 
 Chameleon is designed to work with most frameworks. If you find a language or framework doesn't seem to be working, feel free to create a pull request.

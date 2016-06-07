@@ -5,17 +5,48 @@
 
 <body>
 
-  <div class="docs grid">
-    <aside class="docs__aside grid__small-12 grid__large-3 grid__columns">
+  <div class="docs">
+    <aside class="docs__aside">
       {% include sidebar.html %}
     </aside>
-    <main class="docs__content grid__small-12 grid__large-9 grid__columns">
-      {{ content }}
+    <main class="docs__content">
+      <div class="grid">
+        <div class="grid__small-12 grid__columns">
+          {{ content }}
+        </div>
+      </div>
     </main>
 
     <script src="https://use.typekit.net/mpu7zkn.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
-</body>
+    <script>
+      var navItems = document.getElementsByClassName("docs__nav__item__title");
 
+      var toggleNav = function(ev) {
+        var active_class = document.querySelector(".docs__nav__item.is-active");
+
+        if (active_class) {
+          active_class.classList.remove('is-active');
+          if (ev.target.parentNode == active_class) return false
+        }
+
+        ev.target.parentNode.classList.add('is-active');
+
+      };
+
+      for (var i = 0, v = navItems.length; i < v; i++) {
+        navItems[i].addEventListener('click', toggleNav, false);
+      }
+      </script>
+  </div>
+
+</body>
 </html>
+<!-- 
+If the active class exists
+  if the active class is on the target
+    Remove the active class from the target
+    return false
+  else
+  remove -->

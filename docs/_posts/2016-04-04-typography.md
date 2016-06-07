@@ -2,7 +2,7 @@
 layout: post
 title:  "Typography"
 categories: layout
-permalink: /typography/
+permalink: /layout/typography/
 ---
 
 We have two core fonts: `Realtime Text` and `Proxima Nova`.

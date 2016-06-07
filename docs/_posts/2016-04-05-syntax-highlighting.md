@@ -2,7 +2,7 @@
 layout: post
 title:  "Syntax Highlighting"
 categories: layout
-permalink: /syntax-highlighting/
+permalink: /layout/syntax-highlighting/
 ---
 
 For code snippets, a pygments typography mixin is included to highlight different languages. These styles are being used on this page to highlight the following code blocks:
