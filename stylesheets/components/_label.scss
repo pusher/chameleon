@@ -4,31 +4,37 @@
 
 @mixin CHAMELEON-labels {
   .label {
-    display: inline-block;
-    width: auto;
-    height: 19px;
-    border-radius: $border-radius;
-    padding: 2px 10px;
-    text-align: center;
-    font-size: rem-calc(12px);
-    font-weight: 600;
+    @extend %font-family-secondary;
+    background-color: transparent;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 2px;
     color: #fff;
+    display: inline-block;
+    font-size: rem-calc(11px);
+    font-weight: 700;
+    height: 24px;
+    letter-spacing: 0;
     line-height: 1.3em;
+    padding: 4px 14px;
+    text-align: center;
+    text-transform: uppercase;
+    width: auto;
 
     &--success {
-      background-color: $color-success;
+      color: $color-success;
     }
 
     &--warning {
-      background-color: $color-warning;
+      color: $color-warning;
     }
 
     &--danger {
-      background-color: $color-danger;
+      color: $color-danger;
     }
 
     &--information {
-      background-color: $color-information;
+      color: $color-information;
     }
   }
 }
