@@ -73,7 +73,7 @@
       }
     }
 
-     &--secondary {
+    &--secondary {
       background-color: $color-white;
       border: 1px solid $color-white;
       color: $color-primary;
@@ -126,6 +126,21 @@
 
       &:hover:after {
         transform: translateX(5px) scale(1);
+      }
+    }
+
+    &--neutral {
+      background: $color-slate;
+      border: 1px solid darken($color-slate , 3%);
+      color: #fff;
+      text-shadow: none;
+
+      &:hover {
+        background: lighten($color-slate, 5%);
+      }
+
+      &:active {
+        background: darken($color-slate, 5%);
       }
     }
 
