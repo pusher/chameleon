@@ -371,19 +371,15 @@
     padding: 0;
   }
 
-  @if($global-font-smoothing) {
-    *,
-    *:before,
-    *:after {
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-    }
-  }
-
   *,
   *:before,
   *:after {
     box-sizing: border-box;
+
+    @if($global-font-smoothing) {
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
   }
 
   html,
