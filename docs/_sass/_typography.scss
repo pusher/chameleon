@@ -1,0 +1,23 @@
+h1 {
+  @extend .title--alpha;
+}
+
+h2 {
+  @extend .title--beta;
+}
+
+h3 {
+  @extend .title--gamma;
+}
+
+h4 {
+  @extend .title--delta;
+}
+
+h5 {
+  @extend .title--epsilon;
+}
+
+h6 {
+  @extend .title--zeta;
+}
