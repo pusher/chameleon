@@ -5,15 +5,12 @@
 @mixin CHAMELEON-labels {
   .label {
     @extend %font-family-primary;
-    background-color: transparent;
-    border-radius: 3px;
-    border-style: solid;
-    border-width: 2px;
+    border-radius: 0;
     color: #fff;
     display: inline-block;
     font-size: rem-calc(11px);
     font-weight: 700;
-    height: 24px;
+    height: 21px;
     letter-spacing: 0;
     line-height: 1.1em;
     padding: 4px 14px;
@@ -22,19 +19,19 @@
     width: auto;
 
     &--success {
-      color: $color-success;
+      background-color: $color-success;
     }
 
     &--warning {
-      color: $color-warning;
+      background-color: $color-warning;
     }
 
     &--danger {
-      color: $color-danger;
+      background-color: $color-danger;
     }
 
     &--information {
-      color: $color-information;
+      background-color: $color-information;
     }
   }
 }
