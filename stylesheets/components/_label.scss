@@ -4,7 +4,7 @@
 
 @mixin CHAMELEON-labels {
   .label {
-    @extend %font-family-secondary;
+    @extend %font-family-primary;
     background-color: transparent;
     border-radius: 3px;
     border-style: solid;
@@ -15,7 +15,7 @@
     font-weight: 700;
     height: 24px;
     letter-spacing: 0;
-    line-height: 1.3em;
+    line-height: 1.1em;
     padding: 4px 14px;
     text-align: center;
     text-transform: uppercase;
