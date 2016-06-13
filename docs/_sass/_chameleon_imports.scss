@@ -4,6 +4,8 @@ $global-font-smoothing: true;
 $file-url-helper-path: true;
 $file-url-path: "/chameleon/images/";
 
+$font-family-secondary: 'Proxima Nova';
+
 @include CHAMELEON-base;
 @include CHAMELEON-grid;
 @include CHAMELEON-typography;

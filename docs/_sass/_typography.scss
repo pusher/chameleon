@@ -1,9 +1,18 @@
 h1 {
-  @extend .title--alpha;
+  @extend %font-family-primary;
+  font-size: rem-calc(24px);
+  color: $color-slate;
+  font-weight: 700;
+  line-height: 1em;
+  text-transform: uppercase;
 }
 
 h2 {
-  @extend .title--beta;
+  @extend %font-family-primary;
+  font-size: rem-calc(16px);
+  color: $color-slate;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 h3 {
@@ -20,4 +29,12 @@ h5 {
 
 h6 {
   @extend .title--zeta;
+}
+
+p {
+  max-width: 35%;
+  font-size: rem-calc(18px);
+  line-height: 1.6em;
+  margin-bottom: rem-calc(20px);
+  color: $color-slate;
 }

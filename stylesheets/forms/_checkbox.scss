@@ -3,35 +3,6 @@
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
 @mixin CHAMELEON-forms-checkbox {
-  .form__check {
-    width: 20px;
-    position: relative;
-    margin: 2px 0;
-
-    > label {
-      width: 20px;
-      height: 20px;
-      cursor: pointer;
-      position: absolute;
-      top: 0;
-      left: 0;
-      background: transparent;
-      border: 1px solid $color-smoke;
-      border-radius: $border-radius;
-    }
-
-    input[type=checkbox] {
-      visibility: hidden;
-      width: 20px;
-      height: 20px;
-
-      &:checked + label {
-        background: transparent url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxzdmcgd2lkdGg9IjExcHgiIGhlaWdodD0iOHB4IiB2aWV3Qm94PSIwIDAgMTEgOCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4KICA8ZyBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgIDxwYXRoIGQ9Ik01LjIwODcxNzI3LDcuMjA3OTE1NTYgQzUuMDEyNjk3ODIsNy40MDE5MzQ4MSA0Ljc1NDY3MjIyLDcuNDk5OTQ0NTQgNC41MDA2NDcwMSw3LjQ5OTk0NDU0IEM0LjI0MjYyMTQxLDcuNDk5OTQ0NTQgMy45ODg1OTYyLDcuNDAxOTM0ODEgMy43OTI1NzY3NSw3LjIwNzkxNTU2IEwwLjc5MjI3OTAyOCw0LjIwNzYxNzg0IEMwLjQwMjI0MDMyNCwzLjgxNzU3OTEzIDAuNDAyMjQwMzI0LDMuMTgzNTE2MjEgMC43OTIyNzkwMjgsMi43OTM0Nzc1MSBDMS4xODIzMTc3MywyLjQwMzQzODgxIDEuODE2MzgwNjUsMi40MDM0Mzg4MSAyLjIwNjQxOTM1LDIuNzkzNDc3NTEgTDQuNDk4NjQ2ODEsNS4wODU3MDQ5NyBMOC43OTEwNzI3NSwwLjc5MzI3OTAyOCBDOS4xODExMTE0NiwwLjQwMzI0MDMyNCA5LjgxNTE3NDM4LDAuNDAzMjQwMzI0IDEwLjIwNTIxMzEsMC43OTMyNzkwMjggQzEwLjU5NTI1MTgsMS4xODMzMTc3MyAxMC41OTkyNTIyLDEuODE1MzgwNDUgMTAuMjA5MjEzNSwyLjIwNzQxOTM1IEw1LjIwODcxNzI3LDcuMjA3OTE1NTYgWiIgZmlsbD0iIzU0OWVmZiI+PC9wYXRoPgogIDwvZz4KPC9zdmc+') no-repeat center center;
-        border: 1px solid $color-primary;
-      }
-    }
-  }
-
   input[type="checkbox"] {
     width: 20px;
     height: 20px;

@@ -11,7 +11,7 @@ version: 0.1.9
 # Build settings
 markdown: kramdown
 
-gems: [jekyll-assets, rouge, autoprefixer-rails, kramdown]
+gems: [jekyll-assets, rouge, autoprefixer-rails, kramdown, octopress-autoprefixer]
 
 exclude: [
   "Gemfile",

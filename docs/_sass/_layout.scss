@@ -1,6 +1,6 @@
 .docs {
   min-height: 100vh;
-  padding-left: 350px;
+  padding-left: 300px;
 }
 
 @import 'layout/aside';
@@ -84,8 +84,13 @@
 }
 
 .post-header {
-  height: 60px;
+  border-bottom: 2px solid $color-smoke;
+  padding-bottom: 20px;
   margin-bottom: 20px;
+
+  p {
+    margin-bottom: 10px;
+  }
 }
 
 

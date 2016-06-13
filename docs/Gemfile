@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 gem "jekyll"
 
-gem "autoprefixer-rails"
+gem "octopress-autoprefixer"
 gem "facets"
 gem "jekyll-assets"
 gem "kramdown"
