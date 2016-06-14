@@ -1,11 +1,10 @@
 ---
 layout: post
 title:  "Visibility"
+subtitle: "There are a number of utility classes, including a set of visibility classes. These allow content to be hidden under certain circumstances (for example at differing screen sizes)."
 categories: layout
 permalink: /layout/visibility/
 ---
-
-There are a number of utility classes, including a set of visibility classes. These allow content to be hidden under certain circumstances (for example at differing screen sizes).
 
 Each breakpoint has it's own set of classes that can be used:
 

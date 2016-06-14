@@ -6,7 +6,7 @@ module CopyImagesDirectory
     # copied into the docs repo.
     def generate(site)
 
-       FileUtils.cp_r '../images', 'images'
+       # FileUtils.cp_r '../images', 'images'
 
     end
     

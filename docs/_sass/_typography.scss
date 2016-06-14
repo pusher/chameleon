@@ -1,10 +1,11 @@
 h1 {
   @extend %font-family-primary;
-  font-size: rem-calc(24px);
-  color: $color-slate;
-  font-weight: 700;
-  line-height: 1em;
-  text-transform: uppercase;
+  @extend .title--alpha;
+  // font-size: rem-calc(24px);
+  // color: $color-slate;
+  // font-weight: 700;
+  // line-height: 1em;
+  // text-transform: uppercase;
 }
 
 h2 {
@@ -13,6 +14,7 @@ h2 {
   color: $color-slate;
   font-weight: 700;
   text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 h3 {
@@ -32,7 +34,6 @@ h6 {
 }
 
 p {
-  max-width: 35%;
   font-size: rem-calc(18px);
   line-height: 1.6em;
   margin-bottom: rem-calc(20px);

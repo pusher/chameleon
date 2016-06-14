@@ -1,13 +1,12 @@
 ---
 layout: post
 title:  "Syntax Highlighting"
+subtitle: "For code snippets, a pygments typography mixin is included to highlight different languages."
 categories: layout
 permalink: /layout/syntax-highlighting/
 ---
 
-For code snippets, a pygments typography mixin is included to highlight different languages. These styles are being used on this page to highlight the following code blocks:
-
-***
+To use the mixin, just ensure that your codesnippets are wrapped in a `.highlight` class.
 
 **Ruby**
 
