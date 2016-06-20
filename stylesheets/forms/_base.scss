@@ -27,7 +27,12 @@
   }
 
   &.error {
-    border-color: $color-warning;
+    border-color: $color-danger;
+    border-width: 1px;
+  }
+
+  &.valid {
+    border-color: $color-success;
     border-width: 1px;
   }
 
