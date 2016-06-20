@@ -6,144 +6,145 @@
   .signpost {
     position: relative;
     width: 100%;
+  }
 
-    &__left,
-    &__right {
-      position: relative;
-      display: flex;
-      align-items: center;
-      padding: 40px 20px;
+  .signpost__left,
+  .signpost__right {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 40px 20px;
 
-      > div {
-        flex: 1;
-        width: 0;
-      }
-
-      @media #{$large-up} {
-        height: 400px;
-      }
-
+    > div {
+      flex: 1;
+      width: 0;
     }
 
-    &--no-flex {
-      .c-signpost__left,
-      .c-signpost__right {
-        display: block;
-      }
+    @media #{$large-up} {
+      height: 400px;
     }
 
-    &__left:before,
-    &__right:after {
-      position: absolute;
-      top: 0;
-      width: 100px;
-      height: 100%;
-      content: "";
+  }
+
+  .signpost--no-flex {
+    .c-signpost__left,
+    .c-signpost__right {
+      display: block;
+    }
+  }
+
+  .signpost__left:before,
+  .signpost__right:after {
+    position: absolute;
+    top: 0;
+    width: 70px;
+    height: 100%;
+    content: "";
+    display: none;
+
+    @media #{$large-up} {
+      display: block;
+    }
+  }
+
+  .signpost__left {
+    z-index: 4;
+
+    @media #{$large-up} {
+      transform: translate3d(15px, -10px, 0);
+      padding: 50px 70px 50px 0;
+      margin-left: initial;
+    }
+
+    &:before {
+      transform: translateX(-70px);
+      background: inherit;
+      left: 0;
+    }
+
+    &:after {
       display: none;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 20px 30px 0 0;
+      content: "";
+      bottom: -20px;
+      right: 0;
+      position: absolute;
 
       @media #{$large-up} {
-        display: block;
+        display: inline;
       }
     }
+  }
 
-    &__left {
-      z-index: 4;
+  .signpost__right {
+    z-index: 3;
 
-      @media #{$large-up} {
-        transform: translate3d(15px, -10px, 0);
-        padding: 50px 50px 50px 0;
-      }
-
-      &:before {
-        transform: translateX(-100px);
-        background: inherit;
-        left: 0;
-      }
-
-      &:after {
-        display: none;
-        width: 0;
-        height: 0;
-        border-style: solid;
-        border-width: 20px 30px 0 0;
-        content: "";
-        bottom: -20px;
-        right: 0;
-        position: absolute;
-
-        @media #{$large-up} {
-          display: inline;
-        }
-      }
+    @media #{$large-up} {
+      transform: translate3d(-15px, 10px, 0);
+      padding: 50px 200px 50px 90px !important;
     }
 
-    &__right {
-      z-index: 3;
 
-      @media #{$large-up} {
-        transform: translate3d(-15px, 10px, 0);
-        padding: 50px 200px 50px 90px !important;
-      }
+    &:after {
+      background: inherit;
+      right: 0;
+      transform: translateX(70px);
+    }
+  }
 
+  .signpost__square {
+    @media #{$large-up} {
+      padding: 50px 20px 50px 90px !important;
+    }
+  }
 
-      &:after {
-        background: inherit;
-        right: 0;
-        transform: translateX(100px);
-      }
+  .signpost__enterprise {
+    background-color: $color-white;
+
+    &:after {
+      border-color: darken($color-white, 16%) transparent transparent transparent;
+    }
+  }
+
+  .signpost__color-white {
+    background-color: $color-white;
+
+    &:after {
+      border-color: darken($color-white, 16%) transparent transparent transparent;
+    }
+  }
+
+  .signpost__color-developer {
+    background-color: $color-developer;
+    
+    &:after {
+      border-color: darken($color-developer, 15%) transparent transparent transparent;
+      background-position: calc(100% + 78px) center;
+      background-size: cover;
+    }
+  }
+
+  .signpost__color-primary {
+    background-color: $color-primary;
+
+    &:after {
+      border-color: darken($color-primary, 16%) transparent transparent transparent;
+    }
+  }
+
+  .signpost__signup {
+    background: $color-primary file-url('pattern_1_faded.png') no-repeat left center;
+    background-color: $color-primary;
+
+    &:before {
+      background-position: 20% center;
     }
 
-    &__square {
-      @media #{$large-up} {
-        padding: 50px 20px 50px 90px !important;
-      }
-    }
-
-    &__enterprise {
-      background-color: $color-white;
-
-      &:after {
-        border-color: darken($color-white, 16%) transparent transparent transparent;
-      }
-    }
-
-    &__color-white {
-      background-color: $color-white;
-
-      &:after {
-        border-color: darken($color-white, 16%) transparent transparent transparent;
-      }
-    }
-
-    &__color-developer {
-      background-color: $color-developer;
-      
-      &:after {
-        border-color: darken($color-developer, 15%) transparent transparent transparent;
-        background-position: calc(100% + 78px) center;
-        background-size: cover;
-      }
-    }
-
-    &__color-primary {
-      background-color: $color-primary;
-
-      &:after {
-        border-color: darken($color-primary, 16%) transparent transparent transparent;
-      }
-    }
-
-    &__signup {
-      background: $color-primary file-url('pattern_1_faded.png') no-repeat left center;
-      background-color: $color-primary;
-
-      &:before {
-        background-position: 20% center;
-      }
-
-      &:after {
-        border-color: darken($color-primary, 10%) transparent transparent;
-      }
+    &:after {
+      border-color: darken($color-primary, 10%) transparent transparent;
     }
   }
 }

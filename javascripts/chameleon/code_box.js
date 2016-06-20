@@ -1,6 +1,6 @@
 $(function() {
 
-  $('.c-code__nav__languages li').click(function() {
+  $('.c-code__nav__list li:not(.is-disabled)').click(function() {
     $(this).parent().children('.current').removeClass('current');
     $(this).parents('.c-code__nav').siblings('.c-code__content').children(".c-code__content__container.current").removeClass('current');
 
