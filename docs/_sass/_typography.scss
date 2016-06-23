@@ -8,7 +8,7 @@ h1 {
   // text-transform: uppercase;
 }
 
-h2 {
+h2:not(.pattern-item) {
   @extend %font-family-primary;
   font-size: rem-calc(16px);
   color: $color-slate;
