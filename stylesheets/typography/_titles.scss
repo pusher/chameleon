@@ -54,7 +54,7 @@
 
   .title--epsilon {
     @extend %font-family-primary;
-    font-size: 16px;
+    font-size: rem-calc(16px);
     font-weight: 500;
     line-height: 1.1em;
   }
