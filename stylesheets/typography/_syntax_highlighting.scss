@@ -31,7 +31,7 @@
         text-shadow: 0 1px #fff;
         color: #2b303b;
       } @else {
-        text-shadow: 0 1px rgba(0, 0, 0, .75);
+        text-shadow: 0 1px rgba(0, 0, 0, .35);
         color:#f2f0ec;
       }
     }
@@ -113,7 +113,7 @@
       .p { color: #f2f0ec } /* Punctuation */
       .cm { color: #747369 } /* Comment.Multiline */
       .cp { color: #747369 } /* Comment.Preproc */
-      .c1 { color: #747369 } /* Comment.Single */
+      .c1 { color: #778492 } /* Comment.Single */
       .cs { color: #747369 } /* Comment.Special */
       .gd { color: #EC5f67 } /* Generic.Deleted */
       .ge { font-style: italic } /* Generic.Emph */

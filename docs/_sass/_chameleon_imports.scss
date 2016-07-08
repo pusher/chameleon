@@ -1,8 +1,12 @@
+$font-url-helper-path: false;
+$font-url-path: "/chameleon/fonts/";
+
 @import '../../stylesheets/chameleon';
 
 $global-font-smoothing: true;
 $file-url-helper-path: true;
 $file-url-path: "/chameleon/images/";
+
 
 $font-family-secondary: 'Proxima Nova';
 

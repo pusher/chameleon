@@ -33,6 +33,16 @@
 
     }
 
+    &__icon,
+    &__icon svg {
+      display: inline;
+      vertical-align: bottom; 
+    }
+
+    &__icon {
+      margin-right: 1em;
+    }
+
     &--danger,
     &--error {
       background-color: $color-danger;
