@@ -52,7 +52,7 @@
       }
 
       &.current {
-        background-color: darken($color-black, 5%);
+        background-color: darken($_code-box-nav-bg, 10%);
         border-top: 2px solid $color-developer;
       }
     }
@@ -64,7 +64,7 @@
   }
 
   .c-code__content {
-    background: darken($color-black, 5%);
+    background: $_code-box-nav-bg;
 
     &__container {
       display: none;
