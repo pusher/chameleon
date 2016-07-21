@@ -4,14 +4,29 @@
 
 @mixin CHAMELEON-alert {
   .alert {
+    background-color: #fff;
     border-radius: $border-radius;
+    border-style: solid;
+    border-width: 1px;
     display: block;
     margin: rem-calc(10px) 0;
     max-width: 100%;
-    padding: 12px 30px;
+    padding: 12px 30px 12px 60px;
     text-align: left;
     width: auto;
     line-height: 1.4em;
+    position: relative;
+
+    &:before {
+      background-repeat: no-repeat;
+      content: "";
+      height: 18px;
+      left: 12px;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 18px;
+    }
 
     &__title {
       font-size: rem-calc(14px);
@@ -45,25 +60,33 @@
 
     &--danger,
     &--error {
-      background-color: $color-danger;
-      border-color: darken($color-danger, 5%);
-      color: #fff;
+      border-color: lighten($color-danger, 40%);
+      color: $color-danger;
+      box-shadow: inset 40px 0 0 0 $color-danger;
+
+      &:before {
+        background-image: file-url('ui_icons/alert_warning.svg');
+      }
     }
 
     &--success {
-      background-color: $color-success;
-      border-color: darken($color-success, 5%);
-      color: #fff;
+      color: darken($color-success, 5%);
+      border-color: lighten($color-success, 40%);
+      box-shadow: inset 40px 0 0 0 $color-success;
+
+      &:before {
+        background-image: file-url('ui_icons/alert_tick.svg');
+      }
     }
 
     &--information {
-      background-color: $color-information;
-      background-image: file-url('ui_icons/info.svg');
-      background-repeat: no-repeat;
-      background-position: 20px 14px;
-      color: #fff;
-      border: 1px solid darken($color-information, 6%);
-      padding-left: 50px;
+      border-color: $color-smoke;
+      color: $color-information;
+      box-shadow: inset 40px 0 0 0 $color-information;
+
+      &:before {
+        background-image: file-url('ui_icons/alert_info.svg');
+      }
     }
   }
 }
