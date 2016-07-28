@@ -20,11 +20,12 @@
     pre {
       font-family: $font-family-monospace;
       font-size: rem-calc(13px);
+      line-height: rem-calc(20px);
       font-weight: 300;
       color: #2b303b;
     }
 
-    .c {    color: #a7adba } /* Comment */
+    .c {    color: #b9bfcc } /* Comment */
     .err {  color: #bf616a } /* Error */
     .k {    color: #b48ead } /* Keyword */
     .l {    color: #d08770 } /* Literal */
@@ -63,7 +64,7 @@
     .nn {   color: #ebcb8b } /* Name.Namespace */
     .nx {   color: #6699cc } /* Name.Other */
     .py {   color: #2b303b } /* Name.Property */
-    .nt {   color: #96b5b4 } /* Name.Tag */
+    .nt {   color: #39acdc} /* Name.Tag */
     .nv {   color: #bf616a } /* Name.Variable */
     .ow {   color: #96b5b4 } /* Operator.Word */
     .w {    color: #2b303b } /* Text.Whitespace */
