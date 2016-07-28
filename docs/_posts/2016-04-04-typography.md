@@ -14,17 +14,17 @@ Title classes use the Greek alphabet as a naming convention. This allows the sty
 For example, an H1 and an H6 with a `title--gamma` class, will both visually look the same.
 
 <div class="pattern">
-  <h1 class="title--alpha pattern-item">H1 - Page title (28px)</h1>
+  <h1 class="title--alpha pattern-item">Page title (28px)</h1>
   <br>
-  <h2 class="title--beta pattern-item">H2 - Section title - (24px)</h2>
+  <h2 class="title--beta pattern-item">Section title - (24px)</h2>
   <br>
-  <h3 class="title--delta pattern-item">H3 - Section sub-title - (22px)</h3>
+  <h3 class="title--gamma pattern-item">Section sub-title - (22px)</h3>
   <br>
-  <h4 class="title--gamma pattern-item">H4 - Paragraph title - (18px)</h4>
+  <h4 class="title--delta pattern-item">Paragraph title - (18px)</h4>
   <br>
-  <h5 class="title--epsilon pattern-item">H5 - Paragraph sub-title - (16px)</h5>
+  <h5 class="title--epsilon pattern-item">Paragraph sub-title - (16px)</h5>
   <br>
-  <h6 class="title--zeta pattern-item">H6 - Paragraph heading - (12px)</h6>
+  <h6 class="title--zeta pattern-item">Paragraph heading - (12px)</h6>
 </div>
 
 ``` html
