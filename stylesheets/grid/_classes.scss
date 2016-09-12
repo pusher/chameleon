@@ -29,7 +29,7 @@
     @include grid-row;
 
     // Collapsing
-    &.#{$collapse} {
+    &.#{$class-modifier}#{$collapse} {
       > .#{$column} {
         @include grid-col-collapse;
       }
