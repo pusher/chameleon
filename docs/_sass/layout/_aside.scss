@@ -1,11 +1,18 @@
 .docs__aside {
-  height: 100vh;
-  position: fixed;
-  left: 0;
+  height: auto;
+  position: relative;
+  width: 100%;
   background-color: #fff;
-  border-right: 1px solid darken($color-snow, 10%);
-  width: 280px;
   top: 0;
+
+  @media #{$medium-up} {
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 280px;
+    border-right: 1px solid darken($color-snow, 10%);
+  }
 
   h5 {
     font-size: 17px;

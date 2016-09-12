@@ -1,12 +1,19 @@
 .docs {
   min-height: 100vh;
-  padding-left: 300px;
+  
+  @media #{$medium-up} {
+    padding-left: 300px;
+  }
 }
 
 @import 'layout/aside';
 
 .docs__content {
-  padding: 100px 0;
+  padding: 60px 0;
+
+  @media #{$medium-up} {
+    padding: 100px 0;
+  }
 }
 
 .pattern {
@@ -90,7 +97,11 @@
 
   p {
     margin-bottom: 10px;
-    max-width: 45%;
+    width: 100%;
+    
+    @media #{$large-up} {
+      max-width: 45%;
+    }
   }
 }
 
