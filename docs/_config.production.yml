@@ -11,7 +11,7 @@ url: "https://pusher.github.io/chameleon"
 # Build settings
 
 assets:
-  baseurl: https://pusher.github.io/chameleon
+  baseurl: https://pusher.github.io/chameleon/
   cachebust: hard
   debug: false
   css_compressor: sass
