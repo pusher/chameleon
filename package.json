@@ -11,6 +11,13 @@
   ],
   "author": "Alex Pate",
   "license": "MIT",
+  "files": [
+    "README.md",
+    "images",
+    "javascripts",
+    "stylesheets",
+    "fonts"
+  ],
   "bugs": {
     "url": "https://github.com/pusher/chameleon/issues"
   },
