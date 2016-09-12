@@ -97,26 +97,24 @@
 
 .color-block {
   width: 100%;
-  height: 120px;
-  border-radius: 4px;
+  height: 180px;
   padding: 26px 20px;
-  text-align: center;
-  margin-bottom: 20px;
 
-  span {
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  ul li {
     @extend %font-family-secondary;
-    font-size: rem-calc(16px);
-    font-weight: 400;
+    display: block;
+    font-size: rem-calc(14px);
 
-    &:nth-of-type(2) {
-      margin-top: 10px;
-    }
-
-    &:nth-of-type(2),
-    &:nth-of-type(3) {
-      opacity: .8;
-      display: block;
-      font-size: rem-calc(14px);
+    &:first-of-type {
+      margin-bottom: 20px;
+      font-size: rem-calc(18px);
+      font-weight: 400;
     }
   }
 }
