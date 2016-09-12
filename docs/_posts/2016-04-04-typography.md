@@ -85,3 +85,23 @@ These classes provide a quick way to change text color and alignment.
 <span class="u-color-warning">I will always be colored with the ui warning color</span>
 <span class="u-color-success">I will always be colored with the ui success color</span>
 ```
+
+<div class="pattern u-text-align-center">
+  <span>I will be aligned centrally on desktop and tablet, and left aligned on mobile</span>
+</div>
+
+```html
+<div class="u-text-align-center">
+  <span>I will be aligned centrally on desktop and tablet, and left aligned on mobile</span>
+</div>
+```
+
+<div class="pattern u-text-align-right">
+  <span>I will be aligned to the right</span>
+</div>
+
+```html
+<div class="u-text-align-right">
+  <span>I will be aligned to the right</span>
+</div>
+```
