@@ -35,3 +35,53 @@ For example, an H1 and an H6 with a `title--gamma` class, will both visually loo
 <h5 class="title--epsilon">H5 - Paragraph sub-title</h5>
 <h6 class="title--zeta">H6 - Paragraph heading</h6>
 ```
+
+* * *
+
+## Utility Classes
+
+These classes provide a quick way to change text color and alignment.
+
+<div class="pattern">
+  <span class="u-color-primary">I will always be colored with the primary color</span>
+  <br>
+  <br>
+  <span class="u-color-developer">I will always be colored with the developer color</span>
+  <br>
+  <br>
+  <span class="u-color-snow">I will always be colored with the neutral snow color</span>
+  <br>
+  <br>
+  <span class="u-color-smoke">I will always be colored with the neutral smoke color</span>
+  <br>
+  <br>
+  <span class="u-color-silver">I will always be colored with the neutral silver color</span>
+  <br>
+  <br>
+  <span class="u-color-slate">I will always be colored with the neutral slate color</span>
+  <br>
+  <br>
+  <span class="u-color-black">I will always be colored with the neutral black color</span>
+  <br>
+  <br>
+  <span class="u-color-danger">I will always be colored with the ui danger color</span>
+  <br>
+  <br>
+  <span class="u-color-warning">I will always be colored with the ui warning color</span>
+  <br>
+  <br>
+  <span class="u-color-success">I will always be colored with the ui success color</span>
+</div> 
+
+```html
+<span class="u-color-primary">I will always be colored with the primary color</span>
+<span class="u-color-developer">I will always be colored with the developer color</span>
+<span class="u-color-snow">I will always be colored with the neutral snow color</span>
+<span class="u-color-smoke">I will always be colored with the neutral smoke color</span>
+<span class="u-color-silver">I will always be colored with the neutral silver color</span>
+<span class="u-color-slate">I will always be colored with the neutral slate color</span>
+<span class="u-color-black">I will always be colored with the neutral black color</span>
+<span class="u-color-danger">I will always be colored with the ui danger color</span>
+<span class="u-color-warning">I will always be colored with the ui warning color</span>
+<span class="u-color-success">I will always be colored with the ui success color</span>
+```

@@ -1,8 +1,15 @@
 @mixin chameleon-typography-helpers {
 
+  .u-color-primary {
+    color: $color-primary !important;
+  }
+
+  .u-color-developer {
+    color: $color-developer !important;
+  }
+
   // We provide dark and light
   // class names for legacy
-
   .u-color-dark,
   .u-color-black {
     color: $color-black !important;
@@ -11,10 +18,6 @@
   .u-color-light,
   .u-color-white {
     color: $color-white !important;
-  }
-
-  .u-color-primary {
-    color: $color-primary !important;
   }
 
   .u-color-snow {
@@ -31,6 +34,18 @@
 
   .u-color-slate {
     color: $color-slate !important;
+  }
+
+  .u-color-warning {
+    color: $color-warning !important;
+  }
+
+  .u-color-danger {
+    color: $color-danger !important;
+  }
+
+  .u-color-success {
+    color: $color-success !important;
   }
 
   .u-text-align-center {
