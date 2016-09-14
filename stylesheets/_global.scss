@@ -37,6 +37,7 @@ $color-palette: (
   danger: #b74a48,
   information: #34495e,
   alert: #b74a48,
+  beta: #a57cec
 ) !default;
 
 $color-primary: map-get($color-palette, primary);
@@ -46,6 +47,7 @@ $color-success: map-get($color-palette, success);
 $color-warning: map-get($color-palette, warning);
 $color-danger: map-get($color-palette, danger);
 $color-information: map-get($color-palette, information);
+$color-beta: map-get($color-palette, beta);
 
 // Neutrals Colour Palette
 $color-neutrals: (

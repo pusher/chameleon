@@ -79,6 +79,16 @@
       }
     }
 
+    &--beta {
+      color: darken($color-beta, 5%);
+      border-color: lighten($color-beta, 20%);
+      box-shadow: inset 40px 0 0 0 $color-beta;
+
+      &:before {
+        background-image: file-url('ui_icons/alert_beta.svg');
+      }
+    }
+
     &--information {
       border-color: $color-smoke;
       color: $color-information;
