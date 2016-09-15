@@ -49,6 +49,9 @@ These classes provide a quick way to change text color and alignment.
   <span class="u-color-developer">I will always be colored with the developer color</span>
   <br>
   <br>
+  <span class="u-color-beta">I will always be colored with the beta color</span>
+  <br>
+  <br>
   <span class="u-color-snow">I will always be colored with the neutral snow color</span>
   <br>
   <br>
@@ -76,6 +79,7 @@ These classes provide a quick way to change text color and alignment.
 ```html
 <span class="u-color-primary">I will always be colored with the primary color</span>
 <span class="u-color-developer">I will always be colored with the developer color</span>
+<span class="u-color-beta">I will always be colored with the beta color</span>
 <span class="u-color-snow">I will always be colored with the neutral snow color</span>
 <span class="u-color-smoke">I will always be colored with the neutral smoke color</span>
 <span class="u-color-silver">I will always be colored with the neutral silver color</span>
