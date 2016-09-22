@@ -18,3 +18,8 @@ If you're working on a public facing app or project, then it's important that th
 *What things are in here?*
 
 Firstly, the base Sass variables. These include our colours, our typefaces, our font-weights, and our breakpoints. Certain patterns that are (or are likely to be) repeated across projects can also be found here. For example, buttons, form fields, and labels. There are also a few larger components, however for the most part, these are kept at project level.
+
+*Credits*
+
+- Zurb Foundation for the the grid
+- Marvel for their colour naming convention
