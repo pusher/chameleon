@@ -21,5 +21,4 @@ Firstly, the base Sass variables. These include our colours, our typefaces, our 
 
 *Credits*
 
-- Zurb Foundation for the the grid
-- Marvel for their colour naming convention
+Zurb Foundation for the the grid. Marvel for their colour naming convention.
