@@ -3,7 +3,7 @@ module PusherChameleon
     class Engine < ::Rails::Engine
 
       initializer 'pusher_chameleon.assets.precompile' do |app|
-        %w(stylesheets javascripts fonts images).each do |sub|
+        %w(stylesheets javascripts images).each do |sub|
           app.config.assets.paths << root.join(sub).to_s
         end
       end
