@@ -89,6 +89,8 @@ $syntax-highlighting-style: 'light' !default;
   font-family: $font-family-secondary;
 }
 
+$cdn-font-url: "https://d2tqzwbu9ayras.cloudfront.net/assets";
+
 // Misc
 $border-radius: 0px !default;
 $button-namespace: 'btn' !default;

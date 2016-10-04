@@ -2,58 +2,53 @@
 @font-face {
   font-family: 'Realtime Text';
   font-weight: 300;
-  src: font-url-helper('Realtime-Text/realtime_text_light.eot');
-  src: font-url-helper('Realtime-Text/realtime_text_light.eot?#iefix') format('embedded-opentype'),
-       font-url-helper('Realtime-Text/realtime_text_light.woff2') format('woff2'),
-       font-url-helper('Realtime-Text/realtime_text_light.woff') format('woff'),
-       font-url-helper('Realtime-Text/realtime_text_light.ttf') format('truetype'),
-       font-url-helper('Realtime-Text/realtime_text_light.svg') format('svg');
+  src: url('#{$cdn-font-url}/Realtime-Text/realtime_text_light.eot');
+  src: url('#{$cdn-font-url}/Realtime-Text/realtime_text_light.woff2') format('woff2'),
+       url('#{$cdn-font-url}/Realtime-Text/realtime_text_light.woff') format('woff'),
+       url('#{$cdn-font-url}/Realtime-Text/realtime_text_light.ttf') format('truetype'),
+       url('#{$cdn-font-url}/Realtime-Text/realtime_text_light.eot?#iefix') format('embedded-opentype');
 }
 
 // Realtime Text Regular
 @font-face {
   font-family: 'Realtime Text';
   font-weight: 400;
-  src: font-url-helper('Realtime-Text/realtime_text_regular.eot');
-  src: font-url-helper('Realtime-Text/realtime_text_regular.eot?#iefix') format('embedded-opentype'),
-       font-url-helper('Realtime-Text/realtime_text_regular.woff2') format('woff2'),
-       font-url-helper('Realtime-Text/realtime_text_regular.woff') format('woff'),
-       font-url-helper('Realtime-Text/realtime_text_regular.ttf') format('truetype'),
-       font-url-helper('Realtime-Text/realtime_text_regular.svg') format('svg');
+  src: url('#{$cdn-font-url}/Realtime-Text/realtime_text_regular.eot');
+  src: url('#{$cdn-font-url}/Realtime-Text/realtime_text_regular.woff2') format('woff2'),
+       url('#{$cdn-font-url}/Realtime-Text/realtime_text_regular.woff') format('woff'),
+       url('#{$cdn-font-url}/Realtime-Text/realtime_text_regular.ttf') format('truetype');
+       url('#{$cdn-font-url}/Realtime-Text/realtime_text_regular.eot?#iefix') format('embedded-opentype'),
 }
 
 // Realtime Text Semibold
 @font-face {
   font-family: 'Realtime Text';
   font-weight: 500;
-  src: font-url-helper('Realtime-Text/realtime_text_semibold.eot');
-  src: font-url-helper('Realtime-Text/realtime_text_semibold.eot?#iefix') format('embedded-opentype'),
-       font-url-helper('Realtime-Text/realtime_text_semibold.woff2') format('woff2'),
-       font-url-helper('Realtime-Text/realtime_text_semibold.woff') format('woff'),
-       font-url-helper('Realtime-Text/realtime_text_semibold.ttf') format('truetype'),
-       font-url-helper('Realtime-Text/realtime_text_semibold.svg') format('svg');
+  src: url('#{$cdn-font-url}/Realtime-Text/realtime_text_semibold.eot');
+  src: url('#{$cdn-font-url}/Realtime-Text/realtime_text_semibold.woff2') format('woff2'),
+       url('#{$cdn-font-url}/Realtime-Text/realtime_text_semibold.woff') format('woff'),
+       url('#{$cdn-font-url}/Realtime-Text/realtime_text_semibold.ttf') format('truetype'),
+       url('#{$cdn-font-url}/Realtime-Text/realtime_text_semibold.eot?#iefix') format('embedded-opentype');
 }
 
 // Realtime Text Bold
 @font-face {
   font-family: 'Realtime Text';
   font-weight: 600;
-  src: font-url-helper('Realtime-Text/realtime_text_bold.eot');
-  src: font-url-helper('Realtime-Text/realtime_text_bold.eot?#iefix') format('embedded-opentype'),
-       font-url-helper('Realtime-Text/realtime_text_bold.woff2') format('woff2'),
-       font-url-helper('Realtime-Text/realtime_text_bold.woff') format('woff'),
-       font-url-helper('Realtime-Text/realtime_text_bold.ttf') format('truetype'),
-       font-url-helper('Realtime-Text/realtime_text_bold.svg') format('svg');
+  src: url('#{$cdn-font-url}/Realtime-Text/realtime_text_bold.eot');
+  src: url('#{$cdn-font-url}/Realtime-Text/realtime_text_bold.woff2') format('woff2'),
+       url('#{$cdn-font-url}/Realtime-Text/realtime_text_bold.woff') format('woff'),
+       url('#{$cdn-font-url}/Realtime-Text/realtime_text_bold.ttf') format('truetype'),
+       url('#{$cdn-font-url}/Realtime-Text/realtime_text_bold.eot?#iefix') format('embedded-opentype');
 }
 
 // Realtime Text Black
 @font-face {
   font-family: 'Realtime Text';
   font-weight: 700;
-  src: font-url-helper('Realtime-Text/realtime_text_black.eot');
-  src: font-url-helper('Realtime-Text/realtime_text_black.eot?#iefix') format('embedded-opentype'),
-       font-url-helper('Realtime-Text/realtime_text_black.woff2') format('woff2'),
-       font-url-helper('Realtime-Text/realtime_text_black.woff') format('woff'),
-       font-url-helper('Realtime-Text/realtime_text_black.ttf') format('truetype'),
-       font-url-helper('Realtime-Text/realtime_text_black.svg') format('svg');
+  src: url('#{$cdn-font-url}/Realtime-Text/realtime_text_black.eot');
+  src: url('#{$cdn-font-url}/Realtime-Text/realtime_text_black.woff2') format('woff2'),
+       url('#{$cdn-font-url}/Realtime-Text/realtime_text_black.woff') format('woff'),
+       url('#{$cdn-font-url}/Realtime-Text/realtime_text_black.ttf') format('truetype'),
+       url('#{$cdn-font-url}/Realtime-Text/realtime_text_black.eot?#iefix') format('embedded-opentype');
 }
