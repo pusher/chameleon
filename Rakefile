@@ -45,7 +45,6 @@ namespace :chameleon do
       system "git init"
       system "git add ."
       system "git commit -m #{message.inspect}"
-      # system "#{message.inspect}"
       system "git remote add origin git@github.com:#{GITHUB_REPONAME}.git"
       system "git push origin master:refs/heads/gh-pages --force"
 
