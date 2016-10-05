@@ -16,8 +16,8 @@
   src: url('#{$cdn-font-url}/Realtime-Text/realtime_text_regular.eot');
   src: url('#{$cdn-font-url}/Realtime-Text/realtime_text_regular.woff2') format('woff2'),
        url('#{$cdn-font-url}/Realtime-Text/realtime_text_regular.woff') format('woff'),
-       url('#{$cdn-font-url}/Realtime-Text/realtime_text_regular.ttf') format('truetype');
-       url('#{$cdn-font-url}/Realtime-Text/realtime_text_regular.eot?#iefix') format('embedded-opentype'),
+       url('#{$cdn-font-url}/Realtime-Text/realtime_text_regular.ttf') format('truetype'),
+       url('#{$cdn-font-url}/Realtime-Text/realtime_text_regular.eot?#iefix') format('embedded-opentype');
 }
 
 // Realtime Text Semibold
