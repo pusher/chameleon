@@ -6,7 +6,6 @@ environment: development
 # Site settings
 title: Pusher Chameleon
 gitrepo: https://github.com/pusher/chameleon
-version: 0.1.9
 
 # Build settings
 markdown: kramdown
