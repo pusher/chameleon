@@ -3,3 +3,4 @@ node_modules/
 dist/
 stylesheets/test_patterns/
 *.gem
+npm-debug.log
