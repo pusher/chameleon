@@ -1,9 +1,9 @@
 $:.push File.expand_path("../lib", __FILE__)
 
-require "pusher_chameleon/version"
+require "pusher-chameleon/version"
 
 Gem::Specification.new do |s|
-  s.name         = "pusher_chameleon"
+  s.name         = "pusher-chameleon"
   s.version      = PusherChameleon::VERSION
   s.summary      = 'Pusher Chameleon front-end asset library'
   s.description  = 'Chameleon holds various front-end assets that are shared across our products'

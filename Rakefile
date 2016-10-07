@@ -5,7 +5,7 @@ require "rake"
 require "rubygems"
 require "tmpdir"
 require "jekyll"
-require "pusher_chameleon/version"
+require "pusher-chameleon/version"
 
 GITHUB_REPONAME = "pusher/chameleon"
 CHAMELEON_VERSION = PusherChameleon::VERSION
@@ -19,8 +19,8 @@ namespace :chameleon do
   # If this fails, then you probably need to login first
   desc "Publish to RubyGems"
   task :gem_publish do
-    system "gem build pusher_chameleon.gemspec"
-    system "gem push pusher_chameleon-#{CHAMELEON_VERSION}.gem"
+    system "gem build pusher-chameleon.gemspec"
+    system "gem push pusher-chameleon-#{CHAMELEON_VERSION}.gem"
   end
 
   desc "Generate docs files"
