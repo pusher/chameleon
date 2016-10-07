@@ -40,7 +40,7 @@ module PusherChameleon
 
     def rails?
       defined?(::Rails)
-      autoload 'VERSION', 'pusher_chameleon/version'
+      autoload 'VERSION', 'pusher-chameleon/version'
     end
 
     private
@@ -56,7 +56,7 @@ module PusherChameleon
 
 
     def register_rails_engine
-      require 'pusher_chameleon/engine'
+      require 'pusher-chameleon/engine'
     end
 
 
