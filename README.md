@@ -1,3 +1,6 @@
+![Pusher Chameleon logo](https://raw.githubusercontent.com/pusher/chameleon/master/logo.png)
+
+
 # Pusher Chameleon
 
 [![npm version](https://badge.fury.io/js/pusher-chameleon.svg)](https://badge.fury.io/js/pusher-chameleon) [![Gem Version](https://badge.fury.io/rb/pusher-chameleon.svg)](https://badge.fury.io/rb/pusher-chameleon)
