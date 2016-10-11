@@ -1,6 +1,5 @@
 ![Pusher Chameleon logo](https://raw.githubusercontent.com/pusher/chameleon/master/logo.png)
 
-
 # Pusher Chameleon
 
 [![npm version](https://badge.fury.io/js/pusher-chameleon.svg)](https://badge.fury.io/js/pusher-chameleon) [![Gem Version](https://badge.fury.io/rb/pusher-chameleon.svg)](https://badge.fury.io/rb/pusher-chameleon)
@@ -36,6 +35,9 @@ Follow these steps to publish a new version of Chameleon:
 - Run `rake chameleon:publish`
 
 This rake task will publish a new version of Chameleon to the npm registry, push to RubyGems, and build a new version of the docs.
+
+## Fonts
+Our fonts are hosted on a CDN (see [global.scss](stylesheets/_global.scss)). If you're adding Chameleon in to a new project that sits on a new domain, then this will need to be added to the CORS config in the AWS S3 bucket.
 
 ## Documentation
 
