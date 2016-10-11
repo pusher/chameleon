@@ -41,3 +41,8 @@ This rake task will publish a new version of Chameleon to the npm registry, push
 ## Documentation
 
 [Read the Docs](https://pusher.github.io/chameleon)
+
+
+
+* * *
+*Logo by Agne Alesiute via TheNounProject*
