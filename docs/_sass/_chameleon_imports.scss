@@ -13,6 +13,7 @@ $font-family-secondary: 'Proxima Nova';
 @include CHAMELEON-base;
 @include CHAMELEON-grid;
 @include CHAMELEON-typography;
+@include CHAMELEON-syntax-highlighting;
 @include CHAMELEON-forms;
 @include CHAMELEON-flex-aligners;
 @include CHAMELEON-alert;
