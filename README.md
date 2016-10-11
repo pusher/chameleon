@@ -11,7 +11,7 @@ Chameleon is a library of front-end assets that can be used across Pusher. The g
 
 Chameleon can currently be imported as both a node module, and a ruby gem. Then, import the base chameleon stylesheet in to your project. This includes all of the functions, variables, and mixins that are required:
 
-```sass
+```scss
 // For a node project
 @import "~pusher-chameleon/stylesheets/chameleon.scss";
 
@@ -21,12 +21,11 @@ Chameleon can currently be imported as both a node module, and a ruby gem. Then,
 
 You can pick and choose which components you require, so these will need to be explicitly included:
 
-```sass
+```scss
 @include CHAMELEON-grid;
 @include CHAMELEON-typography;
 ...
 ```
-
 
 ## Publishing a new version
 
