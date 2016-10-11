@@ -8,5 +8,8 @@
   @include chameleon-typography-base;
   @include chameleon-typography-titles;
   @include chameleon-typography-helpers;
+}
+
+@mixin CHAMELEON-syntax-highlighting {
   @include chameleon-typography-syntax-highlighting;
 }
