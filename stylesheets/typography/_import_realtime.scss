@@ -1,0 +1,54 @@
+// Realtime Text Light
+@font-face {
+  font-family: 'pusher-realtime-text';
+  font-weight: 300;
+  src: url('#{$cdn-font-url}/fonts/realtime-text/light.eot');
+  src: url('#{$cdn-font-url}/fonts/realtime-text/light.woff2') format('woff2'),
+       url('#{$cdn-font-url}/fonts/realtime-text/light.woff') format('woff'),
+       url('#{$cdn-font-url}/fonts/realtime-text/light.ttf') format('truetype'),
+       url('#{$cdn-font-url}/fonts/realtime-text/light.eot?#iefix') format('embedded-opentype');
+}
+
+// Realtime Text Regular
+@font-face {
+  font-family: 'pusher-realtime-text';
+  font-weight: 400;
+  src: url('#{$cdn-font-url}/fonts/realtime-text/regular.eot');
+  src: url('#{$cdn-font-url}/fonts/realtime-text/regular.woff2') format('woff2'),
+       url('#{$cdn-font-url}/fonts/realtime-text/regular.woff') format('woff'),
+       url('#{$cdn-font-url}/fonts/realtime-text/regular.ttf') format('truetype'),
+       url('#{$cdn-font-url}/fonts/realtime-text/regular.eot?#iefix') format('embedded-opentype');
+}
+
+// Realtime Text Semibold
+@font-face {
+  font-family: 'pusher-realtime-text';
+  font-weight: 500;
+  src: url('#{$cdn-font-url}/fonts/realtime-text/semibold.eot');
+  src: url('#{$cdn-font-url}/fonts/realtime-text/semibold.woff2') format('woff2'),
+       url('#{$cdn-font-url}/fonts/realtime-text/semibold.woff') format('woff'),
+       url('#{$cdn-font-url}/fonts/realtime-text/semibold.ttf') format('truetype'),
+       url('#{$cdn-font-url}/fonts/realtime-text/semibold.eot?#iefix') format('embedded-opentype');
+}
+
+// Realtime Text Bold
+@font-face {
+  font-family: 'pusher-realtime-text';
+  font-weight: 600;
+  src: url('#{$cdn-font-url}/fonts/realtime-text/bold.eot');
+  src: url('#{$cdn-font-url}/fonts/realtime-text/bold.woff2') format('woff2'),
+       url('#{$cdn-font-url}/fonts/realtime-text/bold.woff') format('woff'),
+       url('#{$cdn-font-url}/fonts/realtime-text/bold.ttf') format('truetype'),
+       url('#{$cdn-font-url}/fonts/realtime-text/bold.eot?#iefix') format('embedded-opentype');
+}
+
+// Realtime Text Black
+@font-face {
+  font-family: 'pusher-realtime-text';
+  font-weight: 700;
+  src: url('#{$cdn-font-url}/fonts/realtime-text/black.eot');
+  src: url('#{$cdn-font-url}/fonts/realtime-text/black.woff2') format('woff2'),
+       url('#{$cdn-font-url}/fonts/realtime-text/black.woff') format('woff'),
+       url('#{$cdn-font-url}/fonts/realtime-text/black.ttf') format('truetype'),
+       url('#{$cdn-font-url}/fonts/realtime-text/black.eot?#iefix') format('embedded-opentype');
+}
