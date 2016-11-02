@@ -2,43 +2,43 @@
 @font-face {
   font-family: 'pusher-realtime-text';
   font-weight: 300;
-  src: url('#{$cdn-font-url}/fonts/realtime-text/light.woff2') format('woff2'),
-       url('#{$cdn-font-url}/fonts/realtime-text/light.woff') format('woff'),
-       url('#{$cdn-font-url}/fonts/realtime-text/light.ttf') format('truetype');
+  src: url('#{$cdn-url}/fonts/realtime-text/rt-light.woff2') format('woff2'),
+       url('#{$cdn-url}/fonts/realtime-text/rt-light.woff') format('woff'),
+       url('#{$cdn-url}/fonts/realtime-text/rt-light.ttf') format('truetype');
 }
 
 // Realtime Text Regular
 @font-face {
   font-family: 'pusher-realtime-text';
   font-weight: 400;
-  src: url('#{$cdn-font-url}/fonts/realtime-text/regular.woff2') format('woff2'),
-       url('#{$cdn-font-url}/fonts/realtime-text/regular.woff') format('woff'),
-       url('#{$cdn-font-url}/fonts/realtime-text/regular.ttf') format('truetype');
+  src: url('#{$cdn-url}/fonts/realtime-text/rt-regular.woff2') format('woff2'),
+       url('#{$cdn-url}/fonts/realtime-text/rt-regular.woff') format('woff'),
+       url('#{$cdn-url}/fonts/realtime-text/rt-regular.ttf') format('truetype');
 }
 
 // Realtime Text Semibold
 @font-face {
   font-family: 'pusher-realtime-text';
   font-weight: 500;
-  src: url('#{$cdn-font-url}/fonts/realtime-text/semibold.woff2') format('woff2'),
-       url('#{$cdn-font-url}/fonts/realtime-text/semibold.woff') format('woff'),
-       url('#{$cdn-font-url}/fonts/realtime-text/semibold.ttf') format('truetype');
+  src: url('#{$cdn-url}/fonts/realtime-text/rt-semibold.woff2') format('woff2'),
+       url('#{$cdn-url}/fonts/realtime-text/rt-semibold.woff') format('woff'),
+       url('#{$cdn-url}/fonts/realtime-text/rt-semibold.ttf') format('truetype');
 }
 
 // Realtime Text Bold
 @font-face {
   font-family: 'pusher-realtime-text';
   font-weight: 600;
-  src: url('#{$cdn-font-url}/fonts/realtime-text/bold.woff2') format('woff2'),
-       url('#{$cdn-font-url}/fonts/realtime-text/bold.woff') format('woff'),
-       url('#{$cdn-font-url}/fonts/realtime-text/bold.ttf') format('truetype');
+  src: url('#{$cdn-url}/fonts/realtime-text/rt-bold.woff2') format('woff2'),
+       url('#{$cdn-url}/fonts/realtime-text/rt-bold.woff') format('woff'),
+       url('#{$cdn-url}/fonts/realtime-text/rt-bold.ttf') format('truetype');
 }
 
 // Realtime Text Black
 @font-face {
   font-family: 'pusher-realtime-text';
   font-weight: 700;
-  src: url('#{$cdn-font-url}/fonts/realtime-text/black.woff2') format('woff2'),
-       url('#{$cdn-font-url}/fonts/realtime-text/black.woff') format('woff'),
-       url('#{$cdn-font-url}/fonts/realtime-text/black.ttf') format('truetype');
+  src: url('#{$cdn-url}/fonts/realtime-text/rt-black.woff2') format('woff2'),
+       url('#{$cdn-url}/fonts/realtime-text/rt-black.woff') format('woff'),
+       url('#{$cdn-url}/fonts/realtime-text/rt-black.ttf') format('truetype');
 }
