@@ -1,57 +1,57 @@
 @font-face {
   font-family: 'pusher-proxima-nova';
   font-weight: 700;
-  src: url('#{$cdn-font-url}/fonts/proxima-nova/proxima-nova-bold.woff2') format('woff2'),
-       url('#{$cdn-font-url}/fonts/proxima-nova/proxima-nova-bold.woff') format('woff'),
-       url('#{$cdn-font-url}/fonts/proxima-nova/proxima-nova-bold.ttf') format('truetype');
+  src: url('#{$cdn-url}/fonts/proxima-nova/pn-bold.woff2') format('woff2'),
+       url('#{$cdn-url}/fonts/proxima-nova/pn-bold.woff') format('woff'),
+       url('#{$cdn-url}/fonts/proxima-nova/pn-bold.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'pusher-proxima-nova';
   font-weight: 600;
-  src: url('#{$cdn-font-url}/fonts/proxima-nova/proxima-nova-semibold.woff2') format('woff2'),
-       url('#{$cdn-font-url}/fonts/proxima-nova/proxima-nova-semibold.woff') format('woff'),
-       url('#{$cdn-font-url}/fonts/proxima-nova/proxima-nova-semibold.ttf') format('truetype');
+  src: url('#{$cdn-url}/fonts/proxima-nova/pn-semibold.woff2') format('woff2'),
+       url('#{$cdn-url}/fonts/proxima-nova/pn-semibold.woff') format('woff'),
+       url('#{$cdn-url}/fonts/proxima-nova/pn-semibold.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'pusher-proxima-nova';
   font-weight: 500;
-  src: url('#{$cdn-font-url}/fonts/proxima-nova/proxima-nova-medium.woff2') format('woff2'),
-       url('#{$cdn-font-url}/fonts/proxima-nova/proxima-nova-medium.woff') format('woff'),
-       url('#{$cdn-font-url}/fonts/proxima-nova/proxima-nova-medium.ttf') format('truetype');
+  src: url('#{$cdn-url}/fonts/proxima-nova/pn-medium.woff2') format('woff2'),
+       url('#{$cdn-url}/fonts/proxima-nova/pn-medium.woff') format('woff'),
+       url('#{$cdn-url}/fonts/proxima-nova/pn-medium.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'pusher-proxima-nova';
   font-weight: 400;
   font-style: italic;
-  src: url('#{$cdn-font-url}/fonts/proxima-nova/proxima-nova-regular-italic.woff2') format('woff2'),
-       url('#{$cdn-font-url}/fonts/proxima-nova/proxima-nova-regular-italic.woff') format('woff'),
-       url('#{$cdn-font-url}/fonts/proxima-nova/proxima-nova-regular-italic.ttf') format('truetype');
+  src: url('#{$cdn-url}/fonts/proxima-nova/pn-regular-italic.woff2') format('woff2'),
+       url('#{$cdn-url}/fonts/proxima-nova/pn-regular-italic.woff') format('woff'),
+       url('#{$cdn-url}/fonts/proxima-nova/pn-regular-italic.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'pusher-proxima-nova';
   font-weight: 400;
-  src: url('#{$cdn-font-url}/fonts/proxima-nova/proxima-nova-regular.woff2') format('woff2'),
-       url('#{$cdn-font-url}/fonts/proxima-nova/proxima-nova-regular.woff') format('woff'),
-       url('#{$cdn-font-url}/fonts/proxima-nova/proxima-nova-regular.ttf') format('truetype');
+  src: url('#{$cdn-url}/fonts/proxima-nova/pn-regular.woff2') format('woff2'),
+       url('#{$cdn-url}/fonts/proxima-nova/pn-regular.woff') format('woff'),
+       url('#{$cdn-url}/fonts/proxima-nova/pn-regular.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'pusher-proxima-nova';
   font-weight: 300;
-  src: url('#{$cdn-font-url}/fonts/proxima-nova/proxima-nova-light.woff2') format('woff2'),
-       url('#{$cdn-font-url}/fonts/proxima-nova/proxima-nova-light.woff') format('woff'),
-       url('#{$cdn-font-url}/fonts/proxima-nova/proxima-nova-light.ttf') format('truetype');
+  src: url('#{$cdn-url}/fonts/proxima-nova/pn-light.woff2') format('woff2'),
+       url('#{$cdn-url}/fonts/proxima-nova/pn-light.woff') format('woff'),
+       url('#{$cdn-url}/fonts/proxima-nova/pn-light.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'pusher-proxima-nova';
   font-weight: 300;
   font-style: italic;
-  src: url('#{$cdn-font-url}/fonts/proxima-nova/proxima-nova-light-italic.woff2') format('woff2'),
-       url('#{$cdn-font-url}/fonts/proxima-nova/proxima-nova-light-italic.woff') format('woff'),
-       url('#{$cdn-font-url}/fonts/proxima-nova/proxima-nova-light-italic.ttf') format('truetype');
+  src: url('#{$cdn-url}/fonts/proxima-nova/pn-light-italic.woff2') format('woff2'),
+       url('#{$cdn-url}/fonts/proxima-nova/pn-light-italic.woff') format('woff'),
+       url('#{$cdn-url}/fonts/proxima-nova/pn-light-italic.ttf') format('truetype');
 }
