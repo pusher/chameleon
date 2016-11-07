@@ -67,6 +67,3 @@ DEPENDENCIES
   octopress-autoprefixer
   rouge
   typogruby
-
-BUNDLED WITH
-   1.11.2
