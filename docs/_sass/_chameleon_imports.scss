@@ -19,3 +19,5 @@ $font-family-secondary: 'Proxima Nova';
 @include CHAMELEON-alert;
 @include CHAMELEON-labels;
 @include CHAMELEON-tooltips;
+@include CHAMELEON-table-default;
+@include CHAMELEON-table-expandable;

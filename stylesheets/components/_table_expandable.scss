@@ -1,0 +1,50 @@
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+// Table
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+
+@mixin CHAMELEON-table-expandable {
+  .table-expandable {
+    border-collapse: collapse;
+    border-radius: 0;
+    border-spacing: 0;
+    width: 100%;
+
+    thead {
+      position: relative;
+    }
+
+    th {
+      @extend %p-min;
+      background-color: $color-snow;
+      border: 0;
+      border-top: 1px solid $color-smoke;
+      border-bottom: 1px solid $color-smoke;
+      color: $color-slate;
+      font-weight: 600;
+      outline: none;
+      padding: 8px 14px;
+      text-align: left;
+
+      &:first-of-type {
+        border-left: 1px solid $color-smoke;
+      }
+
+      &:last-of-type {
+        border-right: 1px solid $color-smoke;
+      }
+    }
+
+    tr {
+      padding: 12px 14px;
+      position: relative;
+    }
+
+    td {
+      @extend %p-min;
+      border: 0;
+      border-bottom: 2px solid $color-smoke;
+      padding: 20px 12px;
+      word-break: break-all;
+    }
+  }
+}
