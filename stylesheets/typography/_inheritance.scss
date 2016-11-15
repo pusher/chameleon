@@ -52,10 +52,25 @@
 
   %h6 {
     @extend %font-family-primary;
-    text-transform: uppercase;
+    color: $color-black;
     font-size: rem-calc(12px);
     font-weight: 700;
-    color: $color-black;
     line-height: 1.1em;
+    text-transform: uppercase;
+  }
+
+  %p {
+    @extend %font-family-secondary;
+    font-size: rem-calc(16px);
+    font-weight: 400;
+    line-height: 1.4em;
+  }
+
+  %p-min {
+    font-size: rem-calc(14px);
+  }
+
+  %p-max {
+    font-size: rem-calc(18px);
   }
 }
