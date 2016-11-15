@@ -1,12 +1,14 @@
 @import 'import_realtime';
 @import 'import_proxima';
 @import 'base';
+@import 'inheritance';
 @import 'titles';
 @import 'helpers';
 @import 'syntax_highlighting';
 
 @mixin CHAMELEON-typography {
   @include chameleon-typography-base;
+  @include chameleon-typography-inheritance;
   @include chameleon-typography-titles;
   @include chameleon-typography-helpers;
 }

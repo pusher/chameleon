@@ -1,0 +1,61 @@
+@mixin chameleon-typography-inheritance {
+  %h1 {
+    @extend %font-family-primary;
+    font-size: rem-calc(28px);
+    font-weight: 400;
+    letter-spacing: -1.4px;
+    line-height: 1.1em;
+
+    strong {
+      font-weight: 500;
+    }
+
+    @media #{$medium-up} {
+      font-size: rem-calc(34px);
+    }
+  }
+
+  %h2 {
+    @extend %font-family-primary;
+    color: $color-black;
+    font-size: rem-calc(24px);
+    font-weight: 400;
+    letter-spacing: -2px;
+    line-height: 1.25em;
+
+    @media #{$medium-up} {
+      font-size: rem-calc(28px);
+    }
+  }
+
+  %h3 {
+    @extend %font-family-primary;
+    font-size: rem-calc(22px);
+    font-weight: 400;
+    line-height: 1.15em;
+  }
+
+  %h4 {
+    @extend %font-family-secondary;
+    font-size: rem-calc(18px);
+    font-weight: 400;
+    line-height: 1.4em;
+    text-transform: none;
+  }
+
+  %h5 {
+    @extend %font-family-primary;
+    font-size: rem-calc(16px);
+    font-weight: 500;
+    line-height: 1.1em;
+  }
+
+  %h6 {
+    @extend %font-family-primary;
+    text-transform: uppercase;
+    font-size: rem-calc(12px);
+    font-weight: 700;
+    color: $color-black;
+    line-height: 1.1em;
+  }
+}
