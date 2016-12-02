@@ -1,67 +1,29 @@
 @mixin chameleon-typography-titles {
-  .title--alpha,
-  .title--beta,
-  .title--gamma,
-  .title--epsilon,
-  .title--zeta {
-    @extend %font-family-primary;
-  }
-
-  .title--delta {
-    @extend %font-family-secondary;
-  }
-
   .title--alpha {
-    font-size: rem-calc(28px);
-    line-height: 1.1em;
-    font-weight: 400;
-    letter-spacing: -1.4px;
+    @extend %h1;
+  }
 
-    strong {
-      font-weight: 500;
-    }
-
-    @media #{$medium-up} {
-      font-size: rem-calc(34px);
-    }
+  .title--something {
+    @extend %h1;
   }
 
   .title--beta {
-    font-size: rem-calc(24px);
-    line-height: 1.25em;
-    font-weight: 400;
-    color: $color-black;
-    letter-spacing: -2px;
-
-    @media #{$medium-up} {
-      font-size: rem-calc(28px);
-    }
+    @extend %h2;
   }
 
   .title--gamma {
-    font-size: rem-calc(22px);
-    font-weight: 400;
-    line-height: 1.15em;
+    @extend %h3;
   }
 
   .title--delta {
-    font-size: rem-calc(18px);
-    font-weight: 400;
-    line-height: 1.4em;
-    text-transform: none;
+    @extend %h4;
   }
 
   .title--epsilon {
-    font-size: rem-calc(16px);
-    font-weight: 500;
-    line-height: 1.1em;
+    @extend %h5;
   }
 
   .title--zeta {
-    text-transform: uppercase;
-    font-size: rem-calc(12px);
-    font-weight: 700;
-    color: $color-black;
-    line-height: 1.1em;
+    @extend %h6;
   }
 }
