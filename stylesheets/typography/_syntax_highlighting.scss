@@ -5,6 +5,8 @@
     position: relative;
     background: $color-snow;
     border: 1px solid darken($color-snow, 5%);
+    border-left: 0;
+    box-shadow: inset -4px 0 0 $color-primary;
 
     * {
       -webkit-font-smoothing: auto !important;
