@@ -7,8 +7,8 @@ Gem::Specification.new do |s|
   s.version      = PusherChameleon::VERSION
   s.summary      = 'Pusher Chameleon front-end asset library'
   s.description  = 'Chameleon holds various front-end assets that are shared across our products'
-  s.authors      = ['Alex Pate']
-  s.email        = 'ap@pusher.com'
+  s.authors      = ['Alex Pate', 'Craig Frost', 'Pusher']
+  s.email        = 'alex@alexpate.uk'
   s.homepage     = 'https://github.com/pusher/chameleon'
   s.license      = 'MIT'
 
