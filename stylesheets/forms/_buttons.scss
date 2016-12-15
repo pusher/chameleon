@@ -159,6 +159,28 @@
         border: 1px solid darken(#d4d4d4, 10%); 
       }
     }
+
+    &.is-loading {
+      padding-right: 30px;
+      padding-left: 40px;
+
+      &:before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 15px;
+        margin-top: -5px;
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-width: 2px;
+        border-style: solid;
+        border-color: currentColor;
+        border-right-color: transparent;
+        border-radius: 50%;
+        animation: 1s linear infinite btn-spin;
+      }
+    }
   }
 
   .#{$button-namespace}--google,
@@ -239,4 +261,8 @@
       }
     }
   }
+}
+
+@keyframes btn-spin {
+  100%{ transform: rotate(360deg) }
 }
