@@ -36,9 +36,12 @@
     border-width: 1px;
   }
 
+  &.input--light {
+    color: #fff;
+  }
+
   &.input--light:not(.error):not(.valid) {
     border: 1px solid rgba(#ddd, .2);
-    color: #fff;
 
     &:focus {
       border: 1px solid $color-primary;
