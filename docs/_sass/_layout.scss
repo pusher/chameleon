@@ -1,6 +1,6 @@
 .docs {
   min-height: 100vh;
-  
+
   @media #{$medium-up} {
     padding-left: 300px;
   }
@@ -34,7 +34,7 @@
   }
 
   .grid {
-    margin-bottom: 20px;    
+    margin-bottom: 20px;
   }
 
   .grid__columns > .grid-block {
@@ -98,10 +98,19 @@
   p {
     margin-bottom: 10px;
     width: 100%;
-    
+
     @media #{$large-up} {
       max-width: 45%;
     }
+  }
+
+  pre {
+    background-color: $color-snow;
+    padding: 4px 14px;
+    margin: 5px 0;
+    display: inline-block;
+    border-radius: 4px;
+    white-space: nowrap;
   }
 }
 

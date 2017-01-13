@@ -3,6 +3,7 @@ layout: post
 title:  "Typography"
 categories: layout
 permalink: /layout/typography/
+module_import: "CHAMELEON-typography"
 ---
 
 We have two core fonts: `Realtime Text` and `Proxima Nova`.
@@ -74,7 +75,7 @@ These classes provide a quick way to change text color and alignment.
   <br>
   <br>
   <span class="u-color-success">I will always be colored with the ui success color</span>
-</div> 
+</div>
 
 ```html
 <span class="u-color-primary">I will always be colored with the primary color</span>

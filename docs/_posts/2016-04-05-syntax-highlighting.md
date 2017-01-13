@@ -4,6 +4,7 @@ title:  "Syntax Highlighting"
 subtitle: "For code snippets, a pygments typography mixin is included to highlight different languages."
 categories: layout
 permalink: /layout/syntax-highlighting/
+module_import: "CHAMELEON-syntax-highlighting"
 ---
 
 To use the mixin, just ensure that your codesnippets are wrapped in a `.highlight` class.
