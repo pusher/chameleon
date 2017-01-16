@@ -36,6 +36,14 @@
     border-width: 1px;
   }
 
+  &:disabled {
+    cursor: not-allowed;
+    opacity: .7;
+    background: #d4d4d4;
+    border: 1px solid darken(#d4d4d4, 10%);
+    color: #444444;
+  }
+
   &.input--light {
     color: #fff;
   }
