@@ -1,0 +1,57 @@
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+// Input Validation Alerts
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+
+@mixin CHAMELEON-forms-validation-alert {
+  .input-validation-alert {
+    display: block;
+    font-size: rem-calc(14px);
+    font-weight: 400;
+    opacity: 0;
+    padding: 12px 5px;
+    position: absolute;
+    text-align: center;
+    transform: translateY(20px);
+    transition: all 180ms ease-in-out;
+    width: 100%;
+    z-index: 10;
+
+    &:before {
+      border-bottom: 8px solid transparent;
+      border-left: 8px solid transparent;
+      border-right: 8px solid transparent;
+      content: '';
+      display: block;
+      height: 0;
+      left: 50%;
+      position: absolute;
+      top: -7px;
+      transform: translate(-50%, 0);
+      width: 0;
+    }
+
+    .form__field.has-validation-alert & {
+      opacity: 1;
+      // Negative Y position in order to overlay the input border
+      transform: translateY(-1px);
+    }
+  }
+
+  .input-validation-alert--information {
+    background-color: $color-information;
+    color: #fff;
+
+    &::before {
+      border-bottom-color: $color-information;
+    }
+  }
+
+  .input-validation-alert--error {
+    background-color: $color-danger;
+    color: #fff;
+
+    &::before {
+      border-bottom-color: $color-danger;
+    }
+  }
+}
