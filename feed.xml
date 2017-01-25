@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pusher Chameleon</title>
+    <description></description>
+    <link>https://pusher.github.io/chameleon/</link>
+    <atom:link href="https://pusher.github.io/chameleon/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 25 Jan 2017 15:27:20 +0000</pubDate>
+    <lastBuildDate>Wed, 25 Jan 2017 15:27:20 +0000</lastBuildDate>
+    <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>Tooltips</title>
+        <description>&lt;p&gt;Toolips are useful for adding in extra information, that doesn’t make sense always showing.&lt;/p&gt;
+
+&lt;div class=&quot;pattern&quot;&gt;
+  &lt;span class=&quot;tooltip&quot; data-tooltip-title=&quot;We aim to respond to support queries within 72 hours&quot;&gt;
+    &lt;button class=&quot;btn btn--primary&quot;&gt;Hover Me&lt;/button&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;tooltip&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;data-tooltip-title=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;We aim to respond to support queries within 72 hours&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;button&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;btn btn--primary&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Hover Me&lt;span class=&quot;nt&quot;&gt;&amp;lt;/button&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;pattern pattern--dark&quot;&gt;
+  &lt;span class=&quot;tooltip tooltip--light&quot; data-tooltip-title=&quot;We aim to respond to support queries within 72 hours&quot;&gt;
+    &lt;button class=&quot;btn btn--primary&quot;&gt;Hover Me&lt;/button&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;tooltip tooltip--light&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;data-tooltip-title=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;We aim to respond to support queries within 72 hours&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;button&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;btn btn--primary&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Hover Me&lt;span class=&quot;nt&quot;&gt;&amp;lt;/button&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Fri, 13 May 2016 00:00:00 +0100</pubDate>
+        <link>https://pusher.github.io/chameleon/components/tooltips/</link>
+        <guid isPermaLink="true">https://pusher.github.io/chameleon/components/tooltips/</guid>
+        
+        
+        <category>components</category>
+        
+      </item>
+    
+      <item>
+        <title>Labels</title>
+        <description>&lt;div class=&quot;pattern&quot;&gt;
+&lt;span class=&quot;label label--success&quot;&gt;Collaborator&lt;/span&gt;
+  &lt;span class=&quot;label label--warning&quot;&gt;Connection Timeout&lt;/span&gt;
+  &lt;span class=&quot;label label--danger&quot;&gt;Error&lt;/span&gt;
+  &lt;span class=&quot;label label--information&quot;&gt;Information&lt;/span&gt;
+  &lt;span class=&quot;label label--beta&quot;&gt;Beta&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;label label--success&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Connected&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;label label--warning&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Connection Timeout&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;label label--danger&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Error&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;label label--information&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Information&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;label label--beta&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Beta&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Thu, 12 May 2016 00:00:00 +0100</pubDate>
+        <link>https://pusher.github.io/chameleon/components/labels/</link>
+        <guid isPermaLink="true">https://pusher.github.io/chameleon/components/labels/</guid>
+        
+        
+        <category>components</category>
+        
+      </item>
+    
+      <item>
+        <title>Alerts</title>
+        <description>&lt;div class=&quot;pattern&quot;&gt;
+  &lt;div class=&quot;alert alert--information&quot;&gt;
+    &lt;span class=&quot;alert__copy&quot;&gt;&lt;strong&gt;Important:&lt;/strong&gt; Protocols 1, 2, and 3 are no longer supported&lt;/span&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;alert alert--information&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;alert__copy&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;strong&amp;gt;&lt;/span&gt;Important:&lt;span class=&quot;nt&quot;&gt;&amp;lt;/strong&amp;gt;&lt;/span&gt; Protocols 1, 2, and 3 are no longer supported&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;pattern&quot;&gt;
+  &lt;div class=&quot;alert alert--error&quot;&gt;
+    &lt;span class=&quot;alert__copy&quot;&gt;Sorry, something&#39;s gone wrong. Try again in a moment&lt;/span&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;alert alert--error&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;alert__copy&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Sorry, something&#39;s gone wrong. Try again in a moment&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;pattern&quot;&gt;
+  &lt;div class=&quot;alert alert--success&quot;&gt;
+    &lt;span class=&quot;alert__copy&quot;&gt;Great! You&#39;re now signed up to receive our newsletter!&lt;/span&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;alert alert--success&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;alert__copy&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Great! You&#39;re now signed up to receive our newsletter!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;pattern&quot;&gt;
+  &lt;div class=&quot;alert alert--beta&quot;&gt;
+    &lt;span class=&quot;alert__copy&quot;&gt;Our Push Notifications system is currently in beta. This means you may experience errors, and the APIs may change.&lt;/span&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;alert alert--beta&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;alert__copy&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Our Push Notifications system is currently in beta. This means you may experience errors, and the APIs may change.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Sun, 08 May 2016 00:00:00 +0100</pubDate>
+        <link>https://pusher.github.io/chameleon/components/alerts/</link>
+        <guid isPermaLink="true">https://pusher.github.io/chameleon/components/alerts/</guid>
+        
+        
+        <category>components</category>
+        
+      </item>
+    
+      <item>
+        <title>Syntax Highlighting</title>
+        <description>&lt;p&gt;To use the mixin, just ensure that your codesnippets are wrapped in a &lt;code class=&quot;highlighter-rouge&quot;&gt;.highlight&lt;/code&gt; class.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ruby&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;no&quot;&gt;Pusher&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;trigger&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;my-channel&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;my-event&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;message: &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;hello world&#39;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;JavaScript&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;channel&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;pusher&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;subscribe&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;my-channel&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;channel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;bind&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;my-event&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Received my-event with message: &#39;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;message&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Tue, 05 Apr 2016 00:00:00 +0100</pubDate>
+        <link>https://pusher.github.io/chameleon/layout/syntax-highlighting/</link>
+        <guid isPermaLink="true">https://pusher.github.io/chameleon/layout/syntax-highlighting/</guid>
+        
+        
+        <category>layout</category>
+        
+      </item>
+    
+      <item>
+        <title>Typography</title>
+        <description>&lt;p&gt;We have two core fonts: &lt;code class=&quot;highlighter-rouge&quot;&gt;Realtime Text&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;Proxima Nova&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Realtime Text is used for titles and elements (such as buttons), whereas Proxima Nova is used for paragraph text.&lt;/p&gt;
+
+&lt;p&gt;Title classes use the Greek alphabet as a naming convention. This allows the styled heading to be seperated from the semantic tag.&lt;/p&gt;
+
+&lt;p&gt;For example, an H1 and an H6 with a &lt;code class=&quot;highlighter-rouge&quot;&gt;title--gamma&lt;/code&gt; class, will both visually look the same.&lt;/p&gt;
+
+&lt;div class=&quot;pattern&quot;&gt;
+  &lt;h1 class=&quot;title--alpha pattern-item&quot;&gt;Page title (28px)&lt;/h1&gt;
+  &lt;br /&gt;
+  &lt;h2 class=&quot;title--beta pattern-item&quot;&gt;Section title - (24px)&lt;/h2&gt;
+  &lt;br /&gt;
+  &lt;h3 class=&quot;title--gamma pattern-item&quot;&gt;Section sub-title - (22px)&lt;/h3&gt;
+  &lt;br /&gt;
+  &lt;h4 class=&quot;title--delta pattern-item&quot;&gt;Paragraph title - (18px)&lt;/h4&gt;
+  &lt;br /&gt;
+  &lt;h5 class=&quot;title--epsilon pattern-item&quot;&gt;Paragraph sub-title - (16px)&lt;/h5&gt;
+  &lt;br /&gt;
+  &lt;h6 class=&quot;title--zeta pattern-item&quot;&gt;Paragraph heading - (12px)&lt;/h6&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;title--alpha&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;H1 - Page title&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;h2&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;title--beta&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;H2 - Section title&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h2&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;h3&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;title--delta&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;H3 - Section sub-title&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h3&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;h4&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;title--gamma&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;H4 - Paragraph title&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h4&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;h5&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;title--epsilon&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;H5 - Paragraph sub-title&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h5&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;h6&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;title--zeta&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;H6 - Paragraph heading&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h6&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;utility-classes&quot;&gt;Utility Classes&lt;/h2&gt;
+
+&lt;p&gt;These classes provide a quick way to change text color and alignment.&lt;/p&gt;
+
+&lt;div class=&quot;pattern&quot;&gt;
+  &lt;span class=&quot;u-color-primary&quot;&gt;I will always be colored with the primary color&lt;/span&gt;
+  &lt;br /&gt;
+  &lt;br /&gt;
+  &lt;span class=&quot;u-color-developer&quot;&gt;I will always be colored with the developer color&lt;/span&gt;
+  &lt;br /&gt;
+  &lt;br /&gt;
+  &lt;span class=&quot;u-color-beta&quot;&gt;I will always be colored with the beta color&lt;/span&gt;
+  &lt;br /&gt;
+  &lt;br /&gt;
+  &lt;span class=&quot;u-color-snow&quot;&gt;I will always be colored with the neutral snow color&lt;/span&gt;
+  &lt;br /&gt;
+  &lt;br /&gt;
+  &lt;span class=&quot;u-color-smoke&quot;&gt;I will always be colored with the neutral smoke color&lt;/span&gt;
+  &lt;br /&gt;
+  &lt;br /&gt;
+  &lt;span class=&quot;u-color-silver&quot;&gt;I will always be colored with the neutral silver color&lt;/span&gt;
+  &lt;br /&gt;
+  &lt;br /&gt;
+  &lt;span class=&quot;u-color-slate&quot;&gt;I will always be colored with the neutral slate color&lt;/span&gt;
+  &lt;br /&gt;
+  &lt;br /&gt;
+  &lt;span class=&quot;u-color-black&quot;&gt;I will always be colored with the neutral black color&lt;/span&gt;
+  &lt;br /&gt;
+  &lt;br /&gt;
+  &lt;span class=&quot;u-color-danger&quot;&gt;I will always be colored with the ui danger color&lt;/span&gt;
+  &lt;br /&gt;
+  &lt;br /&gt;
+  &lt;span class=&quot;u-color-warning&quot;&gt;I will always be colored with the ui warning color&lt;/span&gt;
+  &lt;br /&gt;
+  &lt;br /&gt;
+  &lt;span class=&quot;u-color-success&quot;&gt;I will always be colored with the ui success color&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;u-color-primary&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;I will always be colored with the primary color&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;u-color-developer&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;I will always be colored with the developer color&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;u-color-beta&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;I will always be colored with the beta color&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;u-color-snow&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;I will always be colored with the neutral snow color&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;u-color-smoke&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;I will always be colored with the neutral smoke color&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;u-color-silver&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;I will always be colored with the neutral silver color&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;u-color-slate&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;I will always be colored with the neutral slate color&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;u-color-black&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;I will always be colored with the neutral black color&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;u-color-danger&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;I will always be colored with the ui danger color&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;u-color-warning&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;I will always be colored with the ui warning color&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;u-color-success&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;I will always be colored with the ui success color&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;pattern u-text-align-center&quot;&gt;
+  &lt;span&gt;I will be aligned centrally on desktop and tablet, and left aligned on mobile&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;u-text-align-center&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;span&amp;gt;&lt;/span&gt;I will be aligned centrally on desktop and tablet, and left aligned on mobile&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;pattern u-text-align-right&quot;&gt;
+  &lt;span&gt;I will be aligned to the right&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;u-text-align-right&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;span&amp;gt;&lt;/span&gt;I will be aligned to the right&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Mon, 04 Apr 2016 00:00:00 +0100</pubDate>
+        <link>https://pusher.github.io/chameleon/layout/typography/</link>
+        <guid isPermaLink="true">https://pusher.github.io/chameleon/layout/typography/</guid>
+        
+        
+        <category>layout</category>
+        
+      </item>
+    
+      <item>
+        <title>Visibility</title>
+        <description>&lt;p&gt;Each breakpoint has it’s own set of classes that can be used:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$breakpoints&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;small&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;medium&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;640px&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;large&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1024px&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;xlarge&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1200px&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;xxlarge&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1440px&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;hide-for-small&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;hide-for-large&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+...
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;show-for-medium&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;show-for-xlarge&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+...
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Thu, 17 Mar 2016 00:00:00 +0000</pubDate>
+        <link>https://pusher.github.io/chameleon/layout/visibility/</link>
+        <guid isPermaLink="true">https://pusher.github.io/chameleon/layout/visibility/</guid>
+        
+        
+        <category>layout</category>
+        
+      </item>
+    
+      <item>
+        <title>Forms</title>
+        <description>&lt;h2 id=&quot;basic-input&quot;&gt;Basic Input&lt;/h2&gt;
+&lt;div class=&quot;pattern&quot;&gt;
+  &lt;input type=&quot;email&quot; placeholder=&quot;Email address&quot; /&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;input&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;email&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;placeholder=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Email address&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;There are also modifier classes for inputs that sit on a darker background:&lt;/p&gt;
+
+&lt;div class=&quot;pattern pattern--dark&quot;&gt;
+  &lt;input type=&quot;email&quot; class=&quot;input--light&quot; placeholder=&quot;Email address&quot; /&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;input&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;email&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;input--light&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;placeholder=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Email address&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;As well as classes to indicate status:&lt;/p&gt;
+
+&lt;div class=&quot;pattern&quot;&gt;
+  &lt;input type=&quot;email&quot; class=&quot;valid&quot; placeholder=&quot;Email address&quot; /&gt;
+  &lt;input type=&quot;password&quot; class=&quot;error&quot; style=&quot;margin-top:20px&quot; placeholder=&quot;Password&quot; /&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;input&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;email&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;valid&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;placeholder=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Email address&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;input&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;password&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;error&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;placeholder=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Password&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;inline-validation-alerts&quot;&gt;Inline Validation Alerts&lt;/h2&gt;
+
+&lt;p&gt;These inline alerts can be used to display form validation notices to users. Note that these require the input to be wrapped in a &lt;code class=&quot;highlighter-rouge&quot;&gt;form__field&lt;/code&gt; container. The alert can be animated in by toggling the &lt;code class=&quot;highlighter-rouge&quot;&gt;has-validation-alert&lt;/code&gt; class on the &lt;code class=&quot;highlighter-rouge&quot;&gt;form__field&lt;/code&gt; wrapper.&lt;/p&gt;
+
+&lt;div class=&quot;pattern&quot;&gt;
+  &lt;div class=&quot;form__field has-validation-alert&quot;&gt;
+    &lt;input type=&quot;email&quot; placeholder=&quot;Email address&quot; /&gt;
+    &lt;span class=&quot;input-validation-alert input-validation-alert--error&quot;&gt;Sorry, we were unable to subscribe you&lt;/span&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;form__field has-validation-alert&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;input&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;email&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;placeholder=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Email address&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;input-validation-alert input-validation-alert--error&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Sorry, we were unable to subscribe you&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;select&quot;&gt;Select&lt;/h2&gt;
+&lt;div class=&quot;pattern&quot;&gt;
+  &lt;select&gt;
+    &lt;option selected=&quot;&quot; disabled=&quot;&quot;&gt;Select a cluster&lt;/option&gt;
+    &lt;option&gt;mt1 (us-east-1)&lt;/option&gt;
+    &lt;option&gt;eu (eu-west-1)&lt;/option&gt;
+    &lt;option&gt;ap1 (ap-southeast-1)&lt;/option&gt;
+  &lt;/select&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;select&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;option&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;selected&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;disabled&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Select a cluster&lt;span class=&quot;nt&quot;&gt;&amp;lt;/option&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;option&amp;gt;&lt;/span&gt;mt1 (us-east-1)&lt;span class=&quot;nt&quot;&gt;&amp;lt;/option&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;option&amp;gt;&lt;/span&gt;eu (eu-west-1)&lt;span class=&quot;nt&quot;&gt;&amp;lt;/option&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;option&amp;gt;&lt;/span&gt;ap1 (ap-southeast-1)&lt;span class=&quot;nt&quot;&gt;&amp;lt;/option&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/select&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;checkbox&quot;&gt;Checkbox&lt;/h2&gt;
+&lt;div class=&quot;pattern&quot;&gt;
+  &lt;input type=&quot;checkbox&quot; value=&quot;1&quot; checked=&quot;checked&quot; name=&quot;hello&quot; id=&quot;hello&quot; /&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;input&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;checkbox&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;value=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;checked=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;checked&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;hello&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;hello&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Thu, 17 Mar 2016 00:00:00 +0000</pubDate>
+        <link>https://pusher.github.io/chameleon/components/forms/</link>
+        <guid isPermaLink="true">https://pusher.github.io/chameleon/components/forms/</guid>
+        
+        
+        <category>components</category>
+        
+      </item>
+    
+      <item>
+        <title>Flex Aligners</title>
+        <description>&lt;div class=&quot;pattern&quot;&gt;
+  &lt;div class=&quot;grid grid--collapse&quot;&gt;
+    &lt;div class=&quot;grid__columns-12&quot;&gt;
+      &lt;div class=&quot;flex-block u-vertical-align u-horizontal-align&quot;&gt;
+        &lt;p&gt;This is aligned vertically and horizontally&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;u-vertical-align u-horizontal-align&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;This is aligned vertically and horizontally&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Thu, 17 Mar 2016 00:00:00 +0000</pubDate>
+        <link>https://pusher.github.io/chameleon/layout/flex/</link>
+        <guid isPermaLink="true">https://pusher.github.io/chameleon/layout/flex/</guid>
+        
+        
+        <category>layout</category>
+        
+      </item>
+    
+      <item>
+        <title>Colors</title>
+        <description>&lt;h2 id=&quot;primary-colors&quot;&gt;Primary Colors&lt;/h2&gt;
+
+&lt;div class=&quot;grid grid--collapse&quot;&gt;
+  &lt;div class=&quot;grid__small-12 grid__medium-6 grid__columns&quot;&gt;
+    &lt;div class=&quot;color-block cb-primary&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;$color-primary&lt;/li&gt;
+        &lt;li&gt;#549eff&lt;/li&gt;
+        &lt;li&gt;rgb(84, 158, 255)&lt;/li&gt;
+        &lt;li&gt;Pantone Solid Uncoated 2173 U&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;grid__small-12 grid__medium-6 grid__columns grid--end&quot;&gt;
+    &lt;div class=&quot;color-block cb-developer&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;$color-developer&lt;/li&gt;
+        &lt;li&gt;#58d794&lt;/li&gt;
+        &lt;li&gt;rgb(88, 215, 148)&lt;/li&gt;
+        &lt;li&gt;Pantone Solid Uncoated 353 U&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;space-breaker&quot;&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;neutral-colors&quot;&gt;Neutral Colors&lt;/h2&gt;
+&lt;p&gt;We also have a defined palette of neutral colors, that can be used for text and borders.&lt;/p&gt;
+
+&lt;div class=&quot;grid grid--collapse&quot;&gt;
+  &lt;div class=&quot;grid__small-12 grid__medium-4 grid__columns&quot;&gt;
+    &lt;div class=&quot;color-block cb-white&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;$color-white&lt;/li&gt;
+        &lt;li&gt;#ffffff&lt;/li&gt;
+        &lt;li&gt;rgb(255, 255, 255)&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;grid__small-12 grid__medium-4 grid__columns&quot;&gt;
+     &lt;div class=&quot;color-block cb-snow&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;$color-snow&lt;/li&gt;
+        &lt;li&gt;#f4f8fb&lt;/li&gt;
+        &lt;li&gt;rgb(244, 248, 251)&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;grid__small-12 grid__medium-4 grid__columns&quot;&gt;
+    &lt;div class=&quot;color-block cb-smoke&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;$color-smoke&lt;/li&gt;
+        &lt;li&gt;#d3dce7&lt;/li&gt;
+        &lt;li&gt;rgb(211, 220, 231)&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;grid__small-12 grid__medium-4 grid__columns&quot;&gt;
+    &lt;div class=&quot;color-block cb-silver&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;$color-silver&lt;/li&gt;
+        &lt;li&gt;#8690a6&lt;/li&gt;
+        &lt;li&gt;rgb(134, 144, 166)&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;grid__small-12 grid__medium-4 grid__columns&quot;&gt;
+    &lt;div class=&quot;color-block cb-slate&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;$color-slate&lt;/li&gt;
+        &lt;li&gt;#414859&lt;/li&gt;
+        &lt;li&gt;rgb(65, 72, 89)&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;grid__small-12 grid__medium-4 grid__columns grid--end&quot;&gt;
+     &lt;div class=&quot;color-block cb-black&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;$color-black&lt;/li&gt;
+        &lt;li&gt;#2b303b&lt;/li&gt;
+        &lt;li&gt;rgb(43, 48, 59)&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;space-breaker&quot;&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;ui-colors&quot;&gt;UI Colors&lt;/h2&gt;
+&lt;p&gt;These colors should be used to highlight elements that require action. They are mainly used on &lt;a href=&quot;/alerts&quot;&gt;Alerts&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;grid grid--collapse&quot;&gt;
+  &lt;div class=&quot;grid__small-12 grid__medium-3 grid__columns&quot;&gt;
+    &lt;div class=&quot;color-block cb-success&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;$color-success&lt;/li&gt;
+        &lt;li&gt;#43ac6a&lt;/li&gt;
+        &lt;li&gt;rgb(67, 172, 106)&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;grid__small-12 grid__medium-3 grid__columns&quot;&gt;
+    &lt;div class=&quot;color-block cb-warning&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;$color-warning&lt;/li&gt;
+        &lt;li&gt;#ffae00&lt;/li&gt;
+        &lt;li&gt;rgb(255, 174, 0)&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;grid__small-12 grid__medium-3 grid__columns&quot;&gt;
+    &lt;div class=&quot;color-block cb-alert&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;$color-danger&lt;/li&gt;
+        &lt;li&gt;#b74a48&lt;/li&gt;
+        &lt;li&gt;rgb(183, 74, 72)&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;grid__small-12 grid__medium-3 grid__columns&quot;&gt;
+    &lt;div class=&quot;color-block cb-information&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;$color-information&lt;/li&gt;
+        &lt;li&gt;#34495e&lt;/li&gt;
+        &lt;li&gt;rgb(52, 73, 94)&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Thu, 17 Mar 2016 00:00:00 +0000</pubDate>
+        <link>https://pusher.github.io/chameleon/layout/colors/</link>
+        <guid isPermaLink="true">https://pusher.github.io/chameleon/layout/colors/</guid>
+        
+        
+        <category>layout</category>
+        
+      </item>
+    
+      <item>
+        <title>Buttons</title>
+        <description>&lt;div class=&quot;pattern&quot;&gt;
+  &lt;a class=&quot;btn btn--primary&quot;&gt;Get Started&lt;/a&gt;
+  &lt;a class=&quot;btn btn--primary ghosted&quot;&gt;Get Started&lt;/a&gt;
+  &lt;a class=&quot;btn btn--primary ghosted is-loading&quot;&gt;Get Started&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;btn btn--primary&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Get Started&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;btn btn--primary ghosted&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Get Started&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;btn btn--primary ghosted is-loading&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Get Started&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;pattern pattern--dark&quot;&gt;
+  &lt;a class=&quot;btn btn--secondary&quot;&gt;Update&lt;/a&gt;
+  &lt;a class=&quot;btn btn--secondary ghosted&quot;&gt;Update&lt;/a&gt;
+  &lt;a class=&quot;btn btn--secondary ghosted is-loading&quot;&gt;Update&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;btn btn--secondary&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Update&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;btn btn--secondary ghosted&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Update&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;btn btn--secondary ghosted is-loading&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Update&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;pattern pattern--dark&quot;&gt;
+  &lt;a class=&quot;btn btn--tertiary&quot;&gt;View Libraries&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;btn btn--tertiary&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;View Libraries&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;small&quot;&gt;Small&lt;/h2&gt;
+&lt;p&gt;There is also a smaller button style. This is mainly used for UI elements, and in tables.&lt;/p&gt;
+
+&lt;div class=&quot;pattern pattern&quot;&gt;
+  &lt;a class=&quot;btn btn--primary btn--small&quot;&gt;Copy Snippet&lt;/a&gt;
+  &lt;a class=&quot;btn btn--neutral btn--small&quot;&gt;Test&lt;/a&gt;
+  &lt;a class=&quot;btn btn--neutral btn--small is-loading&quot;&gt;Test&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;btn btn--primary btn--small&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Copy Snippet&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;btn btn--neutral btn--small&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Test&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;btn btn--neutral btn--small is-loading&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Test&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;social-buttons&quot;&gt;Social Buttons&lt;/h2&gt;
+&lt;p&gt;These are used for linking social accounts when signing in/registering with Pusher&lt;/p&gt;
+
+&lt;div class=&quot;pattern&quot;&gt;
+  &lt;button class=&quot;btn btn--google&quot;&gt;Connect Google Account&lt;/button&gt;
+  &lt;button class=&quot;btn btn--github&quot;&gt;Connect GitHub Account&lt;/button&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &lt;span class=&quot;nt&quot;&gt;&amp;lt;button&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;btn btn--google&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Connect Google Account&lt;span class=&quot;nt&quot;&gt;&amp;lt;/button&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;button&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;btn btn--github&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Connect GitHub Account&lt;span class=&quot;nt&quot;&gt;&amp;lt;/button&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Thu, 17 Mar 2016 00:00:00 +0000</pubDate>
+        <link>https://pusher.github.io/chameleon/components/buttons/</link>
+        <guid isPermaLink="true">https://pusher.github.io/chameleon/components/buttons/</guid>
+        
+        
+        <category>components</category>
+        
+      </item>
+    
+  </channel>
+</rss>
