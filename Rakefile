@@ -4,7 +4,6 @@ $:.unshift lib unless $:.include?(lib)
 require "rake"
 require "rubygems"
 require "tmpdir"
-require "jekyll"
 require "pusher-chameleon/version"
 
 GITHUB_REPONAME = "pusher/chameleon"
@@ -26,11 +25,7 @@ namespace :chameleon do
   desc "Generate docs files"
   task :generate_docs do
     Dir.chdir "docs"
-    Jekyll::Site.new(Jekyll.configuration({
-      "source"      => ".",
-      "destination" => "_site",
-      "config"     => ["_config.yml","_config.production.yml"]
-    })).process
+    system "jekyll build --config _config.yml,_config.production.yml"
   end
 
   desc "Generate and publish docs to gh-pages"
