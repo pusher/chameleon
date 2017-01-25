@@ -8,6 +8,7 @@
 @import 'input';
 @import 'textarea';
 @import 'checkbox';
+@import 'validation_alert';
 
 @mixin CHAMELEON-forms {
   @include CHAMELEON-forms-buttons;
@@ -18,4 +19,5 @@
   @include CHAMELEON-forms-input;
   @include CHAMELEON-forms-textarea;
   @include CHAMELEON-forms-checkbox;
+  @include CHAMELEON-forms-validation-alert;
 }
