@@ -37,7 +37,7 @@ $color-palette: (
   danger: #b74a48,
   information: #34495e,
   alert: #b74a48,
-  beta: #a57cec
+  beta: #a57cec,
 ) !default;
 
 $color-primary: map-get($color-palette, primary);
@@ -56,7 +56,7 @@ $color-neutrals: (
   slate: #414859,
   silver: #8690a6,
   smoke: #d3dce7,
-  snow: #f4f8fb
+  snow: #f4f8fb,
 ) !default;
 
 $color-white: map-get($color-neutrals, white);
@@ -69,17 +69,15 @@ $color-snow: map-get($color-neutrals, snow);
 $color-off-white: $color-snow;
 $color-grey-one: $color-silver;
 
-
 // Typography
 $global-font-size: 100% !default;
 $global-font-smoothing: false !default;
 
-$font-family-primary: 'pusher-realtime-text', Helmet, Freesans, sans-serif !default;
-$font-family-secondary: 'pusher-proxima-nova', Helmet, Freesans, sans-serif !default;
-$font-family-monospace: Menlo, Consolas, Monaco, 'Andale Mono', monospace !default;
+$font-family-primary: "pusher-realtime-text", Helmet, Freesans, sans-serif;
+$font-family-secondary: "pusher-proxima-nova", Helmet, Freesans, sans-serif;
+$font-family-monospace: Menlo, Consolas, Monaco, "Andale Mono", monospace;
 
-$syntax-highlighting-style: 'light' !default;
-
+$syntax-highlighting-style: "light" !default;
 
 %font-family-primary {
   font-family: $font-family-primary;
@@ -93,4 +91,4 @@ $cdn-url: "https://d2cy1obokpvee9.cloudfront.net";
 
 // Misc
 $border-radius: 0px !default;
-$button-namespace: 'btn' !default;
+$button-namespace: "btn" !default;

@@ -1,6 +1,6 @@
 {
   "name": "pusher-chameleon",
-  "version": "1.4.4",
+  "version": "1.4.5",
   "description": "A collection of front-end patterns used across Pusher.",
   "repository": "https://github.com/pusher/chameleon",
   "keywords": [
