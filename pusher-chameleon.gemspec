@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency "sass", ">= 3.2.0"
   s.add_development_dependency "gem_publisher", "1.3.1"
-  s.add_development_dependency "rake", "0.9.2.2"
+  s.add_development_dependency "rake", "13.0.1"
 
   s.require_paths = ["lib", "app"]
   s.files         = `git ls-files`.split($\) - %w(.gitignore docs gulpfile.js Rakefile)
