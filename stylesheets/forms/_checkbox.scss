@@ -3,7 +3,8 @@
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
 @mixin CHAMELEON-forms-checkbox {
-  input[type="checkbox"] {
+  // Renaming as conflicting with https://github.com/pusher/dash/blob/c4c48d45172aee35c725d3fd413a767a43c13d3b/app/javascript/css/modules/_switch-checkbox.pcss
+  .chameleon-checkbox {
     width: 20px;
     height: 20px;
     position: relative;
